@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="OCA.Common.Configuration" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Configuration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.Access" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEwAAAAJABCAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.Clerk" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAwAAAAJABAAAQAAAACgDQBgIAEAAAIEABBQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.ExOffice" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAIAJABAAEQAAAAAgCQBgAAAAAAAEIBBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.MailCondition" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABBAAQQgAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.MailPriority" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAwAAAAJABAAAQAAAAAgCQJgAAAAAAAEABJA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.MailSecurity" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAEJABAAAQAAAAAgCQBgAAAQAAAEABBg=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Delegate Name="OCA.Common.DataSets.BaseInformation.MailSecurity.Tbl_MailSecurityRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="OCA.Common.DataSets.BaseInformation.MailSecurity.Tbl_MailSecurityDataTable" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="OCA.Common.DataSets.BaseInformation.MailSecurity.Tbl_MailSecurityRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="OCA.Common.DataSets.BaseInformation.MailSecurity.Tbl_MailSecurityRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.MailTopic" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAwAAAAJABAAAQEAAAAgKQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.Semat" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAgAAJABAAAQAAABAiCUBgQAAAAgAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.Unit" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAIAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.AccessTableAdapters.Tbl_AccessTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.ClerkTableAdapters.Tbl_ClerkGroupTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.ClerkTableAdapters.Tbl_ClerkTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.ExOfficeTableAdapters.Tbl_ExOfficeTableAdapter" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.MailConditionTableAdapters.Tbl_MailConditionTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.MailPriorityTableAdapters.Tbl_MailPriorityTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.MailSecurityTableAdapters.Tbl_MailSecurityTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.MailTopicTableAdapters.Tbl_MailTopicTableAdapter" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.SematTableAdapters.Tbl_SematTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.SematTableAdapters.Tbl_SematGroupTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.BaseInformation.UnitTableAdapters.Tbl_UnitTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Kartabl.Attach" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAwAAAAJABAAAQAAAAAgCSBgAAgAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Delegate Name="OCA.Common.DataSets.Kartabl.Attach.Tbl_AttachRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="OCA.Common.DataSets.Kartabl.Attach.Tbl_AttachDataTable" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="OCA.Common.DataSets.Kartabl.Attach.Tbl_AttachRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="OCA.Common.DataSets.Kartabl.Attach.Tbl_AttachRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Kartabl.MailBox" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataSets\Kartabl\MailBox.cs</FileName>
+      <HashCode>AAEAAAAAAwAAEAJABAgQQAAAAAgCwBgAAAAAQAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Kartabl.MessageBox" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAIAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Kartabl.Parvandeh" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAxAAAAJABAAAQAAAAAgCQBiAAAABAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Kartabl.AttachTableAdapters.Tbl_AttachTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Kartabl.MailBoxTableAdapters.Tbl_DraftTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Kartabl.MailBoxTableAdapters.Tbl_MailBoxTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Kartabl.MessageBoxTableAdapters.Tbl_MessageBoxTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Kartabl.ParvandehTableAdapters.Tbl_MailParvandehTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.Public" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataSets\Public.cs</FileName>
+      <HashCode>IAAAAAAIAwAAAAtABCAAQAAAAAgCQBgAQAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.DataSets.PublicTableAdapters.Tbl_OrganiztionTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAGAAEAAAAAMAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Common.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

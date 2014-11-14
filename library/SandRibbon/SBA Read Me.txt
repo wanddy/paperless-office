@@ -1,0 +1,4 @@
+1.generata pass by keyMaker for sandRibbon DLL
+2. user = mashinName like (SBA_1)
+3.pass = generated key with key maker
+4.active dll with user & pass in "activateproduct.exe"

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="OCA.Business.BaseInformation.Access">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\Access.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAQABAAEQABAIAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.BaseInformation.Clerk">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\Clerk.cs</FileName>
+      <HashCode>AIQAAAAAgCAAAAIAAEAQQAABAIgAAAAEAIAACAwAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.BaseInformation.ExOffice">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\ExOffice.cs</FileName>
+      <HashCode>ACgAAgAAAAAAIAAAAAAAAAAAAAAQAAAAAACAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.BaseInformation.MailCondition">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\MailCondition.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAABAAQAAAAAQAAAAAAQAAAAAAAEACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.BaseInformation.MailPriority">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\MailPriority.cs</FileName>
+      <HashCode>AAAgAAQACAAAAAAIAAAAAAAAAAAAAAAQgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.BaseInformation.MailSecurity">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\MailSecurity.cs</FileName>
+      <HashCode>AAAAAAAIAACAAAAAAAAADAAQAAAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.BaseInformation.MailTopic">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\MailTopic.cs</FileName>
+      <HashCode>AAACAAAAAIAAAABAAAAAAAAAMAAAAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.BaseInformation.Semat">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\Semat.cs</FileName>
+      <HashCode>AIAJAAAAAAAAIAgACAQAAABDAAARAAAIAAAAAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.BaseInformation.Unit">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\Unit.cs</FileName>
+      <HashCode>AAAAAAAEIAAJAAAAIBAQgACAAAAAAAAAAAIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.Dabirkhaneh.ExportMail">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\ExportMail.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.Dabirkhaneh.ImportMail">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\ImportMail.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.Dabirkhaneh.InternalMail">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\InternalMail.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.Kartabl.MailBox">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\MailBox.cs</FileName>
+      <HashCode>ARAAiEAARACGhEBgAMAAIUQjABTgAAAAAACAAoQAwAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.Kartabl.MessageBox">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\MessageBox.cs</FileName>
+      <HashCode>AAAAIAAAAAAAIAEAAhAAAACAAAAAAAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.Kartabl.Parvandeh">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\Parvandeh.cs</FileName>
+      <HashCode>AAAAAIAABAAAAAACgAAAAAAAAAAAQAAAAAAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.Business.Public">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Public.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAIAAAAAAAQAAAABCQAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

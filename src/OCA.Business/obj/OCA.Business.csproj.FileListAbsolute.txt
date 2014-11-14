@@ -1,0 +1,18 @@
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.Business\bin\Debug\OCA.Business.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.Business\bin\Debug\OCA.Business.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.Business\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.Business\obj\Debug\OCA.Business.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.Business\obj\Debug\OCA.Business.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.Business\bin\Debug\OCA.DataAccess.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.Business\bin\Debug\OCA.DataAccess.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.Business\bin\Debug\OCA.Common.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.Business\bin\Debug\OCA.Common.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Business\bin\Debug\OCA.Business.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Business\bin\Debug\OCA.Business.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Business\bin\Debug\OCA.Common.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Business\bin\Debug\OCA.DataAccess.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Business\bin\Debug\OCA.Common.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Business\bin\Debug\OCA.DataAccess.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Business\obj\Debug\ResolveAssemblyReference.cache
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Business\obj\Debug\OCA.Business.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Business\obj\Debug\OCA.Business.pdb

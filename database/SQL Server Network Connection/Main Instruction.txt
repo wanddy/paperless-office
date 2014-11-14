@@ -1,0 +1,41 @@
+1-Enabling TCP/IP
+
+
+2-
+{
+1.      Launch the SQL Server Configuration Manager from the "Microsoft SQL 
+Server 2005 CTP" Program menu
+2.      Click on the "Protocols for SQLEXPRESS" node
+3.      Click on the "TCP/IP" child node
+4.      You will notice an entry on the right panel for "IPAll", right click 
+on this and select, "Properties"
+5.      Clear out the value for "TCP Dynamic Ports"
+6.      Give a TcpPort number to use when making remote connections, for 
+purposes of this example lets choose, "2301"
+}
+
+
+3-To enable sqlbrowser service to listen on the port 1434, the following 
+            registry key must be set to 1
+
+            HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server\90\SQL 
+            Browser\Ssrplistener
+
+
+4-
+{
+1.Launch the Windows Firewall configuration tool from the control 
+panel.
+2.Click the Exceptions Tab
+3.Click the "Add Programs." button and select "sqlservr.exe" , "sqlbrowser.exe"
+
+C:\Program Files\Microsoft SQL Server\90\Shared\sqlbrowser.exe
+C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Binn\sqlservr.exe
+}
+
+
+
+5-set ConnectionString:
+
+Data Source=PC_1\SQLEXPRESS;Initial Catalog=OCA;User ID=admin;Password=1234
+Server=PC_1,2301;Data Source=PC_1\SQLEXPRESS;Initial Catalog=OCA;User ID=admin;Password=1234

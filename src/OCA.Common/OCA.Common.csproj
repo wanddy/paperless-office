@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{516298F8-0B46-4533-AF21-6D3891251DFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OCA.Common</RootNamespace>
+    <AssemblyName>OCA.Common</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration.cs" />
+    <Compile Include="DataSets\BaseInformation\Access.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Access.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BaseInformation\Clerk.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Clerk.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BaseInformation\ExOffice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExOffice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BaseInformation\MailCondition.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MailCondition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BaseInformation\MailPriority.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MailPriority.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BaseInformation\MailSecurity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MailSecurity.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BaseInformation\MailTopic.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MailTopic.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BaseInformation\Semat.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Semat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BaseInformation\Unit.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Unit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\Kartabl\Attach.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Attach.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\Kartabl\MailBox.cs">
+      <DependentUpon>MailBox.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\Kartabl\MailBox.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MailBox.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\Kartabl\MessageBox.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessageBox.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\Kartabl\Parvandeh.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Parvandeh.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\Public.cs">
+      <DependentUpon>Public.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\Public.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Public.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSets\BaseInformation\Access.xsc">
+      <DependentUpon>Access.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\Access.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Access.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BaseInformation\Access.xss">
+      <DependentUpon>Access.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\Clerk.xsc">
+      <DependentUpon>Clerk.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\Clerk.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Clerk.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BaseInformation\Clerk.xss">
+      <DependentUpon>Clerk.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\ExOffice.xsc">
+      <DependentUpon>ExOffice.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\ExOffice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ExOffice.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BaseInformation\ExOffice.xss">
+      <DependentUpon>ExOffice.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\MailCondition.xsc">
+      <DependentUpon>MailCondition.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\MailCondition.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MailCondition.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BaseInformation\MailCondition.xss">
+      <DependentUpon>MailCondition.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\MailPriority.xsc">
+      <DependentUpon>MailPriority.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\MailPriority.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MailPriority.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BaseInformation\MailPriority.xss">
+      <DependentUpon>MailPriority.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\MailSecurity.xsc">
+      <DependentUpon>MailSecurity.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\MailSecurity.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MailSecurity.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BaseInformation\MailSecurity.xss">
+      <DependentUpon>MailSecurity.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\MailTopic.xsc">
+      <DependentUpon>MailTopic.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\MailTopic.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MailTopic.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BaseInformation\MailTopic.xss">
+      <DependentUpon>MailTopic.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\Semat.xsc">
+      <DependentUpon>Semat.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\Semat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Semat.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BaseInformation\Semat.xss">
+      <DependentUpon>Semat.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\Unit.xsc">
+      <DependentUpon>Unit.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BaseInformation\Unit.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Unit.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BaseInformation\Unit.xss">
+      <DependentUpon>Unit.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Kartabl\Attach.xsc">
+      <DependentUpon>Attach.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Kartabl\Attach.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Attach.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\Kartabl\Attach.xss">
+      <DependentUpon>Attach.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Kartabl\MailBox.xsc">
+      <DependentUpon>MailBox.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Kartabl\MailBox.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MailBox.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\Kartabl\MailBox.xss">
+      <DependentUpon>MailBox.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Kartabl\MessageBox.xsc">
+      <DependentUpon>MessageBox.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Kartabl\MessageBox.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MessageBox.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\Kartabl\MessageBox.xss">
+      <DependentUpon>MessageBox.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Kartabl\Parvandeh.xsc">
+      <DependentUpon>Parvandeh.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Kartabl\Parvandeh.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Parvandeh.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\Kartabl\Parvandeh.xss">
+      <DependentUpon>Parvandeh.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Public.xsc">
+      <DependentUpon>Public.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Public.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Public.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\Public.xss">
+      <DependentUpon>Public.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataSets\Calendar\" />
+    <Folder Include="DataSets\Communication\" />
+    <Folder Include="DataSets\Dabirkhaneh\" />
+    <Folder Include="DataSets\Setting\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

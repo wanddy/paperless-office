@@ -1,0 +1,10 @@
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\bin\Debug\OCA.Common.dll
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\bin\Debug\OCA.Common.pdb
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\obj\Debug\OCA.Common.dll
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\obj\Debug\OCA.Common.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\bin\Debug\OCA.Common.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\bin\Debug\OCA.Common.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\obj\Debug\OCA.Common.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.Common\obj\Debug\OCA.Common.pdb

@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="OCA.WinUI.BaseForms.BaseChildForm" Collapsed="true">
+    <Position X="71.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseForms\BaseChildForm.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACBAAAgAAAAAAAAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseForms.BaseMessageBox" Collapsed="true">
+    <Position X="145.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseForms\BaseMessageBox.cs</FileName>
+      <HashCode>AAAAEAAACDAAAYAABACAABRCAIAAgAAEAAAAAQBACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseForms.BasePicViewerForm" Collapsed="true">
+    <Position X="147.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseForms\BasePicViewerForm.cs</FileName>
+      <HashCode>AAAQAAAEACACABAAAECAAAACAAAAgAAAAACAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseForms.BaseReportForm" Collapsed="true">
+    <Position X="149" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseForms\BaseReportForm.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAEAAACAAAACAAAAgAAAAAAAAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.ClerkGroup" Collapsed="true">
+    <Position X="59" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\ClerkGroup.cs</FileName>
+      <HashCode>AAAAwAEAACAABBAAAADAgAACAgAAARAEACAAGAAIABE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.CompanyInfo" Collapsed="true">
+    <Position X="75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\CompanyInfo.cs</FileName>
+      <HashCode>AEgQAAQAACAS4ZAAABCABAhCAgIACAAAACUBAQLQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.DefineChart" Collapsed="true">
+    <Position X="93.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\DefineChart.cs</FileName>
+      <HashCode>AgAAwQAMAGAAQBAAAICQQAACAgAAABAACKAgAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.EditAccess" Collapsed="true">
+    <Position X="111.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\EditAccess.cs</FileName>
+      <HashCode>GAEzhAFCBiBGDFCAAajEoAjDhkhABAGhCKIAGFiGQTA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.EditAccess2" Collapsed="true">
+    <Position X="129.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\EditAccess2.cs</FileName>
+      <HashCode>QAgSkkEbEKEGCBAAEIHYEgAHg2IASjRQMScAJQj/gDI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.EditAddress" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\EditAddress.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.EditClerk" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\EditClerk.cs</FileName>
+      <HashCode>QMgQACEnECQCpFYAodDTggAaAgBgCACEgLAhHEgChRY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.EditExOffice" Collapsed="true">
+    <Position X="34.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\EditExOffice.cs</FileName>
+      <HashCode>AEgQoAkAgSCCphAAAoLIggAaIgKAAIAgACAAEEACwRA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.EditSemat" Collapsed="true">
+    <Position X="47.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\EditSemat.cs</FileName>
+      <HashCode>EoAEgAEAACAABBAAgICggAACBwAAAAAwAKEgAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.MailCondition" Collapsed="true">
+    <Position X="61.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\MailCondition.cs</FileName>
+      <HashCode>AAAAwAEAgCAABBAAAATAgAACAgAKABAQCCAAEAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.MailNumber" Collapsed="true">
+    <Position X="77.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\MailNumber.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.MailPriority" Collapsed="true">
+    <Position X="95.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\MailPriority.cs</FileName>
+      <HashCode>AAAgwAEAGCAABBAAAADAgBACAgAAABAAACAAEAABADA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.MailSecurity" Collapsed="true">
+    <Position X="113.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\MailSecurity.cs</FileName>
+      <HashCode>AAAAwAEIACAABBAAAADAhAACAgAAABAAADAAEAABABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.MailTopic" Collapsed="true">
+    <Position X="131.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\MailTopic.cs</FileName>
+      <HashCode>AAgAwAEAACAABBBAAADAgAACIgAAABAAACIAEAIACBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.NewAccess" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\NewAccess.cs</FileName>
+      <HashCode>QAgC1kEZEKEECBAAEIHYEgAHg2JASjRAMCcAIQj/gDI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.NewAddress" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\NewAddress.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.NewClerk" Collapsed="true">
+    <Position X="36.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\NewClerk.cs</FileName>
+      <HashCode>QMgAwCAnECQAhFYAocDTAgAaAgBgABCEwDAgHAgABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.NewExOffice" Collapsed="true">
+    <Position X="50" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\NewExOffice.cs</FileName>
+      <HashCode>AEgA4AgAgSCAghAAAoLIAgAaIgCAAJAgACAAEAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.NewSemat" Collapsed="true">
+    <Position X="63.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\NewSemat.cs</FileName>
+      <HashCode>EoAgwAAAACAAABAAgICgAgICAwAAABAgAKAgABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.ReferenceDescription" Collapsed="true">
+    <Position X="79.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\ReferenceDescription.cs</FileName>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.SematGroup" Collapsed="true">
+    <Position X="97.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\SematGroup.cs</FileName>
+      <HashCode>AIAAwAEAACAABBAQAADAgAACAwAAABAAACAIEAAAABE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.BaseInformation.ViewChart" Collapsed="true">
+    <Position X="116" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseInformation\ViewChart.cs</FileName>
+      <HashCode>AgAAgAEMADAARBAAgICQgAACBgAAAAAQCKEgAQAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Calendar.EditReminder" Collapsed="true">
+    <Position X="134" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Calendar\EditReminder.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Calendar.NewReminder" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Calendar\NewReminder.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Communication.EditNews" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Communication\EditNews.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Communication.NewNews" Collapsed="true">
+    <Position X="38.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Communication\NewNews.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Communication.TextComm" Collapsed="true">
+    <Position X="52.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Communication\TextComm.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Communication.VideoComm" Collapsed="true">
+    <Position X="65.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Communication\VideoComm.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Communication.VoiceComm" Collapsed="true">
+    <Position X="82" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Communication\VoiceComm.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Dabirkhaneh.InsertExportMail" Collapsed="true">
+    <Position X="100" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\InsertExportMail.cs</FileName>
+      <HashCode>NYowCABICCUGkBJkREbZBAcCIgKhAAmUEDIZawBAwAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Dabirkhaneh.InsertImportMail" Collapsed="true">
+    <Position X="118.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\InsertImportMail.cs</FileName>
+      <HashCode>lYowCgBICCEGkBJEAMbbBgcCOgKBEBmUkCIRTQAUwAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Dabirkhaneh.VeiwExportMail" Collapsed="true">
+    <Position X="136.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\VeiwExportMail.cs</FileName>
+      <HashCode>RAGoCQkAACgCRBEAAADFI4IKAgAEAIBAAGABERKggJU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Dabirkhaneh.ViewImportMail" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\ViewImportMail.cs</FileName>
+      <HashCode>RAEoCQkAACgCBBEAAADBI4ACAgAEAIBAAGABFRKgoJU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Dabirkhaneh.ViewInternalMail" Collapsed="true">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\ViewInternalMail.cs</FileName>
+      <HashCode>RAGoCQkAACgCQBEEAADFI4ICAgAECIBAAOABEBKggJU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Dabirkhaneh.Report.ExportMailReport" Collapsed="true">
+    <Position X="149" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\Report\ExportMailReport.cs</FileName>
+      <HashCode>BAgAIAABAAAQAACAAAAIAAAACAAAAAAACAAAAgAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Dabirkhaneh.Report.CachedExportMailReport" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="145.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dabirkhaneh\Report\ExportMailReport.cs</FileName>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OCA.WinUI.Help.AboutBaseInformation" Collapsed="true">
+    <Position X="68" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Help\AboutBaseInformation.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Help.AboutCalendar" Collapsed="true">
+    <Position X="84.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Help\AboutCalendar.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Help.AboutCommunication" Collapsed="true">
+    <Position X="102.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Help\AboutCommunication.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Help.AboutDabirkhaneh" Collapsed="true">
+    <Position X="120.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Help\AboutDabirkhaneh.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Help.AboutKartabl" Collapsed="true">
+    <Position X="138.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Help\AboutKartabl.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Help.AboutSBA" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Help\AboutSBA.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Help.AboutSetting" Collapsed="true">
+    <Position X="25.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Help\AboutSetting.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.ArchiveMail" Collapsed="true">
+    <Position X="41" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\ArchiveMail.cs</FileName>
+      <HashCode>RAG4CQkABCgCRBEAAADFI6ICAgAESYBAAOABMBKggJE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.CreateMail" Collapsed="true">
+    <Position X="54.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\CreateMail.cs</FileName>
+      <HashCode>8YosSgRYSCEAkBJERMbbRgdKuwKDFNGUkHA5bwRcwGQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.DeletedMessage" Collapsed="true">
+    <Position X="70.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\DeletedMessage.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.Draft" Collapsed="true">
+    <Position X="86.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\Draft.cs</FileName>
+      <HashCode>AEgACAEAACAAJBEAAADAAgACAgAgBAAAACARMAACgBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.EditMail" Collapsed="true">
+    <Position X="104.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\EditMail.cs</FileName>
+      <HashCode>EYIYCABAACECEBIAAAKAAAQCAgAAAAKMACARIQQAgBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.InsertParvandeh" Collapsed="true">
+    <Position X="122.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\InsertParvandeh.cs</FileName>
+      <HashCode>AAAgRAAAJiAAABAAAADAAAACAgAAQBAAACABEhAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.MailHistory" Collapsed="true">
+    <Position X="140.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\MailHistory.cs</FileName>
+      <HashCode>QAEICQgAACgCABEAAADBAoACAgAEAIBAAGABBAIggJU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.MailInbox" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\MailInbox.cs</FileName>
+      <HashCode>TAGoCQkAQCgCRBEAAADFI4ICAgAEAYBAAGABMBKggJU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.MailOutbox" Collapsed="true">
+    <Position X="27.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\MailOutbox.cs</FileName>
+      <HashCode>TAGoCQkAAChCRBEAAADFI4ICAgAEAYBAAGABMBKggJU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.MsgInbox" Collapsed="true">
+    <Position X="43.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\MsgInbox.cs</FileName>
+      <HashCode>QAAAQQEAACCABBAAABDAAACCCgAEgEAAgGADMAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.MsgOutbox" Collapsed="true">
+    <Position X="56.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\MsgOutbox.cs</FileName>
+      <HashCode>QAAAQQEAACCABBAAABDAAACCCgAEAEAAgGADMAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.ReferMail" Collapsed="true">
+    <Position X="72.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\ReferMail.cs</FileName>
+      <HashCode>8IgESgRQQCUEADIgRMCTpgNCGgACNZkEkHQ5eghUxGA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.SearchMail" Collapsed="true">
+    <Position X="88.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\SearchMail.cs</FileName>
+      <HashCode>RAWoCQkAACgCRBEAAADFI4ICAgAECIBAAOABEBKggJU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.SendMessage" Collapsed="true">
+    <Position X="107" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\SendMessage.cs</FileName>
+      <HashCode>AAAAQAAQACAAABQAABCAAAaCCgAAAAAEACABaAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.ViewParvandeh" Collapsed="true">
+    <Position X="125" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\ViewParvandeh.cs</FileName>
+      <HashCode>AAAwBAEAJiAChBAAAADAgAACAgAAQAAAACABEFAAARA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.Report.MailReport" Collapsed="true">
+    <Position X="145.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\Report\MailReport.cs</FileName>
+      <HashCode>BAgAIAABAAAQAAAAAAAIAAAACAAAAAAACAAAAgAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Kartabl.Report.CachedMailReport" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="147.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Kartabl\Report\MailReport.cs</FileName>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OCA.WinUI.MainPage" Collapsed="true">
+    <Position X="29.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MainPage.cs</FileName>
+      <HashCode>AAAAApAAACAAAAAAAACAAAICAAAAAAAEAAAAKABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.UserAccount" Collapsed="true">
+    <Position X="45.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UserAccount.cs</FileName>
+      <HashCode>kEhQIBAgACCaBhABAgCAAQIiEgAAAICkADwJqgAARAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Properties.Resource1" Collapsed="true">
+    <Position X="147.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAABEAAAAQQACBAAQAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Properties.Resources" Collapsed="true">
+    <Position X="149" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIAAAAgAAAAQAAAAABEAAAAQEEAAAAgIAAABAAAIE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Setting.BackUp" Collapsed="true">
+    <Position X="91" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Setting\BackUp.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Setting.ColorSetting" Collapsed="true">
+    <Position X="109.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Setting\ColorSetting.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Setting.EmailSetting" Collapsed="true">
+    <Position X="127.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Setting\EmailSetting.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Setting.FaxSetting" Collapsed="true">
+    <Position X="143" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Setting\FaxSetting.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Setting.PrinterSetting" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Setting\PrinterSetting.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OCA.WinUI.Setting.ScanerSetting" Collapsed="true">
+    <Position X="32" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Setting\ScanerSetting.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

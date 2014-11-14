@@ -1,0 +1,916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FA515E9-4C76-4304-BA11-2E08EA771689}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OCA.WinUI</RootNamespace>
+    <AssemblyName>OCA.WinUI</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.3.2.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ComponentFactory.Krypton.Toolkit.DLL</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Divelements.SandRibbon, Version=1.6.4.1, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3, processorArchitecture=MSIL" />
+    <Reference Include="Persia, Version=2.0.2230.35390, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseForms\BaseChildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForms\BaseChildForm.Designer.cs">
+      <DependentUpon>BaseChildForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForms\BaseMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForms\BaseMessageBox.Designer.cs">
+      <DependentUpon>BaseMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForms\BasePicViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForms\BasePicViewerForm.Designer.cs">
+      <DependentUpon>BasePicViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForms\BaseReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForms\BaseReportForm.Designer.cs">
+      <DependentUpon>BaseReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\ClerkGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\ClerkGroup.Designer.cs">
+      <DependentUpon>ClerkGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\CompanyInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\CompanyInfo.Designer.cs">
+      <DependentUpon>CompanyInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\EditAccess2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\EditAccess2.Designer.cs">
+      <DependentUpon>EditAccess2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\DefineChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\DefineChart.Designer.cs">
+      <DependentUpon>DefineChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\EditAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\EditAccess.Designer.cs">
+      <DependentUpon>EditAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\EditAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\EditAddress.Designer.cs">
+      <DependentUpon>EditAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\EditClerk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\EditClerk.Designer.cs">
+      <DependentUpon>EditClerk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\EditExOffice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\EditExOffice.Designer.cs">
+      <DependentUpon>EditExOffice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\EditSemat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\EditSemat.Designer.cs">
+      <DependentUpon>EditSemat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\MailCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\MailCondition.Designer.cs">
+      <DependentUpon>MailCondition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\MailNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\MailNumber.Designer.cs">
+      <DependentUpon>MailNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\MailPriority.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\MailPriority.Designer.cs">
+      <DependentUpon>MailPriority.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\MailSecurity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\MailSecurity.Designer.cs">
+      <DependentUpon>MailSecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\MailTopic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\MailTopic.Designer.cs">
+      <DependentUpon>MailTopic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\NewAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\NewAccess.Designer.cs">
+      <DependentUpon>NewAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\NewAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\NewAddress.Designer.cs">
+      <DependentUpon>NewAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\NewClerk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\NewClerk.Designer.cs">
+      <DependentUpon>NewClerk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\NewExOffice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\NewExOffice.Designer.cs">
+      <DependentUpon>NewExOffice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\NewSemat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\NewSemat.Designer.cs">
+      <DependentUpon>NewSemat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\ReferenceDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\ReferenceDescription.Designer.cs">
+      <DependentUpon>ReferenceDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\SematGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\SematGroup.Designer.cs">
+      <DependentUpon>SematGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInformation\ViewChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseInformation\ViewChart.Designer.cs">
+      <DependentUpon>ViewChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\EditReminder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar\EditReminder.Designer.cs">
+      <DependentUpon>EditReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\NewReminder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar\NewReminder.Designer.cs">
+      <DependentUpon>NewReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Communication\EditNews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Communication\EditNews.Designer.cs">
+      <DependentUpon>EditNews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Communication\NewNews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Communication\NewNews.Designer.cs">
+      <DependentUpon>NewNews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Communication\TextComm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Communication\TextComm.Designer.cs">
+      <DependentUpon>TextComm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Communication\VideoComm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Communication\VideoComm.Designer.cs">
+      <DependentUpon>VideoComm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Communication\VoiceComm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Communication\VoiceComm.Designer.cs">
+      <DependentUpon>VoiceComm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dabirkhaneh\Report\ExportMailReport.cs">
+      <DependentUpon>ExportMailReport.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Kartabl\CreateMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\CreateMail.Designer.cs">
+      <DependentUpon>CreateMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dabirkhaneh\InsertExportMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dabirkhaneh\InsertExportMail.Designer.cs">
+      <DependentUpon>InsertExportMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dabirkhaneh\InsertImportMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dabirkhaneh\InsertImportMail.Designer.cs">
+      <DependentUpon>InsertImportMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dabirkhaneh\VeiwExportMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dabirkhaneh\VeiwExportMail.Designer.cs">
+      <DependentUpon>VeiwExportMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dabirkhaneh\ViewImportMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dabirkhaneh\ViewImportMail.Designer.cs">
+      <DependentUpon>ViewImportMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dabirkhaneh\ViewInternalMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dabirkhaneh\ViewInternalMail.Designer.cs">
+      <DependentUpon>ViewInternalMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help\AboutBaseInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\AboutBaseInformation.Designer.cs">
+      <DependentUpon>AboutBaseInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help\AboutCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\AboutCalendar.Designer.cs">
+      <DependentUpon>AboutCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help\AboutCommunication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\AboutCommunication.Designer.cs">
+      <DependentUpon>AboutCommunication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help\AboutDabirkhaneh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\AboutDabirkhaneh.Designer.cs">
+      <DependentUpon>AboutDabirkhaneh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help\AboutKartabl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\AboutKartabl.Designer.cs">
+      <DependentUpon>AboutKartabl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help\AboutSBA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\AboutSBA.Designer.cs">
+      <DependentUpon>AboutSBA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help\AboutSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\AboutSetting.Designer.cs">
+      <DependentUpon>AboutSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\ArchiveMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\ArchiveMail.Designer.cs">
+      <DependentUpon>ArchiveMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\DeletedMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\DeletedMessage.Designer.cs">
+      <DependentUpon>DeletedMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\Draft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\Draft.Designer.cs">
+      <DependentUpon>Draft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\EditMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\EditMail.Designer.cs">
+      <DependentUpon>EditMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\InsertParvandeh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\InsertParvandeh.Designer.cs">
+      <DependentUpon>InsertParvandeh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\MailHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\MailHistory.Designer.cs">
+      <DependentUpon>MailHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\MailInbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\MailInbox.Designer.cs">
+      <DependentUpon>MailInbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\MailOutbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\MailOutbox.Designer.cs">
+      <DependentUpon>MailOutbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\MsgInbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\MsgInbox.Designer.cs">
+      <DependentUpon>MsgInbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\MsgOutbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\MsgOutbox.Designer.cs">
+      <DependentUpon>MsgOutbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\ReferMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\ReferMail.Designer.cs">
+      <DependentUpon>ReferMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\Report\MailReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MailReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Kartabl\SearchMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\SearchMail.Designer.cs">
+      <DependentUpon>SearchMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\SendMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\SendMessage.Designer.cs">
+      <DependentUpon>SendMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartabl\ViewParvandeh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartabl\ViewParvandeh.Designer.cs">
+      <DependentUpon>ViewParvandeh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\BackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\BackUp.Designer.cs">
+      <DependentUpon>BackUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\ColorSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\ColorSetting.Designer.cs">
+      <DependentUpon>ColorSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\EmailSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\EmailSetting.Designer.cs">
+      <DependentUpon>EmailSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\FaxSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\FaxSetting.Designer.cs">
+      <DependentUpon>FaxSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\PrinterSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\PrinterSetting.Designer.cs">
+      <DependentUpon>PrinterSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\ScanerSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\ScanerSetting.Designer.cs">
+      <DependentUpon>ScanerSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount.Designer.cs">
+      <DependentUpon>UserAccount.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BaseForms\BaseChildForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaseChildForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForms\BaseMessageBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaseMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForms\BasePicViewerForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BasePicViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForms\BaseReportForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaseReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\ClerkGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClerkGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\CompanyInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CompanyInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\EditAccess2.resx">
+      <DependentUpon>EditAccess2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\DefineChart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DefineChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\EditAccess.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\EditAddress.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\EditClerk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditClerk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\EditExOffice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditExOffice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\EditSemat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditSemat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\MailCondition.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MailCondition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\MailNumber.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MailNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\MailPriority.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MailPriority.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\MailSecurity.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MailSecurity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\MailTopic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MailTopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\NewAccess.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\NewAddress.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\NewClerk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewClerk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\NewExOffice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewExOffice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\NewSemat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewSemat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\ReferenceDescription.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReferenceDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\SematGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SematGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseInformation\ViewChart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar\EditReminder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar\NewReminder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communication\EditNews.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditNews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communication\NewNews.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewNews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communication\TextComm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TextComm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communication\VideoComm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VideoComm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communication\VoiceComm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VoiceComm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dabirkhaneh\Report\ExportMailReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExportMailReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\CreateMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dabirkhaneh\InsertExportMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertExportMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dabirkhaneh\InsertImportMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertImportMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dabirkhaneh\VeiwExportMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VeiwExportMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dabirkhaneh\ViewImportMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewImportMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dabirkhaneh\ViewInternalMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewInternalMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\AboutBaseInformation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBaseInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\AboutCalendar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\AboutCommunication.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutCommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\AboutDabirkhaneh.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutDabirkhaneh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\AboutKartabl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutKartabl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\AboutSBA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutSBA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\AboutSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\ArchiveMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ArchiveMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\DeletedMessage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DeletedMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\Draft.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Draft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\EditMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\InsertParvandeh.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertParvandeh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\MailHistory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MailHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\MailInbox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MailInbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\MailOutbox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MailOutbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\MsgInbox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MsgInbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\MsgOutbox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MsgOutbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\ReferMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReferMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\Report\MailReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MailReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\SearchMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\SendMessage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SendMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartabl\ViewParvandeh.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewParvandeh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resource1.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\BackUp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColorSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\EmailSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmailSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\FaxSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FaxSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PrinterSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrinterSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ScanerSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScanerSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\importance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\not-allow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OCA.Business\OCA.Business.csproj">
+      <Project>{0AFEF286-6B79-4A37-8843-4AE39632BBCD}</Project>
+      <Name>OCA.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCA.Common\OCA.Common.csproj">
+      <Project>{516298F8-0B46-4533-AF21-6D3891251DFF}</Project>
+      <Name>OCA.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArenaWarsMonitor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0 %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0 %2835%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0 %2813%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0 %2835%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img271.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7203.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1529.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jl.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jc.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\jr.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

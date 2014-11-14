@@ -1,0 +1,51 @@
+D:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.exe
+D:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.pdb
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.exe
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.pdb
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\ResolveAssemblyReference.cache
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.LoginForm.resources
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.LogoForm.resources
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.MainForm.resources
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.Properties.Resources.resources
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.csproj.GenerateResource.Cache
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.exe.licenses
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.exe
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.pdb
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.Business.dll
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.Common.dll
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.WinUI.dll
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.DataAccess.dll
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.Business.pdb
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.DataAccess.pdb
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.WinUI.pdb
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.Common.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.exe
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.exe
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\ComponentFactory.Krypton.Toolkit.DLL
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\DriveInfo.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\GetSystemDirectory.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.Business.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.Common.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.WinUI.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\Persia.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\SbaSecurity.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\SetFileAttributes.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.DataAccess.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.Business.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.Common.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.WinUI.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\bin\Debug\OCA.DataAccess.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\ResolveAssemblyReference.cache
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.LoginForm.resources
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.LogoForm.resources
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.MainForm.resources
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.Properties.Resources.resources
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\ResGen.read.1.tlog
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\ResGen.write.1.tlog
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.exe.licenses
+D:\1_Programmings\2_Windows\1_CSharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.exe
+D:\1_Programmings\2_Windows\1_CSharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA\obj\Debug\OCA.pdb
+D:\7_Desktop\git\paperless-office\src\OCA\obj\Debug\OCA.exe
+D:\7_Desktop\git\paperless-office\src\OCA\obj\Debug\OCA.pdb

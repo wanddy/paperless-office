@@ -1,0 +1,4413 @@
+Content-Type: multipart/related; start=<op.mhtml.1222970634403.ae5b37112626c4fa@192.168.245.5>; boundary=----------YM8HPJI5PansvXc7u0JRcI
+Content-Location: http://blogs.msdn.com/sqlexpress/archive/2005/05/05/415084.aspx
+Subject: =?utf-8?Q?SQL=20Server=20Express=20WebLog=20:=20How=20to:=20Configure=20Express=20to=20accept=20remote=20connections?=
+MIME-Version: 1.0
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=415084.htm
+Content-Type: text/html; charset=utf-8; name=415084.htm
+Content-Id: <op.mhtml.1222970634403.ae5b37112626c4fa@192.168.245.5>
+Content-Location: http://blogs.msdn.com/sqlexpress/archive/2005/05/05/415084.aspx
+Content-Transfer-Encoding: Quoted-Printable
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w=
+3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"> =
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xml:lang=3D"en" lang=3D"en"=
+>
+
+<head>
+<title>SQL Server Express WebLog : How to:  Configure Express to accept =
+remote connections</title>
+<meta name=3D"keywords" content=3D"FAQ" />
+<meta name=3D"description" content=3D"Updated The information in this po=
+sting is superseded by the following KB Article: 914277 How to configure=
+ SQL Server 2005 to allow remote connections http://support.microsoft.co=
+m/default.aspx?scid=3Dkb;EN-US;914277 ----------------------------------=
+-------------------------------------------------" />
+<meta name=3D"GENERATOR" content=3D"CommunityServer 2.1 SP1 (Build: 6102=
+5.2)" />
+<link rel=3D"pingback" href=3D"http://blogs.msdn.com/sqlexpress/pingback=
+.aspx" />
+<link rel=3D"stylesheet" href=3D"/Themes/Blogs/luxinterior/style/style.c=
+ss" type=3D"text/css" media=3D"screen" />
+<link rel=3D"stylesheet" href=3D"/Themes/Blogs/luxinterior/style/print.c=
+ss" type=3D"text/css" media=3D"print" />
+<link rel=3D"stylesheet" href=3D"/Themes/Blogs/luxinterior/style/light_w=
+ide.css" type=3D"text/css" media=3D"screen" />
+<link rel=3D"shortcut icon" type=3D"image/ico" href=3D"/favicon.ico" />
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"SQL Server=
+ Express WebLog (RSS 2.0)" href=3D"http://blogs.msdn.com/sqlexpress/rss.=
+xml"  />
+<link rel=3D"alternate" type=3D"application/atom+xml" title=3D"SQL Serve=
+r Express WebLog (Atom 1.0)" href=3D"http://blogs.msdn.com/sqlexpress/at=
+om.xml"  />
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"How to:  C=
+onfigure Express to accept remote connections Comment RSS (RSS 2.0)" hre=
+f=3D"http://blogs.msdn.com/sqlexpress/commentrss.aspx?PostID=3D415084"  =
+/>
+
+	<script src=3D"/Utility/global.js?Version=3D2.1.61025.2" type=3D"text/j=
+avascript"></script>
+</head>
+
+<body>
+<form name=3D"aspnetForm" method=3D"post" action=3D"/sqlexpress/archive/=
+2005/05/05/415084.aspx" id=3D"aspnetForm">
+<div>
+<input type=3D"hidden" name=3D"__EVENTTARGET" id=3D"__EVENTTARGET" value=
+=3D"" />
+<input type=3D"hidden" name=3D"__EVENTARGUMENT" id=3D"__EVENTARGUMENT" v=
+alue=3D"" />
+<input type=3D"hidden" name=3D"__VIEWSTATE" id=3D"__VIEWSTATE" value=3D"=
+/wEPDwUKLTMyNjg0MDc1MWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEF=
+I2N0bDAwJF8kY3RsMDAkXyRicyRfJHdzJF8kU2VhcmNoQm94rkRXbV1z5ohWybmugg6l5bfT=
+y3M=3D" />
+</div>
+
+<script type=3D"text/javascript">
+//<![CDATA[
+var theForm =3D document.forms['aspnetForm'];
+if (!theForm) {
+    theForm =3D document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() !=3D false)) {
+        theForm.__EVENTTARGET.value =3D eventTarget;
+        theForm.__EVENTARGUMENT.value =3D eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script language=3D"javascript" type=3D"text/javascript" src=3D"/Utility=
+/telligent_web_ui/1_0_3/Telligent_Modal.js"></script><script language=3D=
+"javascript" type=3D"text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'=
+],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['Moda=
+lMask'],100);
+// ]]>
+</script><script type=3D"text/javascript" src=3D"/utility/ratingcontrol.=
+js"></script>
+			=
+
+<div id=3D"masthead">
+	=
+
+		<div id=3D"welcome" align=3D"right">
+			=
+
+					Welcome to MSDN Blogs
+<a id=3D"ctl00___ctl00___duw1_ac1___Login" href=3D"/login.aspx?ReturnUrl=
+=3D%2fsqlexpress%2farchive%2f2005%2f05%2f05%2f415084.aspx">Sign in</a> |=
+ <a id=3D"ctl00___ctl00___duw1_ac1___Register" href=3D"/user/CreateUser.=
+aspx?ReturnUrl=3D/sqlexpress/archive/2005/05/05/415084.aspx">Join</a>
+
+
+
+				=
+
+			 | =
+
+			<a id=3D"ctl00___ctl00___duw1_Faq1" href=3D"/languages/en-US/docs/faq=
+.aspx">Help</a>
+		</div>
+	=
+
+</div>
+<div id=3D"wrapper"><div id=3D"container">
+	<div id=3D"header">
+		=
+
+<div id=3D"title">
+	<h1><a id=3D"ctl00___ctl00___bt___BlogTitle" class=3D"headermaintitle" =
+href=3D"/sqlexpress/default.aspx">SQL Server Express WebLog</a></h1>
+	<p id=3D"tagline"></p>
+</div>
+<div id=3D"SubscriptionsSideBar">
+	=
+
+<div id=3D"subscriptions">
+<ul>
+	<li><a id=3D"ctl00___ctl00___bt___s___rss" href=3D"/sqlexpress/rss.xml"=
+>RSS 2.0</a></li>
+	<li><a id=3D"ctl00___ctl00___bt___s___atom" href=3D"/sqlexpress/atom.xm=
+l">Atom 1.0</a></li>
+	=
+
+</ul>
+</div>
+ =
+
+ =
+
+</div>
+<div id=3D"nav">
+	<ul>
+	<li><a id=3D"ctl00___ctl00___bt___home" href=3D"/sqlexpress/default.asp=
+x">Home</a></li>
+	=
+
+	<li><a id=3D"ctl00___ctl00___bt___Contactlink1" href=3D"/sqlexpress/con=
+tact.aspx">Email</a></li>
+	</ul>
+</div>
+	</div>
+	<div id=3D"contentwrapper">
+		<div id=3D"sidebar-a">
+			=
+
+<div id=3D"TasksSideBar">
+	=
+
+</div>
+
+<div id=3D"SearchSideBar">
+	=
+
+<div id =3D "search">
+	<h3>Search</h3>
+	<input name=3D"ctl00$_$ctl00$_$bs$_$ws$_$SearchBox" type=3D"text" id=3D=
+"ctl00___ctl00___bs___ws___SearchBox" class=3D"searchBox" onkeydown=3D"K=
+eyDownHandlerctl00___ctl00___bs___ws___SearchButton(event);" />
+	<a id=3D"ctl00___ctl00___bs___ws___SearchButton" href=3D"javascript:__d=
+oPostBack('ctl00$_$ctl00$_$bs$_$ws$_$SearchButton','')">Go</a>
+</div><br />
+</div>
+
+<div id=3D"TagSideBar">
+	<h3>Tags</h3>
+	<ul>
+	<ul class=3D"SidebarTagCloud">
+<li class=3D"Tag5"><a href=3D"/sqlexpress/archive/tags/Archive/default.a=
+spx" rel=3D"tag">Archive</a></li>
+<li class=3D"Tag3"><a href=3D"/sqlexpress/archive/tags/FAQ/default.aspx"=
+ rel=3D"tag">FAQ</a></li>
+<li class=3D"Tag6"><a href=3D"/sqlexpress/archive/tags/Futures/default.a=
+spx" rel=3D"tag">Futures</a></li>
+<li class=3D"Tag4"><a href=3D"/sqlexpress/archive/tags/General/default.a=
+spx" rel=3D"tag">General</a></li>
+<li class=3D"Tag2"><a href=3D"/sqlexpress/archive/tags/Headlines/default=
+.aspx" rel=3D"tag">Headlines</a></li>
+<li class=3D"Tag1"><a href=3D"/sqlexpress/archive/tags/Product+Info/defa=
+ult.aspx" rel=3D"tag">Product Info</a></li>
+<li class=3D"Tag6"><a href=3D"/sqlexpress/archive/tags/Samples/default.a=
+spx" rel=3D"tag">Samples</a></li>
+</ul>
+
+	</ul>
+</div>
+
+<div id=3D"NewsSideBar">
+	=
+
+</div>
+
+<div id=3D"ArchiveSideBar">
+	=
+
+
+<h3>Archives</h3>
+<ul>
+
+	<li><a href=3D"/sqlexpress/archive/2008/09.aspx">September 2008 (1)</a>=
+</li>
+
+	<li><a href=3D"/sqlexpress/archive/2008/08.aspx">August 2008 (5)</a></l=
+i>
+
+	<li><a href=3D"/sqlexpress/archive/2008/06.aspx">June 2008 (1)</a></li>=
+
+
+	<li><a href=3D"/sqlexpress/archive/2008/02.aspx">February 2008 (3)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2007/12.aspx">December 2007 (1)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2007/11.aspx">November 2007 (1)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2007/08.aspx">August 2007 (1)</a></l=
+i>
+
+	<li><a href=3D"/sqlexpress/archive/2007/03.aspx">March 2007 (2)</a></li=
+>
+
+	<li><a href=3D"/sqlexpress/archive/2007/02.aspx">February 2007 (1)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2007/01.aspx">January 2007 (2)</a></=
+li>
+
+	<li><a href=3D"/sqlexpress/archive/2006/12.aspx">December 2006 (1)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2006/11.aspx">November 2006 (4)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2006/10.aspx">October 2006 (2)</a></=
+li>
+
+	<li><a href=3D"/sqlexpress/archive/2006/09.aspx">September 2006 (2)</a>=
+</li>
+
+	<li><a href=3D"/sqlexpress/archive/2006/08.aspx">August 2006 (3)</a></l=
+i>
+
+	<li><a href=3D"/sqlexpress/archive/2006/07.aspx">July 2006 (3)</a></li>=
+
+
+	<li><a href=3D"/sqlexpress/archive/2006/06.aspx">June 2006 (4)</a></li>=
+
+
+	<li><a href=3D"/sqlexpress/archive/2006/05.aspx">May 2006 (1)</a></li>
+
+	<li><a href=3D"/sqlexpress/archive/2006/04.aspx">April 2006 (5)</a></li=
+>
+
+	<li><a href=3D"/sqlexpress/archive/2006/03.aspx">March 2006 (6)</a></li=
+>
+
+	<li><a href=3D"/sqlexpress/archive/2006/02.aspx">February 2006 (1)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2006/01.aspx">January 2006 (3)</a></=
+li>
+
+	<li><a href=3D"/sqlexpress/archive/2005/12.aspx">December 2005 (2)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2005/11.aspx">November 2005 (3)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2005/09.aspx">September 2005 (3)</a>=
+</li>
+
+	<li><a href=3D"/sqlexpress/archive/2005/05.aspx">May 2005 (2)</a></li>
+
+	<li><a href=3D"/sqlexpress/archive/2004/12.aspx">December 2004 (1)</a><=
+/li>
+
+	<li><a href=3D"/sqlexpress/archive/2004/10.aspx">October 2004 (1)</a></=
+li>
+
+	<li><a href=3D"/sqlexpress/archive/2004/09.aspx">September 2004 (1)</a>=
+</li>
+
+	<li><a href=3D"/sqlexpress/archive/2004/08.aspx">August 2004 (1)</a></l=
+i>
+
+	<li><a href=3D"/sqlexpress/archive/2004/07.aspx">July 2004 (18)</a></li=
+>
+
+</ul>
+
+</div>
+
+<div id=3D"LinkSideBar">
+	=
+
+
+</div></div>
+		<div id=3D"content"><div id=3D"content2">
+			=
+
+			=
+
+<style>
+.DoNotDisplay { display: none; }
+</style>
+
+
+
+<div class=3D"post">
+	<div class=3D"posthead">
+		Thursday, May 05, 2005 4:32 PM
+		<a id=3D"ctl00___ctl00___ctl01___Entry___AuthorLink" href=3D"/user/Pro=
+file.aspx?UserID=3D3792">sqlexpress</a> =
+
+		<h2>How to:  Configure Express to accept remote connections <span id=3D=
+"ctl00___ctl00___ctl01___Entry___Ratings" title=3D"Rated Excellent [5 ou=
+t of 5 / rated 1 time(s)]."></span><input type=3D"hidden" value=3D"5" id=
+=3D"ctl00___ctl00___ctl01___Entry___Ratings_Value" /></h2>
+	</div>
+	<div class=3D"postcontent">
+		<P><FONT color=3D#ff0000><STRONG>Updated</STRONG></FONT></P>
+<P><FONT color=3D#000000>The information in this posting is superseded b=
+y the following KB Article:</FONT></P>
+<P>914277&nbsp;How to configure SQL Server 2005 to allow remote connecti=
+ons<BR><A href=3D"http://support.microsoft.com/default.aspx?scid=3Dkb;EN=
+-US;914277">http://support.microsoft.com/default.aspx?scid=3Dkb;EN-US;91=
+4277</A><BR><BR>--------------------------------------------------------=
+---------------------------</P>
+<P>Some people have been having issues when trying to make remote connec=
+tions <BR>to SQL Express.&nbsp; This document will hopefully clarify mos=
+t of the issues <BR>around remote connections.<BR><BR>First, networking =
+protocols are disabled by default in SQL Server Express. <BR>Thus, if so=
+meone simply installs Express and chooses all the defaults, SQL <BR>Serv=
+er Express will only be able to have connections originating on the <BR>=
+local machine where SQL Server is installed.<BR><BR>To enable SQL Server=
+ Express to accept remote connections we need to perform <BR>the followi=
+ng steps:<BR><BR><STRONG>STEP 1: Enabling TCP/IP<BR></STRONG><BR>First w=
+e must tell SQL Server Express to listen on TCP/IP, to do this <BR>perfo=
+rm the following steps:<BR><BR>1. Launch the SQL Server Configuration Ma=
+nager from the "Microsoft SQL <BR>Server 2005 CTP" Program menu<BR>2. Cl=
+ick on the "Protocols for SQLEXPRESS" node,<BR>3. Right click on "TCP/IP=
+" in the list of Protocols and choose, "Enable"<BR><BR></P>
+<P><STRONG>STEP 2: To Browse or not to Browse<BR></STRONG><BR>Next, we h=
+ave to determine if we want the SQL Browser service to be running <BR>or=
+ not.&nbsp; The benefit of having this service run is that users connect=
+ing <BR>remotely do not have to specify the port in the connection strin=
+g.&nbsp; Note: It <BR>is a security best practice to not run the SQLBrow=
+ser service as it reduces <BR>the attack surface area by eliminating the=
+ need to listen on an udp port.<BR><BR><U>OPTION A:</U> If you want to a=
+lways specify a TCP port when connecting (Not <BR>using SQL Browser serv=
+ice) perform the following steps else skip these <BR>steps:<BR><BR>1.&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; Launch the SQL Server Configuration Manager =
+from the "Microsoft SQL <BR>Server 2005 CTP" Program menu<BR><BR>2.&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp; Click on the "Protocols for SQLEXPRESS" node<B=
+R><BR>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click on the "TCP/IP" child node<=
+BR><BR>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You will notice an entry on the =
+right panel for "IPAll", right click <BR>on this and select, "Properties=
+"<BR><BR>5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clear out the value for "TCP D=
+ynamic Ports"<BR><BR>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Give a TcpPort num=
+ber to use when making remote connections, for <BR>purposes of this exam=
+ple lets choose, "2301"<BR><BR><BR>At this point you should restart the =
+SQL Server Express service.&nbsp; At this <BR>point you will be able to =
+connect remotely to SQL Express.&nbsp; A way I like to <BR>check the con=
+nection is my using SQLCMD from a remote machine and connecting <BR>like=
+ this:<BR><BR>SQLCMD -E -S YourServer\SQLEXPRESS,2301<BR><BR>The "," in =
+the server name tells SQCMD it's a port.<BR><BR>So you've tried this and=
+ still get an error.&nbsp; Take a look at Step 3, this <BR>should addres=
+s the remaining issue.<BR><BR><U>OPTION B:</U>&nbsp; If you want to use =
+SQL Browser service perform these steps:<BR><BR><STRONG><FONT color=3D#f=
+f0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;<U>Note:</U></FONT><BR><FONT color=3D#ff0000>&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You will need to make=
+ this registry key change if you are using the April&nbsp;<BR>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CTP or ear=
+lier versions:<BR></FONT></STRONG><BR><STRONG><FONT color=3D#ff0000>&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To e=
+nable sqlbrowser service to listen on the port 1434, the following&nbsp;=
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;registry key must be set to 1<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HKEY_LOCAL_MACHINE\SOFTWARE\Mic=
+rosoft\Microsoft SQL Server\90\SQL&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Browser\Ssrplistener</FONT><=
+/STRONG><BR><BR><FONT color=3D#ff0000><STRONG>&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next, restart the sqlbrows=
+er service.</STRONG><BR></FONT><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Sta=
+rt the SQL Browser Service<BR><BR><STRONG>STEP 3: Firewall..?<BR></STRON=
+G><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At this point you should be able to=
+ remotely connect.&nbsp; If you still <BR>can't chances are you have a f=
+irewall configured on the computer where SQL <BR>Express is running.&nbs=
+p; The instructions below are for Windows XP SP2's <BR>firewall settings=
+.<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To enable the firewall to allow =
+SQL Server Express traffic:<BR><BR>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Laun=
+ch the Windows Firewall configuration tool from the control <BR>panel.<B=
+R><BR>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click the Exceptions Tab<BR><BR>3=
+.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click the "Add Programs." button and sel=
+ect "sqlservr.exe" from the <BR>location where you install SQL Server Ex=
+press<BR><BR><BR>You should be able to remotely connect.&nbsp; Note, you=
+ can get more restrictive <BR>by just specifying the port number that wi=
+ll be allowed (used best when <BR>configured with Option A).<BR><BR>Note=
+: If you chose to use the SQL Browser service, you must also add <BR>sql=
+browser service executable to the exception list as it listens on udp <B=
+R>port 1434.<BR></P>
+	</div>
+	<div><span id=3D"ctl00___ctl00___ctl01___Entry___InlineTagEditorPanel">=
+Filed under: <a href=3D"/sqlexpress/archive/tags/FAQ/default.aspx" rel=3D=
+"tag">FAQ</a></span><input type=3D"hidden" name=3D"ctl00$_$ctl00$_$ctl01=
+$_$Entry$_$InlineTagEditorPanel" id=3D"ctl00___ctl00___ctl01___Entry___I=
+nlineTagEditorPanel_State" value=3D"nochange" /></div>
+		=
+
+</div>
+
+<div class=3D"postfoot">
+	=
+
+</div>
+
+	<div id=3D"comments">
+	<h3>
+	Comments
+</h3>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl01_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#4=
+62648">#</a>
+		Connecting to SQL Server Express in August VSTS CTP <a name=3D"462648"=
+></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, September 08, 2005 6:53 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl01_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://samgentile.com/bl=
+og/archive/2005/09/08/31926.aspx" target=3D"_blank">Sam Gentile's Blog</=
+a>
+	</div>
+	<div class=3D"commentsbody">
+		=
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl02_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#4=
+62650">#</a>
+		Connecting to SQL Server Express in August VSTS CTP <a name=3D"462650"=
+></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, September 08, 2005 6:54 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl02_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://samgentile.com/bl=
+og/archive/0001/01/01/31926.aspx" target=3D"_blank">Sam Gentile's Blog</=
+a>
+	</div>
+	<div class=3D"commentsbody">
+		=
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl03_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#4=
+62653">#</a>
+		Connecting to SQL Server Express in August VSTS CTP <a name=3D"462653"=
+></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, September 08, 2005 7:00 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl03_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://samgentile.com/bl=
+og/archive/0001/01/01/31926.aspx" target=3D"_blank">Sam Gentile's Blog</=
+a>
+	</div>
+	<div class=3D"commentsbody">
+		=
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl04_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#5=
+58652">#</a>
+		Troubleshoot Connectivity Issue with SQL Server Express 2005<a name=3D=
+"558652"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, March 23, 2006 12:50 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl04_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blogs.msdn.com/sq=
+l_protocols/archive/2006/03/23/558651.aspx" target=3D"_blank">SQL Protoc=
+ols</a>
+	</div>
+	<div class=3D"commentsbody">
+		Recently, we&amp;amp;nbsp;answered a lot of customer questions about h=
+ow to make a successful connection to SQL...
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl05_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#6=
+55162">#</a>
+		Accedere ad un istanza SQL2005 su una specifica porta TCP/IP<a name=3D=
+"655162"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Monday, July 03, 2006 6:21 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl05_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blogs.mindbox.it/=
+nico/archive/0001/01/01/1022.aspx" target=3D"_blank">Nico Grilli Blog</a=
+>
+	</div>
+	<div class=3D"commentsbody">
+		=
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl06_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#6=
+55171">#</a>
+		Accedere ad un istanza SQL2005 su una specifica porta TCP/IP<a name=3D=
+"655171"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Monday, July 03, 2006 6:49 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl06_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blogs.mindbox.it/=
+nico/archive/2006/07/03/1023.aspx" target=3D"_blank">Nico Grilli Blog</a=
+>
+	</div>
+	<div class=3D"commentsbody">
+		=
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl07_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#6=
+55243">#</a>
+		porta TCP/IP 1433. <a name=3D"655243"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Monday, July 03, 2006 9:49 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl07_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blogs.mindbox.it/=
+nico/archive/2006/07/03/1026.aspx" target=3D"_blank">Nico Grilli Blog</a=
+>
+	</div>
+	<div class=3D"commentsbody">
+		=
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl08_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#6=
+55255">#</a>
+		Accedere ad un istanza SQLServer 2005 su una specifica porta TCP/IP<a =
+name=3D"655255"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Monday, July 03, 2006 10:08 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl08_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blogs.mindbox.it/=
+nico/archive/2006/07/03/1029.aspx" target=3D"_blank">Nico Grilli Blog</a=
+>
+	</div>
+	<div class=3D"commentsbody">
+		=
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl09_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#6=
+55256">#</a>
+		Accedere ad un istanza SQLServer 2005 su una specifica porta TCP/IP<a =
+name=3D"655256"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Monday, July 03, 2006 10:09 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl09_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blogs.mindbox.it/=
+nico/archive/0001/01/01/1029.aspx" target=3D"_blank">Nico Grilli Blog</a=
+>
+	</div>
+	<div class=3D"commentsbody">
+		=
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl10_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#6=
+64733">#</a>
+		Munckfish.net  &amp;raquo; Blog Archive   &amp;raquo; PHP with SQL Ser=
+ver Express and Windows 2003<a name=3D"664733"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, July 13, 2006 2:06 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl10_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://munckfish.net/blo=
+g/archive/2006/07/13/php-with-sql-server-express-and-windows-2003/" targ=
+et=3D"_blank">Munckfish.net  &raquo; Blog Archive   &raquo; PHP with SQL=
+ Server Express and Windows 2003</a>
+	</div>
+	<div class=3D"commentsbody">
+		PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://munck=
+fish.net/blog/archive/2006/07/13/php-with-sql-server-express-and-windows=
+-2003/">http://munckfish.net/blog/archive/2006/07/13/php-with-sql-server=
+-express-and-windows-2003/</a>
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl11_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#6=
+70760">#</a>
+		SQL 2005 Remote connection strings<a name=3D"670760"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Wednesday, July 19, 2006 4:45 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl11_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://david-chan.cnblog=
+s.com/archive/2006/07/19/454810.html" target=3D"_blank">David</a>
+	</div>
+	<div class=3D"commentsbody">
+		=E6=9C=80=E8=BF=91=E5=9C=A8=E7=83=A6=E6=81=BC=EF=BC=8C=E6=80=8E=E4=B9=88=
+=E5=B0=B1=E4=B8=8D=E8=83=BD=E8=BF=9C=E7=A8=8B=E8=AE=BF=E9=97=AESQL2005=E7=
+=9A=84=E5=91=A2=EF=BC=81=E6=80=8E=E4=B9=88=E6=90=9E=E4=B9=9F=E6=90=9E=E4=
+=B8=8D=E6=98=8E=E7=99=BD=EF=BC=81
+=E5=8F=82=E8=80=83=E4=BA=86=E4=B8=8B=E9=9D=A2=E7=9A=84=E4=B8=A4=E4=B8=AA=
+Blog=EF=BC=8C=E7=BB=88=E4=BA=8E=E6=B8=85=E6=99=B0=E4=BA=86=E3=80=82
+<a rel=3D"nofollow" target=3D"_new" href=3D"http://blogs.msdn.com/sql_pr=
+otocols/ar">http://blogs.msdn.com/sql_protocols/ar</a>...
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl12_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#7=
+05245">#</a>
+		How to: Configure Express to accept remote connections <a name=3D"7052=
+45"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, August 17, 2006 11:34 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl12_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blog.csdn.net/Fra=
+nkWin/archive/2006/08/18/1092150.aspx" target=3D"_blank">FrankQin</a>
+	</div>
+	<div class=3D"commentsbody">
+		Sql server 2005 express, remote connect
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl13_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#7=
+76969">#</a>
+		//Wensline &amp;raquo; SQLServer Express Remote Connection<a name=3D"7=
+76969"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Friday, September 29, 2006 11:03 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl13_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://www.wensline.com/=
+blog/?p=3D20" target=3D"_blank">//Wensline &raquo; SQLServer Express Rem=
+ote Connection</a>
+	</div>
+	<div class=3D"commentsbody">
+		PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://www.w=
+ensline.com/blog/?p=3D20">http://www.wensline.com/blog/?p=3D20</a>
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl14_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#1=
+622907">#</a>
+		re: How to:  Configure Express to accept remote connections<a name=3D"=
+1622907"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Wednesday, February 07, 2007 7:44 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl14_NameLin=
+k" title=3D"Ronald Ricardo Ramirez Moran" href=3D"http://dlanorok.spaces=
+.live.com/blog/" target=3D"_blank">Ronald Ricardo Ramirez Moran</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>A last recomendation is to add the SQL Browser executable file to t=
+he Firewall Exceptions, when you really need to use it.</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl15_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#1=
+629938">#</a>
+		Nazin  &amp;raquo; Installing Microsoft SQL Server 2005 JDBC Drivers f=
+or ColdFusion MX 7<a name=3D"1629938"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, February 08, 2007 4:44 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl15_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blog.nazin.com/in=
+dex.php/installing-microsoft-sql-server-2005-jdbc-drivers-for-coldfusion=
+-mx-7/" target=3D"_blank">Nazin  &raquo; Installing Microsoft SQL Server=
+ 2005 JDBC Drivers for ColdFusion MX 7</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://bl=
+og.nazin.com/index.php/installing-microsoft-sql-server-2005-jdbc-drivers=
+-for-coldfusion-mx-7/">http://blog.nazin.com/index.php/installing-micros=
+oft-sql-server-2005-jdbc-drivers-for-coldfusion-mx-7/</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl16_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#1=
+632157">#</a>
+		??????????????? &amp;raquo; [DB] ???????????? Client ????????? MS SQL =
+2005 <a name=3D"1632157"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Friday, February 09, 2007 12:12 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl16_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://bestlong.no-ip.co=
+m/blog/?p=3D105" target=3D"_blank">??????????????? &raquo; [DB] ????????=
+???? Client ????????? MS SQL 2005 </a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://be=
+stlong.no-ip.com/blog/?p=3D105">http://bestlong.no-ip.com/blog/?p=3D105<=
+/a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl17_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#1=
+742449">#</a>
+		re: How to:  Configure Express to accept remote connections<a name=3D"=
+1742449"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, February 22, 2007 11:15 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl17_NameLin=
+k" title=3D"damacroguy" href=3D"/user/Profile.aspx?UserID=3D70645" targe=
+t=3D"_blank">damacroguy</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>THANK YOU...THANK YOU...THANK YOU! As a newbie to VB and SQ, I wrot=
+e a timeclock app for a standalone computer and never had any connection=
+ issues to contend with until I had to install my app in a P2P environme=
+nt with 2 PC's. After lots of Google-ing I landed here and this informat=
+ion put it all into perspective and got me up and running.</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl18_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#1=
+984602">#</a>
+		Configure SQL Server 2005 to allow remote connections<a name=3D"198460=
+2"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, March 29, 2007 1:38 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl18_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://www.bookmark.dev-=
+asp.net/P/7.aspx" target=3D"_blank">Bookmarks</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p><a rel=3D"nofollow" target=3D"_new" href=3D"http://support.microsof=
+t.com/default.aspx?scid=3Dkb;EN-US;914277How">http://support.microsoft.c=
+om/default.aspx?scid=3Dkb;EN-US;914277How</a> to configure SQL Server 20=
+05 to allow remote connections<a rel=3D"nofollow" target=3D"_new" href=3D=
+"http://blogs.msdn.com/sqlexpress/archive/2005/05/05/415084.aspxConfigur=
+e">http://blogs.msdn.com/sqlexpress/archive/2005/05/05/415084.aspxConfig=
+ure</a> Express to accept remote connections <a rel=3D"nofollow" target=3D=
+"_new" href=3D"http://munckfish.net/blog/archive/2006/07/13/php-with-sql=
+-server-express-and-windows-2003/PHP">http://munckfish.net/blog/archive/=
+2006/07/13/php-with-sql-server-express-and-windows-2003/PHP</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl19_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#1=
+984749">#</a>
+		configure SQL Server 2005 to allow remote connections<a name=3D"198474=
+9"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, March 29, 2007 1:46 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl19_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://www.bookmark.dev-=
+asp.net/P/8.aspx" target=3D"_blank">Bookmarks</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p><a rel=3D"nofollow" target=3D"_new" href=3D"http://support.microsof=
+t.com/default.aspx?scid=3Dkb;EN-US;914277How">http://support.microsoft.c=
+om/default.aspx?scid=3Dkb;EN-US;914277How</a> to configure SQL Server 20=
+05 to allow remote connections<a rel=3D"nofollow" target=3D"_new" href=3D=
+"http://blogs.msdn.com/sqlexpress/archive/2005/05/05/415084.aspxConfigur=
+e">http://blogs.msdn.com/sqlexpress/archive/2005/05/05/415084.aspxConfig=
+ure</a> Express to accept remote connections <a rel=3D"nofollow" target=3D=
+"_new" href=3D"http://munckfish.net/blog/archive/2006/07/13/php-with-sql=
+-server-express-and-windows-2003/PHP">http://munckfish.net/blog/archive/=
+2006/07/13/php-with-sql-server-express-and-windows-2003/PHP</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl20_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#2=
+337830">#</a>
+		SQL 2005 Express not working on your (Fasthosts) dedicated server?<a n=
+ame=3D"2337830"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Monday, April 30, 2007 6:34 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl20_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://www.anthonymain.c=
+om/archive/2007/04/30/SQL-2005-Express-not-working-on-your-_2800_Fasthos=
+ts_2900_-dedicated-server_3F00_.aspx" target=3D"_blank">Zooba Chat</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>Got a &#163;60 per 1/2 hour personal engineer booked?? CANCEL IT!!!=
+ If you like me and many others have rented</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl21_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#2=
+379312">#</a>
+		Configure Express to accept remote connections<a name=3D"2379312"></a>=
+
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Wednesday, May 02, 2007 3:40 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl21_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://www.dnn45.dev-asp=
+.net/P/63.aspx" target=3D"_blank">DNN Deployment </a>
+	</div>
+	<div class=3D"commentsbody">
+		<p><a rel=3D"nofollow" target=3D"_new" href=3D"http://blogs.msdn.com/s=
+qlexpress/archive/2005/05/05/415084.aspx">http://blogs.msdn.com/sqlexpre=
+ss/archive/2005/05/05/415084.aspx</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl22_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#2=
+744895">#</a>
+		=E8=A7=A3=E5=86=B3Pocket PC2003=E8=BF=9E=E6=8E=A5SqlServer2005=E7=9A=84=
+=E9=97=AE=E9=A2=98!<a name=3D"2744895"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Sunday, May 20, 2007 12:37 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl22_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://www.cnblogs.com/f=
+xwdl/archive/2007/05/20/753110.html" target=3D"_blank">=E6=AF=81=E4=BA=8E=
+=E9=9A=8F</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>=E6=9C=80=E8=BF=91=E9=81=87=E5=88=B0=E4=B8=80=E4=B8=AA=E9=97=AE=E9=A2=
+=98,=E5=B0=B1=E6=98=AF=E5=90=8C=E6=A0=B7=E7=9A=84=E8=BF=9E=E6=8E=A5=E5=AD=
+=97=E7=AC=A6=E4=B8=B2,=E5=9C=A8PC=E4=B8=8A=E5=92=8C=E5=9C=A8PocketPC=E4=B8=
+=8A=E4=BD=BF=E7=94=A8SqlClient=E8=BF=9E=E6=8E=A5SqlServer=E7=9A=84=E6=95=
+=B0=E6=8D=AE=E5=BA=93=E7=9A=84=E6=97=B6=E5=80=99,PC=E5=8F=AF=E4=BB=A5=E8=
+=BF=9E=E4=B8=8A=E8=80=8CPPC=E8=BF=9E=E4=B8=8D=E4=B8=8A.=E4=B8=94PPC=E5=9C=
+=A8=E8=BF=9E=E6=8E=A5=E7=9A=84=E5=AE=9E=E4=BE=8B=E5=90=8D=E4=B8=BA=E9=BB=
+=98=E8=AE=A4=E7=9A=84=E5=AE=9E=E4=BE=8B=E5=90=8D=E7=9A=84=E6=97=B6=E5=80=
+=99...</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl23_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#2=
+764833">#</a>
+		SQL Server does not allow remote connections problem<a name=3D"2764833=
+"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Monday, May 21, 2007 6:02 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl23_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blogs.microsoft.c=
+o.il/blogs/srlteam/archive/2007/05/21/SQL-Server-does-not-allow-remote-c=
+onnections-problem.aspx" target=3D"_blank">SRLTeam </a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>When you create your DB Dude project and try to build and deploy th=
+e project to the client's sandbox</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl24_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#3=
+841732">#</a>
+		BB Manager on a Workstation - BlackBerryForums.com : Your Number One B=
+lackBerry Community<a name=3D"3841732"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Friday, July 13, 2007 1:23 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl24_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://www.blackberryfor=
+ums.com/bes-admin-corner/85610-bb-manager-workstation.html#post599079" t=
+arget=3D"_blank">BB Manager on a Workstation - BlackBerryForums.com : Yo=
+ur Number One BlackBerry Community</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://ww=
+w.blackberryforums.com/bes-admin-corner/85610-bb-manager-workstation.htm=
+l#post599079">http://www.blackberryforums.com/bes-admin-corner/85610-bb-=
+manager-workstation.html#post599079</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl25_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#3=
+940662">#</a>
+		SQL Server does not Allow Remote Connections Error <a name=3D"3940662"=
+></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Wednesday, July 18, 2007 2:13 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl25_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://blogs.microsoft.c=
+o.il/blogs/maordavid/archive/2007/07/18/SQL-Server-does-not-Allow-Remote=
+-Connections-Error-.aspx" target=3D"_blank">Maor David's Blog</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>When you create your DB Dude project and try to build and deploy th=
+e project to the client's sandbox</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl26_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#3=
+943461">#</a>
+		SQL Server does not Allow Remote Connections Error<a name=3D"3943461">=
+</a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Wednesday, July 18, 2007 4:52 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl26_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://72.15.222.207/blo=
+gs/maordavid/archive/2007/07/18/SQL-Server-does-not-Allow-Remote-Connect=
+ions-Error.aspx" target=3D"_blank">Maor David's Blog</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>When you create your DB Dude project and try to build and deploy th=
+e project to the client's sandbox</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl27_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#5=
+237543">#</a>
+		re: How to:  Configure Express to accept remote connections<a name=3D"=
+5237543"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Tuesday, October 02, 2007 12:16 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl27_NameLin=
+k" title=3D"myozaw" href=3D"/user/Profile.aspx?UserID=3D102565" target=3D=
+"_blank">myozaw</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>Thanks for Error: 26. I was trying to remote access my sqlexpress f=
+rom another computer. But, eventually, I found out this blog and my prob=
+lem was solved. :)</p>
+<p>Myo.</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl28_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#5=
+517843">#</a>
+		My Ghillie &amp;raquo; SQL Server Express WebLog : How to: Configure E=
+xpress to accept remote connections<a name=3D"5517843"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Friday, October 19, 2007 12:54 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl28_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://myghillie.info/19=
+69/12/31/sql-server-express-weblog-how-to-configure-express-to-accept-re=
+mote-connections/" target=3D"_blank">My Ghillie &raquo; SQL Server Expre=
+ss WebLog : How to: Configure Express to accept remote connections</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://my=
+ghillie.info/1969/12/31/sql-server-express-weblog-how-to-configure-expre=
+ss-to-accept-remote-connections/">http://myghillie.info/1969/12/31/sql-s=
+erver-express-weblog-how-to-configure-express-to-accept-remote-connectio=
+ns/</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl29_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#5=
+518118">#</a>
+		Ghillie Suits &amp;raquo; SQL Server Express WebLog : How to: Configur=
+e Express to accept remote connections<a name=3D"5518118"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Friday, October 19, 2007 1:24 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl29_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://ghillie-suits.inf=
+o/?p=3D5586" target=3D"_blank">Ghillie Suits &raquo; SQL Server Express =
+WebLog : How to: Configure Express to accept remote connections</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://gh=
+illie-suits.info/?p=3D5586">http://ghillie-suits.info/?p=3D5586</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl30_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#5=
+787474">#</a>
+		Womens Discount Perfume &amp;raquo; Not obsession perfume   but still =
+interesting&amp;#8230;<a name=3D"5787474"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Tuesday, October 30, 2007 7:01 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl30_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://discount-perfume-=
+hq.com/?p=3D1996" target=3D"_blank">Womens Discount Perfume &raquo; Not =
+obsession perfume   but still interesting&#8230;</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://di=
+scount-perfume-hq.com/?p=3D1996">http://discount-perfume-hq.com/?p=3D199=
+6</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl31_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#5=
+799919">#</a>
+		Womens Discount Perfume &amp;raquo; Not perfume on line but still inte=
+resting&amp;#8230;<a name=3D"5799919"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Wednesday, October 31, 2007 11:28 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl31_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://discount-perfume-=
+hq.com/?p=3D2896" target=3D"_blank">Womens Discount Perfume &raquo; Not =
+perfume on line but still interesting&#8230;</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://di=
+scount-perfume-hq.com/?p=3D2896">http://discount-perfume-hq.com/?p=3D289=
+6</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl32_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#5=
+992348">#</a>
+		re: How to:  Configure Express to accept remote connections<a name=3D"=
+5992348"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, November 08, 2007 1:38 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl32_NameLin=
+k" title=3D"groker" href=3D"/user/Profile.aspx?UserID=3D108347" target=3D=
+"_blank">groker</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>I went up to step 2 and could connect through the command line and =
+run queries (like sp_databases). &nbsp;However, I cannot connect using S=
+ql Server Management Studio. &nbsp;Both of these connections were attemp=
+ted through the same client to the same server using &lt;ipaddress&gt;\s=
+qlexpress . &nbsp;Have you experienced this problem and do you have a so=
+lution?</p>
+<p>Thanks.</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl33_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#5=
+993499">#</a>
+		re: How to:  Configure Express to accept remote connections<a name=3D"=
+5993499"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, November 08, 2007 1:48 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl33_NameLin=
+k" title=3D"groker" href=3D"/user/Profile.aspx?UserID=3D108347" target=3D=
+"_blank">groker</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>Solution: I was including the port in the ipaddress (192.168.1.1:23=
+01\SqlExpress) ... the database name should use the format 192.168.1.1\S=
+qlExpress,2301 . &nbsp; For those of us who have never used ports with s=
+ql server connections, this should help the learning curve.</p>
+
+	</div>
+	</div>
+
+	<div class=3D"commentowner">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl34_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#5=
+993659">#</a>
+		re: How to:  Configure Express to accept remote connections<a name=3D"=
+5993659"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, November 08, 2007 1:55 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl34_NameLin=
+k" title=3D"sqlexpress" href=3D"/user/Profile.aspx?UserID=3D3792" target=
+=3D"_blank">sqlexpress</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>To groker:</p>
+<p>It's best to post questions to the Forum since it is more targeted fo=
+r question/answer exchanges.</p>
+<p>I've not seen this issue where SQLCmd works but Management Studio doe=
+s not. When posting this question to the forums you should include the e=
+ntire error message; the first part of the message will likely be the ge=
+neral &quot;remote connections are not enabled&quot; which isn't true in=
+ your case, so it's likely that the last part of the message which is in=
+ parenthasis will have more useful informaiton.</p>
+<p>It's also worth reading through the many useful posts about SQL conne=
+ctivity troubleshooting provided by the SQL Protocols team on thier blog=
+. Here are the posts related to remote connections: <a rel=3D"nofollow" =
+target=3D"_new" href=3D"http://blogs.msdn.com/sql_protocols/search.aspx?=
+q=3Dremote&amp;p=3D1">http://blogs.msdn.com/sql_protocols/search.aspx?q=3D=
+remote&amp;p=3D1</a></p>
+<p>Mike</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl35_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#6=
+253133">#</a>
+		SQL-Express Problem - MCSEboard.de MCSE Forum<a name=3D"6253133"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, November 15, 2007 5:36 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl35_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"https://www.mcseboard.de=
+/windows-forum-ms-backoffice-31/sql-express-problem-124731.html#post7667=
+23" target=3D"_blank">SQL-Express Problem - MCSEboard.de MCSE Forum</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"https://w=
+ww.mcseboard.de/windows-forum-ms-backoffice-31/sql-express-problem-12473=
+1.html#post766723">https://www.mcseboard.de/windows-forum-ms-backoffice-=
+31/sql-express-problem-124731.html#post766723</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl36_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#7=
+126295">#</a>
+		Etixet  &amp;raquo; Blog Ar??ivi   &amp;raquo; sql server express - en=
+able remote connections<a name=3D"7126295"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Wednesday, January 16, 2008 12:11 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl36_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://www.etixet.com/sq=
+l-server-express-enable-remote.html" target=3D"_blank">Etixet  &raquo; B=
+log Ar??ivi   &raquo; sql server express - enable remote connections</a>=
+
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://ww=
+w.etixet.com/sql-server-express-enable-remote.html">http://www.etixet.co=
+m/sql-server-express-enable-remote.html</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl37_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#7=
+899912">#</a>
+		re: How to:  Configure Express to accept remote connections<a name=3D"=
+7899912"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Tuesday, February 26, 2008 1:54 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl37_NameLin=
+k" title=3D"Ashfaq Maniar" href=3D"/user/Profile.aspx?UserID=3D124586" t=
+arget=3D"_blank">Ashfaq Maniar</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>Thank you so much.</p>
+<p>I was trying for the last 2 days to connect from a Remote machine thr=
+ough the VB Application but failed.</p>
+<p>With your help, my application is a success. Many thanks for your gui=
+dance.</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl38_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#8=
+333556">#</a>
+		re: How to:  Configure Express to accept remote connections<a name=3D"=
+8333556"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Monday, March 24, 2008 10:22 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl38_NameLin=
+k" title=3D"davidbotero" href=3D"http://Error%20configuring%20sql%20serv=
+er%20express%20to%20accept%20remote%20connections" target=3D"_blank">dav=
+idbotero</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>Hello, I followed the steps, but I still get an error:</p>
+<p>HResult 0x2AF9, Level 16, State 1</p>
+<p>TCP Provider: No such host is known</p>
+<p>Can anyone help me?</p>
+<p>Thanx</p>
+
+	</div>
+	</div>
+
+	<div class=3D"commentowner">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl39_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#8=
+334135">#</a>
+		re: How to:  Configure Express to accept remote connections<a name=3D"=
+8334135"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Monday, March 24, 2008 3:37 PM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl39_NameLin=
+k" title=3D"sqlexpress" href=3D"/user/Profile.aspx?UserID=3D3792" target=
+=3D"_blank">sqlexpress</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>Response to davidbotero - </p>
+<p>Please post technical questions to the SQL Express forum on MSDN: <a =
+rel=3D"nofollow" target=3D"_new" href=3D"http://forums.microsoft.com/MSD=
+N/ShowForum.aspx?ForumID=3D385&amp;SiteID=3D1">http://forums.microsoft.c=
+om/MSDN/ShowForum.aspx?ForumID=3D385&amp;SiteID=3D1</a></p>
+<p>Mike</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl40_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#8=
+477329">#</a>
+		Configuring SQL Server Express 2005 for Remote Access<a name=3D"847732=
+9"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Friday, May 09, 2008 12:55 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl40_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://iblog.pk/blogs/it=
+/archive/2008/05/09/configuring-sql-server-express-2005-for-remote-acces=
+s.aspx" target=3D"_blank">Information Technology</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>Configuring SQL Server Express 2005 for Remote Access when SQL Serv=
+er does not allow remote connections</p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl41_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#8=
+556223">#</a>
+		Configuring SQL Server Express 2005 for Remote Access &amp;laquo; Zaka=
+ria Bin Abdur Rouf<a name=3D"8556223"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Wednesday, May 28, 2008 3:36 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl41_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://zakariarouf.wordp=
+ress.com/2008/05/28/configuring-sql-server-express-2005-for-remote-acces=
+s/" target=3D"_blank">Configuring SQL Server Express 2005 for Remote Acc=
+ess &amp;laquo; Zakaria Bin Abdur Rouf</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://za=
+kariarouf.wordpress.com/2008/05/28/configuring-sql-server-express-2005-f=
+or-remote-access/">http://zakariarouf.wordpress.com/2008/05/28/configuri=
+ng-sql-server-express-2005-for-remote-access/</a></p>
+
+	</div>
+	</div>
+
+	<div class=3D"comment">
+	<h4>
+		<a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl42_PermaLink" =
+Title=3D"permalink" href=3D"/sqlexpress/archive/2005/05/05/415084.aspx#8=
+683003">#</a>
+		sql server 2005 client configuration<a name=3D"8683003"></a>
+	</h4>
+	<div class=3D"commentssubhead">
+		<span class=3D"commentspan"></span>
+		Thursday, July 03, 2008 4:15 AM =
+
+			by <a id=3D"ctl00___ctl00___ctl01___Comments___Comments_ctl42_NameLin=
+k" rel=3D"nofollow" title=3D"TrackBack" href=3D"http://luka.adultstories=
+direct.com/sqlserver2005clientconfiguration.html" target=3D"_blank">sql =
+server 2005 client configuration</a>
+	</div>
+	<div class=3D"commentsbody">
+		<p>PingBack from <a rel=3D"nofollow" target=3D"_new" href=3D"http://lu=
+ka.adultstoriesdirect.com/sqlserver2005clientconfiguration.html">http://=
+luka.adultstoriesdirect.com/sqlserver2005clientconfiguration.html</a></p=
+>
+
+	</div>
+	</div>
+
+	</div>
+
+
+
+
+
+<em>Anonymous comments are disabled</em>
+
+   =
+
+    =
+
+		</div></div>
+		<div id=3D"contentfooter">&nbsp;</div>
+	</div>
+
+	<div id=3D"footer">
+	=
+
+<div>
+&#169; 2008 Microsoft Corporation. All rights reserved.
+<a href=3D"http://msdn2.microsoft.com/en-us/cc300389.aspx">Terms of Use<=
+/a> &nbsp;|&nbsp; =
+
+<a href=3D"http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us=
+.mspx">Trademarks</a> &nbsp;|&nbsp; =
+
+<a href=3D"http://privacy.microsoft.com/en-us/default.aspx">Privacy Stat=
+ement</a>
+</div>
+
+</div></div>
+</div>
+
+<script language=3D"javascript" type=3D"text/javascript">
+<!--
+function KeyDownHandlerctl00___ctl00___bs___ws___SearchButton(event)
+{
+	if (event.keyCode =3D=3D 13)
+	{
+		event.returnValue =3D false;
+		event.cancel =3D true;
+     __doPostBack('ctl00$_$ctl00$_$bs$_$ws$_$SearchButton','')	}
+}
+
+//-->
+</script>
+<script language=3D"javascript">var ctl00___ctl00___ctl01___Entry___Rati=
+ngs=3Dnew RateControl('ctl00___ctl00___ctl01___Entry___Ratings','ctl00__=
+_ctl00___ctl01___Entry___Ratings','ctl00___ctl00___ctl01___Entry___Ratin=
+gs_Value', 5, '/Themes/default/images/common/', false, 'ratemenu','Commo=
+nRateControlActive','ratemenu',['Terrible','Poor','Fair','Average','Good=
+','Excellent'],true,true);</script>
+<!--
+<rdf:RDF xmlns:rdf=3D"http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc=3D"http://purl.org/dc/elements/1.1/"
+xmlns:trackback=3D"http://madskills.com/public/xml/rss/module/trackback/=
+">
+<rdf:Description
+rdf:about=3D"http://blogs.msdn.com/sqlexpress/archive/2005/05/05/415084.=
+aspx"
+dc:identifier=3D"http://blogs.msdn.com/sqlexpress/archive/2005/05/05/415=
+084.aspx"
+dc:title=3D"How to:  Configure Express to accept remote connections"
+trackback:ping=3D"http://blogs.msdn.com/sqlexpress/trackback.aspx?PostID=
+=3D415084" />
+</rdf:RDF>
+-->
+</form>
+
+<!-- WT MT Inline v.2.0 -->
+<SCRIPT TYPE=3D"text/javascript">
+var gTrackEvents=3D0;
+var gDomain=3D"m.webtrends.com";
+var gDcsId=3D"dcsrubpmj00000oqcq95ilr3l_8q8i";
+var gFpc=3D"WT_FPC";
+if(document.cookie.indexOf(gFpc+"=3D")=3D=3D-1){document.write("<SCR"+"I=
+PT TYPE=3D'text/javascript' SRC=3D'"+"http"+(window.location.protocol.in=
+dexOf('https:')=3D=3D0?'s':'')+"://"+gDomain+"/"+gDcsId+"/wtid.js"+"'><\=
+/SCR"+"IPT>");}
+</SCRIPT>
+<SCRIPT SRC=3D"/wt.js" TYPE=3D"text/javascript"></SCRIPT>
+<NOSCRIPT>
+<IMG ALT=3D"" BORDER=3D"0" ID=3D"DCSIMG" WIDTH=3D"1" HEIGHT=3D"1"
+SRC=3D"http://m.webtrends.com/dcsrubpmj00000oqcq95ilr3l_8q8i/njs.gif?dcs=
+uri=3D/nojavascript&amp;WT.js=3DNo">
+</NOSCRIPT>
+
+<img src=3D"http://c.microsoft.com/trans_pixel.aspx?TYPE=3DPV" width=3D"=
+0" height=3D"0" alt=3D"Page view tracker" />
+</body>
+</html>
+
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=style.css
+Content-Type: text/css; charset=utf-8; name=style.css
+Content-Location: http://blogs.msdn.com/Themes/Blogs/luxinterior/style/style.css
+Content-Transfer-Encoding: 8bit
+
+/*  Luxinterior skin for CS 1.1
+    Author: Jaxon Rice (gosatango)
+	Updates: http://cs.soup.co.za/blogs/cs_skins/articles/3.aspx
+	Email bugs and suggestions to: skins@soup.co.za
+	Community Server: http://www.communityserver.org
+*/
+
+html, body {
+	margin: 0 auto;
+	padding: 0;
+	color: #FFF;
+}
+body {
+	padding: 0;
+	text-align: center;
+	background: #333;
+	font: 76%/1.2em Verdana, Arial, Helvetica, sans-serif;
+}
+a:visited, a:active, a:link {
+	text-decoration: none;
+	color: #F90;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1 {
+	margin: 0;
+	font-size: 1.5em;
+}
+h1 a:visited, h1 a:active, h1 a:link {
+	color: #FFF;
+}
+h1 a:hover {
+	text-decoration: none;
+}
+h2 {
+	margin-top: 1em;
+	font-size: 1em;
+}
+h3 {
+	font-size: 1.1em;
+}
+p {
+	margin: 1em 0;
+}
+/* -- Layout -- */
+/* The masthead sits at the top of the page.*/
+#masthead {
+	color: #CCC;
+	text-align: right;
+	padding: 0.5em;
+	font-size: 0.9em;
+	border-bottom: 2px solid #666;
+	background: #535353;
+}
+#masthead ul {
+	color: #CCC;
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+#masthead ul li {
+	display: inline;
+}
+#masthead ul li a {
+	padding: 0 0.5em;
+	text-decoration: none;
+	margin: 0;
+}
+#masthead a:link, #masthead a:visited, #masthead a:active, #masthead a:hover {
+	color: #F90;
+	text-decoration: none;
+}
+/* Blog Layout */
+#wrapper {
+	padding: 1em;
+}
+#container {
+	margin: 0 auto;
+	text-align: left;
+	padding: 0;
+	width: 760px;
+}
+/* Blog Header */
+#header {
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Trebuchet MS";
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+}
+#header h1 {
+	margin: 0;
+	padding: 0.5em 1em;
+	font-size: 2em;
+}
+#header p {
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0.5em 1em 1em;
+}
+/* #title is a placeholder div for putting pictures in place of the blog title*/
+#title {}
+
+/* Navigation Bar */
+#nav {
+	text-align: left;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin: 0;
+	border-bottom: 1px solid #666;
+}
+#nav ul {
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+#nav ul li {
+	display: inline;
+}
+#nav ul li a {
+	padding: 0.2em 1.2em;
+	text-decoration: none;
+	margin-top: 0;
+	font-weight: bold;
+	margin-bottom: 0.1em;
+}
+/* Subscription Bar */
+#subscriptions {
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+#subscriptions ul {
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+#subscriptions ul li {
+	display: inline;
+}
+#subscriptions ul li a {
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+	margin-top: 0;
+	margin-bottom: 0.1em;
+}
+/* End Navigation*/
+#contentwrapper
+{
+	width: 100%;
+	overflow: hidden;
+}   
+#content {
+	padding: 1em;
+	margin: 0 210px 0 0;
+	height: 1%;
+}
+#content2 
+{
+	width: 100%;
+	overflow: hidden;
+}
+#contentfooter {
+	clear: both;
+}
+/* Sidebar */
+#sidebar-a {
+	float: right;
+	width: 200px;
+	margin: 0 0 0 0.5em;
+	padding: 0.5em;
+	font-size: 0.9em;
+	border-left: 1px solid #666;
+}
+#sidebar-a h3 {
+	color: #CCC;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.9em;
+	margin-top: 2em;
+	margin-left: 1em;
+	border-bottom: 1px solid #CCC;
+}
+#sidebar-a p {
+	padding: 0 1em;
+}
+#sidebar-a ul {
+	list-style: none;
+	margin: 0 0 1em 1em;
+	padding: 0;
+	width: 100%;
+}
+#sidebar-a li {
+	margin-top: 0.2em;
+}
+#sidebar-a a:active, #sidebar-a a:visited, #sidebar-a a:link {
+	text-decoration: none;
+	margin-right: 0;
+	padding: 0;
+}
+#sidebar-a a:hover {
+	text-decoration: underline;
+}
+/*End Sidebar*/
+#footer {
+	clear: both;
+	padding: 0.5em 1em;
+	margin: 0;
+}
+/* --End Layout-- */
+
+
+/*
+Calendar styles
+*/
+
+.BlogCalendar
+{
+	font-size: 90%;
+	width: 100%;
+}
+
+.BlogCalendarTitle
+{
+	text-align: center;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.BlogCalendarNextPrev
+{
+}
+
+td.BlogCalendarNextPrev A:LINK, .BlogCalendarNextPrev A:ACTIVE, .BlogCalendarNextPrev A:VISITED
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.BlogCalendarNextPrev A:HOVER
+{
+	text-decoration: none;
+}
+
+.BlogCalendarDays
+{
+	font-weight: bold;
+	padding: 2px;
+}
+
+.BlogCalendarDay A:LINK, .BlogCalendarDay A:ACTIVE, .BlogCalendarDay A:VISITED, .BlogCalendarDay A:HOVER
+{
+	font-weight: bold;
+}/* -- End Calendar -- */
+
+/* -- Post -- */
+.post {
+	padding: 0;
+	margin: 0;
+}
+/* Post Header */
+.posthead {
+	margin: 0;
+	padding: 1em 0 0.5em;
+	text-align: right;
+	font-size: 0.9em;
+}
+.posthead h2 {
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0.5em 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: left;
+}
+.posthead img {
+	margin: 0;
+	padding: 0 0 0 0.5em;
+	border: 0 none;
+}
+.posthead a:hover {
+	text-decoration: none;
+}
+/* Post Content  */
+.postcontent {
+	margin: 0;
+	padding: 0;
+}
+.postcontent img {
+	margin: 1em 1em 0.5em 0;
+	padding: 0;
+	line-height: 2em;
+}
+/* Post Footer */
+.postfoot {
+	font-size: 0.9em;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	margin: 1.5em 0;
+	padding: 0.5em 0;
+}
+/* Post Category Heading */
+.postcategoryheading {
+	font-size: 0.9em;
+	padding-bottom: 0.5em;
+	margin-bottom: 1.5em;
+	border-bottom: 1px solid #666;
+}
+
+/* -- End Post -- */
+/* -- Comments -- */
+.comment
+{
+	padding: 4px;
+}
+
+.commentowner
+{
+	background-color: #444;
+	padding: 4px;
+	border: solid 1px #666;
+	margin-bottom: 3em;
+}
+
+#comments h4 {
+	margin: 0;
+	font-size: 1em;
+}
+#comments {
+	padding: 0 1em;
+	margin: 0 0 0;
+}
+.commentssubhead {
+	color: #CCC;
+	padding: 0;
+	font-size: 0.85em;
+	margin: 0.5em 0 0;
+}
+.commentspan {
+	padding-left: 0.5em;
+	text-align: right;
+	float: right;
+	width: 200px;
+}
+.commentsbody {
+	margin: 1em 0 3em;
+	padding: 0 0 0.5em;
+	font-size: 0.9em;
+	border-bottom: 1px solid #666;
+}
+/* -- End Comments --*/
+/* -- Comment and Contact Form -- */
+#commentform {
+	padding: 0;
+	margin: 0 1em;
+}
+#commentform h3 {
+	font-size: 1em;
+	margin: 0;
+	padding: 0 0 1em;
+	display: block;
+}
+#commentform dl {
+	margin: 0;
+	padding: 0;
+}
+#commentform dt {
+	font-size: 1.0em;
+	margin: 0;
+	padding: 0.5em 0.5em 0.5em 0;
+}
+#commentform dt em {
+	font-size: 0.9em;
+}
+#commentform .smallbox {
+	width: 300px;
+	padding: 2px;
+	border: 1px solid #666;
+}
+#commentform textarea {
+	width: 450px;
+	height: 180px;
+	padding: 0.2em;
+	border: 1px solid #666;
+	font: 1em Verdana, Arial, Helvetica, sans-serif;
+}
+/* -- End Comment and Contact Form -- */
+/* -- Miscellaneous -- */
+/* Email Subscriptions */
+#emailsubscriptions {
+	margin: 0;
+	padding: 1em;
+}
+#emailsubscriptions h3 {
+	font-size: 1em;
+	margin: 0 1em 0 0.5em;
+	padding: 1em 0 0;
+}
+#emailsubscriptions table {
+	font-size: 1em;
+}
+/* News */
+#news {
+	padding: 0.5em 1em;
+	margin: 1em;
+}
+
+/* Search */
+#search .searchBox {
+	width: 130px;
+	border: 1px solid #666;
+	margin: 0 1em;
+	padding: 0.2em;
+}
+#search {
+	margin-bottom: 0.5em;
+}
+/* w.bloggar uses a class called .media for its iTunes and wmp10 "now playing" plugin */
+.media {
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 1em 1em 0.5em;
+}
+/* Clearing element for floats */
+.spacer {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	height: 0;
+}
+/* -- End Miscellaneous*/
+/* -- Skin button -- */
+/* This button is based upon a technique described by Mike Golding at Notestips.com:
+   http://www.notestips.com/80256B3A007F2692/1/NAMO5LV2NN */
+#skinbutton {
+	float: right;
+	margin-right: 1em;
+}
+#skinbutton ul {
+	list-style: none;
+	margin: 0 0 10px;
+	padding: 0;
+	text-align: left;
+}
+#skinbutton li {
+	border: 1px solid #999;
+	margin: 5px 0 0 20px;
+	width: 9em;
+}
+#skinbutton li a {
+	color: #333;
+	text-decoration: none;
+}
+head:first-child+body #skinbutton li {
+	padding-right: 2px;
+}
+.skinbuttonlink {
+	display: block;
+	font: 0.75em verdana, arial, sans-serif;
+	padding: 2px 0;
+	border: 1px solid white;
+	text-decoration: none;
+	width: 100%;
+	background: #ddd;
+	color: #333;
+}
+.skinbuttonlink span {
+	font: bold 1.0em verdana, arial, sans-serif;
+	padding: 2px 3px;
+	color: #fff;
+}
+.cs span {
+	background: #666;
+}
+/* --End Skinbutton -- */
+
+/* Tag Styles */
+
+.TagCloud
+{
+	background-color: #444444;
+	padding: 8px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	margin: 0px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	color: #999999;
+	line-height: 180%;
+	list-style-type: none;
+}
+
+.SidebarTagCloud
+{
+	font-size: 80%;
+	line-height: 200%;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.Tag1, .Tag2, .Tag3, .Tag4, .Tag5, .Tag6 
+{
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+.Tag1 a:link, .Tag1 a:visited, .Tag1 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	color: #A40;
+	font-size: 160%;
+	font-weight: 900;
+}
+
+.Tag2 a:link, .Tag2 a:visited, .Tag2 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	color: #B50;
+	font-size: 145%;
+	font-weight: 800;
+}
+
+.Tag3 a:link, .Tag3 a:visited, .Tag3 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	color: #C60;
+	font-size: 130%;
+	font-weight: 600;
+}
+
+.Tag4 a:link, .Tag4 a:visited, .Tag4 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	color: #D70;
+	font-size: 120%;
+	font-weight: 500;
+}
+
+.Tag5 a:link, .Tag5 a:visited, .Tag5 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	color: #E80;
+	font-size: 110%;
+	font-weight: 300;
+}
+
+.Tag6 a:link, .Tag6 a:visited, .Tag6 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	color: #F90;
+	font-size: 100%;
+	font-weight: 200;
+}
+
+.Tag1 a:hover, .Tag2 a:hover, .Tag3 a:hover, .Tag4 a:hover, .Tag5 a:hover, .Tag6 a:hover
+{
+	text-decoration: underline;
+}
+
+.SearchStatistics
+{
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+/* Inline tag editor */
+.InlineTagEditor
+{
+	padding: 4px;
+	border: solid 1px #999999;
+	background-color: #f3f3f3;
+}
+
+.TextButton
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	margin: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	border-top-color: #cccccc;
+	border-left-color: #cccccc;
+	background-color: #eeeeee;
+	color: #333333;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 80%;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.TextButton:LINK
+{
+	text-decoration: none;
+	color: #333333;
+	background-color: #eeeeee;
+}
+
+.TextButton:VISITED
+{
+	text-decoration: none;
+	color: #333333;
+	background-color: #eeeeee;
+}
+
+.TextButton:ACTIVE
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+.TextButton:HOVER
+{
+	text-decoration: underline;
+	color: #333333;
+	background-color: #dddddd;
+}
+
+/* Modal Styles */
+
+.ModalMask
+{
+	opacity: .4;
+	filter: alpha(opacity=40);
+	background-color: #333333;
+}
+
+.Modal
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #888888;
+	border-right-width: 3px;
+	border-right-color: #888888;
+	border-bottom-width: 3px;
+	border-bottom-color: #888888;
+	background-color: #eeeeee;
+}
+
+.ModalTitle
+{
+	font-family: Tahoma, Arial, Helvetica;
+	height: 18px;
+	font-size: 16px;
+	padding: 5px;
+	padding-bottom: 7px;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #cccccc;
+	background-color: #dddddd;
+	color: #000000;
+	font-weight: bold;
+	cursor: move;
+	overflow: hidden;
+	text-align: left;
+}
+
+.ModalClose
+{
+	width: 33px;
+	height: 12px;
+	background-image: url(../../../default/images/common/close.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+	float: right;
+}
+
+.ModalContent
+{
+	background-color: #ffffff;
+}
+
+.ModalFooter
+{
+	border-style: solid;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-color: #cccccc;
+	background-color: #eeeeee;
+	padding: 2px;
+}
+
+.ModalResize
+{
+	width: 14px;
+	height: 14px;
+	background-image: url(../../../default/images/common/resize.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	float: right;
+	cursor: se-resize;
+}
+
+/*
+Rating Styles
+*/
+
+.CommonRateControlReadOnly
+{
+      display: inline-table;
+      display: -moz-inline-box;
+      display: inline-block;
+      background-color: #ffffff;
+      border-style: solid;
+      border-color: #999999;
+      border-width: 1px;
+      padding: 1px;
+}
+ 
+.ratemenu
+{
+      display: inline-table;
+      display: -moz-inline-box;
+      display: inline-block;
+      background-color: #eeeeee;
+      border-style: solid;
+      border-color: #999999;
+      border-width: 1px;
+      cursor: pointer;
+      padding: 1px;
+}
+ 
+.CommonRateControlActive
+{
+      display: inline-table;
+      display: -moz-inline-box;
+      display: inline-block;
+      background-color: #ffcc66;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #cc9933;
+      cursor: pointer;
+      padding: 1px;
+}
+ 
+.CommonRateControlReadOnly img, .ratemenu img, .CommonRateControlActive img
+{
+      padding: 0px;
+      margin: 0px;
+      border: 0px;
+}
+
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=light_wide.css
+Content-Type: text/css; charset=utf-8; name=light_wide.css
+Content-Location: http://blogs.msdn.com/Themes/Blogs/luxinterior/style/light_wide.css
+Content-Transfer-Encoding: 8bit
+
+/*  'Light Wide' alternate stylesheet for Luxinterior skin for CS 1.1 */
+html, body {
+	color: #333;
+}
+body {
+	background: #FFF;
+}
+a:visited, a:active, a:link {
+	color: #00C;
+}
+h1 a:visited, h1 a:active, h1 a:link {
+	color: #333;
+}
+#container {
+	width: 100%;
+}
+#nav {
+	border-bottom-color: #AAA;
+}
+#sidebar-a {
+	border-left-color: #AAA;
+}
+#sidebar-a h3 {
+	color: #666;
+	border-bottom-color: #666;
+}
+.calendar .calOtherMonthDay {
+	color: #CCC;
+}
+.calNextPrev a:link, .calNextPrev a:active, .calNextPrev a:visited {
+	color: #00C!important;
+}
+.calNextPrev a:hover {
+	color: #00C!important;
+}
+
+.postfoot {
+	border-top-color: #AAA;
+	border-bottom-color: #AAA;
+}
+.postcategoryheading {
+	border-bottom-color:#AAA;
+}
+.ratemenu {
+	border: #666;
+	background: #FFF;
+}
+.comment
+{
+	padding: 4px;
+}
+
+.commentowner
+{
+	background-color: #f3f3f3;
+	border: solid 1px #dddddd;
+}
+.commentssubhead {
+	color: #666;
+	}
+.commentsbody {
+	border-bottom-color: #AAA;
+}
+#commentform .smallbox {
+	border: 1px solid #999;
+}
+#commentform textarea {
+	border: 1px solid #999;
+}
+#search .searchBox {
+	border: 1px solid #999;
+}
+#masthead {
+	color: #333;
+	border-bottom: 2px solid #AAA;
+	background: #F0F0F0;
+}
+#masthead a:link, #masthead a:visited, #masthead a:active, #masthead a:hover {
+	color: #00C;
+}
+
+/* Tag Styles */
+
+.TagCloud
+{
+	background-color: #f4f4f4;
+}
+
+.Tag1 a:link, .Tag1 a:visited, .Tag1 a:active
+{
+	color: #007;
+}
+
+.Tag2 a:link, .Tag2 a:visited, .Tag2 a:active
+{
+	color: #008;
+}
+
+.Tag3 a:link, .Tag3 a:visited, .Tag3 a:active
+{
+	color: #009;
+}
+
+.Tag4 a:link, .Tag4 a:visited, .Tag4 a:active
+{
+	color: #00A;
+}
+
+.Tag5 a:link, .Tag5 a:visited, .Tag5 a:active
+{
+	color: #00B;
+}
+
+.Tag6 a:link, .Tag6 a:visited, .Tag6 a:active
+{
+	color: #00C;
+}
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=favicon.ico
+Content-Type: image/x-icon; name=favicon.ico
+Content-Location: http://blogs.msdn.com/favicon.ico
+Content-Transfer-Encoding: Base64
+
+AAABAAkAMDAQAAAAAABoBgAAlgAAACAgEAAAAAAA6AIAAP4GAAAQEBAAAAAAACgB
+AADmCQAAMDAAAAEACACoDgAADgsAACAgAAABAAgAqAgAALYZAAAQEAAAAQAIAGgF
+AABeIgAAMDAAAAEAIACoJQAAxicAACAgAAABACAAqBAAAG5NAAAQEAAAAQAgAGgE
+AAAWXgAAKAAAADAAAABgAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAgICAAAAA/wAAAAAAAP//AP8A
+AAD/AP8A//8AAP///wCqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqmZmZmqqqqqqqqqqqqqqqqqqqqqqqqqmZm
+ZmZmZmqqqqqqqqqqqqqqqqqqqqqqZmZmZmZmZmZqqqqqqqqqqqqqqqqqqqqmZmZm
+ZmZmZmZmqqqqqqqqqqqqqqqqqqpmZmZmZmZhEREREaqqqqqqqqqqqqqqqqpmZmZm
+ZmGZmZmZmRGqqqqqqqqqqqqqqqZmZmZmZhkWZmERmZkamqqqqqqqqqqqqmZmZmZm
+ZhZmZmZmYZmRmqqqqqqqqqqqqmZmZmZmZmZmZmZmZhmZmqqqqqqqqqqqqmZmZmZm
+ZmZmZmZmZmGZmqqqqqqqqqqqpgYAYAAABmYAAGAGABmZmqqqqqqqqqqqpv8P8Pd/
+/2D//3j/D/aqqqqqqqqqqqqqpv8P8PfwD3/2f3j/D/aqqqqqqqqqqqqqpv8P8PcP
+/3/2j3j/D/aqqqqqqqqqqqqqpv8P8Pf//w/2j3j/D/aqqqqqqqqqqqqqpv+P+Pf/
+AP/4j3j/j/aqqqqqqqqqqqqqpv/3f3aP/3b//3b3/4aqqqqqqqqqqqqqpmZmZmZm
+ZmZmD3ZmZmaqqqqqqqqqqqqqqmZmZmZmZmZmD3ZmZmqqqqqqqqqqqqqqqmZmZmZm
+ZmZmb3ZmZmqqqqqqqqqqqqqqqmZmZmZmZmZmZmZmZmqqqqqqqqqqqqqqqqZmZmZm
+ZmZmZmZmZqqqqqqqqqqqqqqqqqZmZmZmZmZmZmZmZqqqqqqqqqqqqqqqqqpmZmZm
+ZmZmZmZmaqqqqqqqqqqqqqqqqqqmZmZmZmZmZmZmqqqqqqqqqqqqqqqqqqqqZmZm
+ZmZmZmZqqqqqqqqqqqqqqqqqqqqqqmZmZmZmZmqqqqqqqqqqqqqqqqqqqqqqqqpm
+ZmZmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqr///////8AAP///////wAA////////AAD///////8AAP//
+/////wAA////////AAD///////8AAP///////wAA////////AAD///////8AAP//
+4D///wAA//8AB///AAD//AAB//8AAP/4AAD//wAA//AAAD//AAD/8AAAD/8AAP/g
+AAAF/wAA/8AAAAH/AAD/wAAAAf8AAP/AAAAB/wAA/4AAAAH/AAD/gAAAD/8AAP+A
+AAAP/wAA/4AAAA//AAD/gAAAD/8AAP+AAAAP/wAA/4AAAA//AAD/gAAAD/8AAP/A
+AAAf/wAA/8AAAB//AAD/wAAAH/8AAP/gAAA//wAA/+AAAD//AAD/8AAAf/8AAP/4
+AAD//wAA//wAAf//AAD//wAH//8AAP//wD///wAA////////AAD///////8AAP//
+/////wAA////////AAD///////8AAP///////wAA////////AAD///////8AAP//
+/////wAA////////AAAoAAAAIAAAAEAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAAA
+AAAA//8A/wAAAP8A/wD//wAA////AKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqmZmZmqqqqqqqqqqqqqqpmZmZmZmZqqqqqqqqqqqpmZmZmZmZm
+ZmqqqqqqqqqmZmZmZmZmZmZmqqqqqqqqZmZmZmZmYRERERGqqqqqqmZmZmZmYZmZ
+mZmZEaqqqqZmZmZmZhkWZmERmZkamqpmZmZmZmYWZmZmZmGZkZqqZmZmZmZmZmZm
+ZmZmGZmaqmZmZmZmZmZmZmZmZmGZmqYGAGAAAAZmAABgBgAZmZqm/w/w93//YP//
+eP8P9qqqpv8P8PfwD3/2f3j/D/aqqqb/D/D3D/9/9o94/w/2qqqm/w/w9///D/aP
+eP8P9qqqpv+P+Pf/AP/4j3j/j/aqqqb/9392j/92//929/+GqqqmZmZmZmZmZmYP
+dmZmZqqqqmZmZmZmZmZmD3ZmZmqqqqpmZmZmZmZmZm92ZmZqqqqqZmZmZmZmZmZm
+ZmZmaqqqqqZmZmZmZmZmZmZmZqqqqqqmZmZmZmZmZmZmZmaqqqqqqmZmZmZmZmZm
+ZmZqqqqqqqqmZmZmZmZmZmZmqqqqqqqqqmZmZmZmZmZmaqqqqqqqqqqqZmZmZmZm
+aqqqqqqqqqqqqqpmZmZmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqq////////////4D///wAH//wAAf/4AAD/8AAAP/AAAA/gAAAFwAAAAcAA
+AAHAAAABgAAAAYAAAA+AAAAPgAAAD4AAAA+AAAAPgAAAD4AAAA/AAAAfwAAAH8AA
+AB/gAAA/4AAAP/AAAH/4AAD//AAB//8AB///wD////////////8oAAAAEAAAACAA
+AAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+AACAAIAAgIAAAMDAwACAgIAAAAD/AAAAAAAA//8A/wAAAP8A/wD//wAA////AKqq
+pmZmaqqqqqZmZmZmaqqqZmZmZhERqqZmZmZpmZkZpmZmZpZmYZkABgAGAGABmfDw
+d/j/fw8K8PDw//D3Dwrw8H/w8H8Pan//+Pf/+PdqZmZmZmb2ZmqmZmZmZnZmaqZm
+ZmZmZmaqqmZmZmZmZqqqpmZmZmZqqqqqpmZmaqqq+B9mZuAHZhnAA2ERgAAamoAA
+ZmYAAGYWAAFmZgABkZoAAWZmAAFmZgABZmaAAZmagANmZsADZmbgB2Zm+B+ZmigA
+AAAwAAAAYAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACA
+AAAAgIAAgAAAAIAAgACAgAAAgICAAMDcwADwyqYAqj8qAP8/KgAAXyoAVV8qAKpf
+KgD/XyoAAH8qAFV/KgCqfyoA/38qAACfKgBVnyoAqp8qAP+fKgAAvyoAVb8qAKq/
+KgD/vyoAAN8qAFXfKgCq3yoA/98qAAD/KgBV/yoAqv8qAP//KgAAAFUAVQBVAKoA
+VQD/AFUAAB9VAFUfVQCqH1UA/x9VAAA/VQBVP1UAqj9VAP8/VQAAX1UAVV9VAKpf
+VQD/X1UAAH9VAFV/VQCqf1UA/39VAACfVQBVn1UAqp9VAP+fVQAAv1UAVb9VAKq/
+VQD/v1UAAN9VAFXfVQCq31UA/99VAAD/VQBV/1UAqv9VAP//VQAAAH8AVQB/AKoA
+fwD/AH8AAB9/AFUffwCqH38A/x9/AAA/fwBVP38Aqj9/AP8/fwAAX38AVV9/AKpf
+fwD/X38AAH9/AFV/fwCqf38A/39/AACffwBVn38Aqp9/AP+ffwAAv38AVb9/AKq/
+fwD/v38AAN9/AFXffwCq338A/99/AAD/fwBV/38Aqv9/AP//fwAAAKoAVQCqAKoA
+qgD/AKoAAB+qAFUfqgCqH6oA/x+qAAA/qgBVP6oAqj+qAP8/qgAAX6oAVV+qAKpf
+qgD/X6oAAH+qAFV/qgCqf6oA/3+qAACfqgBVn6oAqp+qAP+fqgAAv6oAVb+qAKq/
+qgD/v6oAAN+qAFXfqgCq36oA/9+qAAD/qgBV/6oAqv+qAP//qgAAANQAVQDUAKoA
+1AD/ANQAAB/UAFUf1ACqH9QA/x/UAAA/1ABVP9QAqj/UAP8/1AAAX9QAVV/UAKpf
+1AD/X9QAAH/UAFV/1ACqf9QA/3/UAACf1ABVn9QAqp/UAP+f1AAAv9QAVb/UAKq/
+1AD/v9QAAN/UAFXf1ACq39QA/9/UAAD/1ABV/9QAqv/UAP//1ABVAP8AqgD/AAAf
+/wBVH/8Aqh//AP8f/wAAP/8AVT//AKo//wD/P/8AAF//AFVf/wCqX/8A/1//AAB/
+/wBVf/8Aqn//AP9//wAAn/8AVZ//AKqf/wD/n/8AAL//AFW//wCqv/8A/7//AADf
+/wBV3/8Aqt//AP/f/wBV//8Aqv//AP/MzAD/zP8A//8zAP//ZgD//5kA///MAAB/
+AABVfwAAqn8AAP9/AAAAnwAAVZ8AAKqfAAD/nwAAAL8AAFW/AACqvwAA/78AAADf
+AABV3wAAqt8AAP/fAABV/wAAqv8AAAAAKgBVACoAqgAqAP8AKgAAHyoAVR8qAKof
+KgD/HyoAAD8qAFU/KgDw+/8ApKCgAICAgAAAAP8AAAAAAAD//wD/AAAA/wD/AP//
+AAD///8A+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+nl5eXl5eXl5eXn6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+nlRUHV1dXmdeZ15eXl1UHkHefr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+nlRdXV5dXV5eZ15nZ2doZ2hoaGheVB5efr6+vr6+vr6
++vr6+vr6+vr6+vr6+vp1eXV1dXV1dXl5nXmdnZ2hnaGhoaGhoaGheVF5+vr6+vr6
++vr6+vr6+vr6+vr6+nl5dXVQUVFRUVFMUHV5nZ2hoaGhoaGhoaGhoaF5UXn6+vr6
++vr6+vp5+vr6+vp5nXVVMTY2NjY2NjY2NjIxLVF1oaGhoaGlpaWlpaWloXlRefr6
++vr6+nlV+vr6+n15VTY2NjY2NjY2NjY2NjY2NjYyLVF5paWlpaWlpaWloaGheVF5
++vr6eVB5+vr6qnk2NjY2NjY2NjY2NjY2NjY2NjY2NjYxUXmlpqWlpqWlpaGhoaFR
+efp5UHl5+vr6BzY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjFRfcympcilpaWhoaGh
+dVVQnXl5+voJNjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2MVGlqqWmpaWloaGh
+oXmdnZ15+vpeNjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYtfcilpaWhoaGh
+oZ2dnXl5+tFeNjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2MVWlpaWhoaGh
+nZ2dnXl5+vYyNTY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjJRpaWloaGh
+oZ2deZ15+vY2MjE2NTY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2UaGhoaGh
+oZ2dnXl5+vZaMQ4xMjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NlChoaGh
+oZ2dnXl5CNGGDTEOMTIxNjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2MVGhoaGd
+nZ2deZ15CPb/MQ0xDTEOMTEyNjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYxUaGhoaGh
+nZ2dnXl5CP/21A0NDQ0xDjENMTI2NjY2NjY2NjY2NjY2NjY2NjY2NjEoeXl1dHV0
+UVBRUVFVCP///4YNDQ0NMQ0yMQ4xNjU2NjY2NjY2NjY2NjY2NjY2NjY2MjYyNjI2
+9fHx+vr6Xv//9vaGMQ0NDQ0xDTEyMTI2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2
+DfHx+vr6Mfb////2r1oNDQ0NDQ0xDTIxMjI2NjY2Nl46NjY2NjY2NjY2NjY2NjY2
+DfHx+vr68a////b/9vavXjENDQ0NDQ0xDTEyNjZeXl5eNjo2NjY2NjY2NjY2NjY2
+DfHx+vr68V7/////9v/20a8I914HNgc2Wl5eXl9eXl5eOjY2NjY2NjY2NjY2NjY2
+DfHx+vr68fWz//////b2r/avr6+vCAkJCQmGCV5eXl5eXjY2NjY2NjY2NjY2NjY2
+DfHx+vr68fFe///////29vav9q+vr9QICQkJhgleXl5eXjpeNjY2NjY2NjY2NjY2
+DfHx+vr68fE2Cf//////9tH2r/avr9TUCQkJCYYJXl5eXl46WjY2NjY2NjY2NjY2
+DfHx+vr68fE2Ngn2////9v/29q/2r6/UCAkJCQmCXl9eXl5eOjo2NjY2NjY2NjY2
+DfHx+vr68fE2NjYJ//////b2r/avr6+v1AkJCQmGCV5eXl5eXjY2NjY2NjY2NjY2
+DfHx+vr68fE2NjY2Xq//9v/2//av9q+vr9QICQkJhgleXl5eXjo2NjY2NjY2NjY2
+DfHx+vr68fU2NjY2NjYJr/b29tH2r/avr9TUCQkJCYYJXl5eNjY2NjY2NjY2NjY2
+9fHx+vr68fU2NjY2NjY2NgnU///29q+vr6/UCAkJCQleXjY2NjY2NjY2NjY2NjY2
+9fH6+vr68fE2NjY2NjY2NjY2Ol4Jr9T2r6+vCQleXjo2NjY2NjY2NjY2NjY2NjY2
+8fH6+vr69fEONjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYO
+8fX6+vr6+vH1NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2Njb1
+8fr6+vr6+vHxEjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NhLx
+8fr6+vr6+vrx9TY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NvXx
++vr6+vr6+vr18fU2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY29fH1
++vr6+vr6+vr69fH1EjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NhL18fX6
++vr6+vr6+vr6+vXx8fUNEhISNhISNhISNhISNhISNhISNhISNhISNhIN9fHx9fr6
++vr6+vr6+vr6+vox8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fEx+vr6
++vr6+vr6+vr6+vr6+vrx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6////////AAD///////8AAP///////wAA////////AAD//wA///8AAP/4
+AAH//wAA/8AAAD//AAD/AAAAD/8AAP4AAAAD/gAA+AAAAAD8AADwAAAAADgAAOAA
+AAAAEAAA4AAAAAAAAADAAAAAAAAAAMAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAA
+AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAA
+AAAABwAAAAAAAAAHAAAAAAAAAAcAAAAAAAAABwAAAAAAAAAHAAAAAAAAAAcAAAAA
+AAAABwAAAAAAAAAHAAAAAAAAAAcAAAAAAAAABwAAAAAAAAAHAAAAAAAAAA8AAAAA
+AAAADwAAAAAAAAAPAACAAAAAAB8AAIAAAAAAHwAAwAAAAAA/AADAAAAAAD8AAOAA
+AAAAfwAA8AAAAAD/AAD4AAAAAf8AAP8AAAAP/wAA////////AAD///////8AAP//
+/////wAAKAAAACAAAABAAAAAAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAIAAAIAAAACAgACAAAAAgACAAICAAACAgIAAwNzAAPDKpgCqPyoA/z8qAABf
+KgBVXyoAql8qAP9fKgAAfyoAVX8qAKp/KgD/fyoAAJ8qAFWfKgCqnyoA/58qAAC/
+KgBVvyoAqr8qAP+/KgAA3yoAVd8qAKrfKgD/3yoAAP8qAFX/KgCq/yoA//8qAAAA
+VQBVAFUAqgBVAP8AVQAAH1UAVR9VAKofVQD/H1UAAD9VAFU/VQCqP1UA/z9VAABf
+VQBVX1UAql9VAP9fVQAAf1UAVX9VAKp/VQD/f1UAAJ9VAFWfVQCqn1UA/59VAAC/
+VQBVv1UAqr9VAP+/VQAA31UAVd9VAKrfVQD/31UAAP9VAFX/VQCq/1UA//9VAAAA
+fwBVAH8AqgB/AP8AfwAAH38AVR9/AKoffwD/H38AAD9/AFU/fwCqP38A/z9/AABf
+fwBVX38Aql9/AP9ffwAAf38AVX9/AKp/fwD/f38AAJ9/AFWffwCqn38A/59/AAC/
+fwBVv38Aqr9/AP+/fwAA338AVd9/AKrffwD/338AAP9/AFX/fwCq/38A//9/AAAA
+qgBVAKoAqgCqAP8AqgAAH6oAVR+qAKofqgD/H6oAAD+qAFU/qgCqP6oA/z+qAABf
+qgBVX6oAql+qAP9fqgAAf6oAVX+qAKp/qgD/f6oAAJ+qAFWfqgCqn6oA/5+qAAC/
+qgBVv6oAqr+qAP+/qgAA36oAVd+qAKrfqgD/36oAAP+qAFX/qgCq/6oA//+qAAAA
+1ABVANQAqgDUAP8A1AAAH9QAVR/UAKof1AD/H9QAAD/UAFU/1ACqP9QA/z/UAABf
+1ABVX9QAql/UAP9f1AAAf9QAVX/UAKp/1AD/f9QAAJ/UAFWf1ACqn9QA/5/UAAC/
+1ABVv9QAqr/UAP+/1AAA39QAVd/UAKrf1AD/39QAAP/UAFX/1ACq/9QA///UAFUA
+/wCqAP8AAB//AFUf/wCqH/8A/x//AAA//wBVP/8Aqj//AP8//wAAX/8AVV//AKpf
+/wD/X/8AAH//AFV//wCqf/8A/3//AACf/wBVn/8Aqp//AP+f/wAAv/8AVb//AKq/
+/wD/v/8AAN//AFXf/wCq3/8A/9//AFX//wCq//8A/8zMAP/M/wD//zMA//9mAP//
+mQD//8wAAH8AAFV/AACqfwAA/38AAACfAABVnwAAqp8AAP+fAAAAvwAAVb8AAKq/
+AAD/vwAAAN8AAFXfAACq3wAA/98AAFX/AACq/wAAAAAqAFUAKgCqACoA/wAqAAAf
+KgBVHyoAqh8qAP8fKgAAPyoAVT8qAPD7/wCkoKAAgICAAAAA/wAAAAAAAP//AP8A
+AAD/AP8A//8AAP///wD6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+nlRUVFRUXl5
++vr6+vr6+vr6+vr6+vr6+vr6+vr6eXl1dXmdeZ2dnZ15eVFR+vr6+vr6+vr6+vr6
++vr6eXV1dXV1eXmdnZ2hoaGhoaF5Ufr6+vr6+vr6+vr6UXl5UVFVMTFVUVF5oaGh
+oaGlpaWheVH6+vr6+lH6+lF5VTY2NjY2NjY2NjYxUX2lpaWlpaWhoXlR+vpRUfr6
+fTY2NjY2NjY2NjY2NjY2NlWhpaalpaWhoXlRUXlR+l42NjY2NjY2NjY2NjY2NjY2
+NjZVpsilpaGhoZ15nVH6XjY2NjY2NjY2NjY2NjY2NjY2NjYxfcilpaGhoZ2dUfo2
+NjY2NjY2NjY2NjY2NjY2NjY2NjY2VaWloaGhnZ1R9loxNjY2NjY2NjY2NjY2NjY2
+NjY2NjY2VaGhoZ2dnVH/Xg0xMjI2NjY2NjY2NjY2NjY2NjY2NjYxoaGhnZ2dUfav
+DQ0xDTIxNjY2NjY2NjY2NjY2NjY2B52hoaGdnZ1R//+GDQ0NMQ4xMjU2NjY2NjY2
+NjY2NjYxMTExMS1RUVH2//+GMQ0NDTENMjI2NjY2NjY2NjY2NjY2NjY29fr6+oL/
+//avWg0NDQ0NDTEyNjZeOjY2NjY2NjY2Njb1+vr6Df////az0QheXl5eWl5eXl5e
+OjY2NjY2NjY2NvX6+vr1Cf////b2r6+v1AgJCQleXl5eOjY2NjY2NjY29fr6+vU6
+r/////av9q+v1AkJhl5eXl5eNjY2NjY2Njb1+vr69TY6r/////av9q+vCAkJCV5e
+Xl5eOjY2NjY2NvX6+vr1NjY2Cf////av9q/UCAkJCV5eXl42NjY2NjY29fr6+vU2
+NjY2Xgn2//b2r6/UCQkJCV46NjY2NjY2Njb1+vr69TY2NjY2NjZeCdTUCQkJXl42
+NjY2NjY2NjY2NvX6+vr1DjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYO9fr6+vr1
+NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NvX6+vr6+vX1NjY2NjY2NjY2NjY2NjY2
+NjY2NjY2Njb19fr6+vr6+vX1NjY2NjY2NjY2NjY2NjY2NjY2NjY29fX6+vr6+vr6
++vX19fX19fX19fX19fX19fX19fX19fX1+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
++vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6////////////wD///gAD//gA
+AP/gAAA+wAAADMAAAACAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAA
+AAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAAB4AAAA+AAAAPwAAAH+AA
+AD////////////////8oAAAAEAAAACAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADA3MAA8MqmAKo/
+KgD/PyoAAF8qAFVfKgCqXyoA/18qAAB/KgBVfyoAqn8qAP9/KgAAnyoAVZ8qAKqf
+KgD/nyoAAL8qAFW/KgCqvyoA/78qAADfKgBV3yoAqt8qAP/fKgAA/yoAVf8qAKr/
+KgD//yoAAABVAFUAVQCqAFUA/wBVAAAfVQBVH1UAqh9VAP8fVQAAP1UAVT9VAKo/
+VQD/P1UAAF9VAFVfVQCqX1UA/19VAAB/VQBVf1UAqn9VAP9/VQAAn1UAVZ9VAKqf
+VQD/n1UAAL9VAFW/VQCqv1UA/79VAADfVQBV31UAqt9VAP/fVQAA/1UAVf9VAKr/
+VQD//1UAAAB/AFUAfwCqAH8A/wB/AAAffwBVH38Aqh9/AP8ffwAAP38AVT9/AKo/
+fwD/P38AAF9/AFVffwCqX38A/19/AAB/fwBVf38Aqn9/AP9/fwAAn38AVZ9/AKqf
+fwD/n38AAL9/AFW/fwCqv38A/79/AADffwBV338Aqt9/AP/ffwAA/38AVf9/AKr/
+fwD//38AAACqAFUAqgCqAKoA/wCqAAAfqgBVH6oAqh+qAP8fqgAAP6oAVT+qAKo/
+qgD/P6oAAF+qAFVfqgCqX6oA/1+qAAB/qgBVf6oAqn+qAP9/qgAAn6oAVZ+qAKqf
+qgD/n6oAAL+qAFW/qgCqv6oA/7+qAADfqgBV36oAqt+qAP/fqgAA/6oAVf+qAKr/
+qgD//6oAAADUAFUA1ACqANQA/wDUAAAf1ABVH9QAqh/UAP8f1AAAP9QAVT/UAKo/
+1AD/P9QAAF/UAFVf1ACqX9QA/1/UAAB/1ABVf9QAqn/UAP9/1AAAn9QAVZ/UAKqf
+1AD/n9QAAL/UAFW/1ACqv9QA/7/UAADf1ABV39QAqt/UAP/f1AAA/9QAVf/UAKr/
+1AD//9QAVQD/AKoA/wAAH/8AVR//AKof/wD/H/8AAD//AFU//wCqP/8A/z//AABf
+/wBVX/8Aql//AP9f/wAAf/8AVX//AKp//wD/f/8AAJ//AFWf/wCqn/8A/5//AAC/
+/wBVv/8Aqr//AP+//wAA3/8AVd//AKrf/wD/3/8AVf//AKr//wD/zMwA/8z/AP//
+MwD//2YA//+ZAP//zAAAfwAAVX8AAKp/AAD/fwAAAJ8AAFWfAACqnwAA/58AAAC/
+AABVvwAAqr8AAP+/AAAA3wAAVd8AAKrfAAD/3wAAVf8AAKr/AAAAACoAVQAqAKoA
+KgD/ACoAAB8qAFUfKgCqHyoA/x8qAAA/KgBVPyoA8Pv/AKSgoACAgIAAAAD/AAAA
+AAAA//8A/wAAAP8A/wD//wAA////APr6+vr6+vr6+vr6+vr6+vr6+vr6+nl5eXn6
++vr6+vr6+vp5UUxRdZ2ddXl5+vr6+vpRLTY2NgctUZ3DnXV1+kyCMjY2NjY2NjYx
+UZ3DnVFMgjY2NjY2NjY2NjYtncPDdYYNMjY2NjY2NjY2NinDw3X/Xg0NMjY2NjY2
+NjYtVVF5r/+GBw0NMTZeNjY2Njb1+jb///b2rwkJXl42NjY29foNCf//r6/UCV5e
+XjY2NvX69TZeCf/2r9QJXjY2Njb1+vU2NjY2Xl46NjY2NjY29fr19TY2NjY2NjY2
+NjY29fX6+vX19fX19fX19fX19fX6+vr6+vr6+vr6+vr6+vr6+vr//zY2+H82NsAP
+NjaAAjY2AAA2NgAAyKUAAKGhAACdUQABNjYAATY2AAE2NgABNjYAATY2AAF9yIAD
+oaH//51RKAAAADAAAABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAHAAAACwAAAAwAAAAJAAAAAwAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAIAAAAKAAAAFAAAAB8AAAAnAAAALQAAADQAAAA+AAAARgAAAEcAAABBAAAANQAA
+AC4AAAArAAAAIwAAABoAAAAQAAAABwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAJAAAAGQAA
+ACsAAABBAAAAWQAAAG4AAAB/AAAAiwAAAJEAAACXAAAAmgAAAJsAAACYAAAAkgAA
+AI4AAACGAAAAdwAAAGUAAABSAAAAPQAAACoAAAAbAAAADQAAAAQAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACgAAAB8AAAA+AAAAYgAA
+AIEAAACWAAAApAAAAK8AAAC3AAAAvQYGFcsHCBzPBwgczwcIHM8AAAC/AAAAvwAA
+AL4AAAC7AAAAswAAAKoAAACgAAAAlAAAAIAAAABnAAAASgAAAC4AAAAXAAAACQAA
+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAaAAAAPgAAAGoAAACQAAAAqQYH
+FsUMDi7bEhRE6x8kZfMlK3j/LjaL/y45jP8uO43/LzyO/y8/kP8wQZH/LT6L/yMv
+c/saIVjvDxE54wsMKdcEBA/HAAAAvgAAALcAAACrAAAAmgAAAIEAAABfAAAAPQAA
+AB8AAAAKAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAACYAAABcAAAAjgQFELYSFEDhJit19zI6
+lP89Rqv/Qky2/0JMtv9DUbr/RFS8/0RYvv9FXcH/RmHE/0dlxv9Iasn/SG3L/0lw
+zv9Kc9D/S3fU/z9juf8yTJv/IzJz9w8ROeMJCiPTAAAAvgAAALYAAACnAAAAjwAA
+AGoAAAA/AAAAHAAAAAcAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAOAAAABwAA
+AAAAAAAAAAAAAAAAAAAAAAAHAAAAKQAAAGcFBRGqHSNa5TZAm/9CTLb/Qky2/0JM
+tv9CTLb/Qky2/0NPuP9DUrr/RFe9/0VcwP9GYcP/R2XG/0hqyf9Jbcz/SXDO/0t1
+0/9Metf/TX7a/1CB2/9UhNz/Vobc/1J/1P8/Xqz/IS1r9w4PNN8EBA/HAAAAuwAA
+AKwAAACPAAAAZAAAADYAAAATAAAABAAAAAAAAAAAAAAABwAAACkAAAA9AAAAGgAA
+AAAAAAAAAAAAAAAAAAYAAAAmAAAAZxYcSdA7Tqj/RFa8/0JOt/89Rqv/OECf/y00
+if8tNIn/LTSJ/y02iv8uOIv/NEKZ/zpNqP9HZMX/SGnI/0hsy/9JcM7/S3bT/0x8
+2f9PgNv/VYXc/1mI3f9ci93/Xoze/16M3v9ejN7/XIvd/0xzxP8vQ4v/ERM/5wQE
+D8cAAAC6AAAAqAAAAIQAAABQAAAAIAAAAAYAAAAHAAAAKQAAAGgAAABxAAAAKwAA
+AAAAAAAAAAAAAQAAABkAAABbJzZz2kRgv/89Ua7/RkaA/2FSZ/95YFz/jG5c/6B8
+XP+zilz/s4pc/6B8XP+Mblz/g2dc/2ZTXP9IPlv/Nz13/zBFlP8+XbP/THzZ/1CA
+2/9Xh9z/XYzd/2GP3v9mk+D/aJXg/2iV4P9oleD/ZpPg/2GP3v9ci93/T3nM/y9D
+i/8PETnjAgIHwgAAALUAAACXAAAAZAAAADQAAAAzAAAAaBETQtwAAACLAAAALwAA
+AAAAAAAAAAAACwAAAEAoPHnUSWS2/2hed/+gfFz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/6B8XP9vWVz/ODZj/zNK
+k/9Vfs3/ZJHf/2qW4f9umeL/cJzi/3Kd4v9wnOL/bZnh/2uX4f9lkt//Xo3e/1aG
+3P9GbsP/IC1v+wkKI9MAAAC6AAAApAAAAIQAAACAFBhJ3CMqdP8AAACPAAAALwAA
+AAAAAAAEAAAAKCc7dLlbaJ3/oHxc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/6B8
+XP9cTFv/NkF9/1t9wf93oeP/e6Tk/36m5f98peT/eKLk/3Gd4v9rl+H/ZJHf/1yL
+3f9Vhdz/TX3a/zJJl/8PETnjAAAAvQAAALYUGEfjPE+t/y45jP8AAACPAAAALwAA
+AAAAAAATSEI/aWZjd/myilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/qYNc/2ZTXP88RX7/cZHM/4et5/+GrOb/gajl/3qj5P9xnOL/apbh/2GP
+3v9Xh9z/UIDb/0t51v9AYrr/GB1V8xQXRuc9U6//RVzB/y45jP8AAACPAAAALwAA
+AAMAAAArqZaA3qKBVf+ng1f/rYda/7KKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+pg1z/UkVb/0xemf+IquD/ia/n/4Go5f93oeP/bJjh/2WS
+3/9ait3/U4Pb/0x72P9Kc9H/RmnF/z9as/9HYsT/RV3B/y45jP8AAACPAAAALwAA
+AAyqo6GMsZt8/5h7Uf+cflP/ooFV/6eDV/+th1r/sopc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/4xuXP88PW3/d5bO/4Oq5v96pOT/b5vi/2iU
+4P9ci93/VITc/0x72P9Kc9H/SW/N/0hpyP9HYsT/RV3B/y46jf8AAACPAAAALwAA
+ABnq4d7rkXpU/491TP+TeE7/mHtR/5x+U/+igVX/p4NX/62HWv+yilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+pg1z/UkVb/1Rrqf97pOT/cJzi/2iV
+4P9ejN7/VITc/0x72P9Kc9H/SW/N/0hpyP9HZMX/RV3B/y46jf8AAACPAAAAL42F
+fVv47+z/g21G/4ZwSP+Kckr/j3VM/5N4Tv+Ye1H/nH5T/6KBVf+mg1f/rIZZ/7GJ
+W/+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/29ZXP88TY7/b5ri/2aT
+4P9bit3/VITc/0x72P9Kc9H/SW/N/0hpyP9HYsT/RV3B/y45jP8AAACPAAAAL8nB
+vKL58O7/g3FN/35qRP+CbUb/hm9I/4pySv+OdUz/kXdO/5d6UP+cfVL/oYBV/6WD
+V/+rhln/sYlb/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP95YFz/N0qN/2OR
+3/9aid3/UoLb/0x61/9KctD/SW3M/0hoyP9HYsT/RV3B/y45jP8AAACPAAAAL+vm
+5Mv58vD/nY91/3ZlP/96aEL/fWpE/4FsRv+Gb0j/iXJJ/451TP+Rd07/l3pQ/5x9
+Uv+hgFX/pYNX/6uGWf+xiVv/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/eWBc/zdN
+lP9Xh9z/T3/b/0t51v9Jcc//SGzL/0dnx/9GYcP/RVzA/y45jP8AAACPAAAAL8rB
+tv/68/H/xbus/29gPP9yYz7/dmU//3poQv99akT/gWxG/4ZvSP+Jckn/jnVM/5F3
+Tv+XelD/nH1S/6GAVf+lg1f/q4ZZ/7GJW/+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/V0xk/010
+xP9UhNz/THzZ/0t10v9JcM7/SGrJ/0dlxv9GX8L/RVq//y45jP8AAABrAAAAI8vC
+uP/79fP/+fPx/3puT/9sXjr/b2A8/3JjPv92ZT//emhC/31qRP+BbEb/hm9I/4ly
+Sf+OdUz/kXdO/5d6UP+cfVL/oYBV/6WDV/+rhln/sYlb/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP9XTGT/T3XF/1WF
+3P9Nftr/S3jV/0lxz/9Jbcz/SGnI/0djxf9FXcH/RFi+/y44jP8AAAAjAAAAC8vD
+uf/89vX/+/Xz/97Wzv9lWTf/aFs4/2xeOv9vYDz/cmM+/3ZlP/96aEL/fWpE/4Fs
+Rv+Gb0j/iXJJ/451TP+Rd07/l3pQ/5x9Uv+hgFX/pYJW/6uGWf+wiFv/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/1JFW/8hKWv/KDZ7/yY1
+e/8lNHv/JTF5/yQweP8kL3f/JC52/yQtdf8jLHX/Iyp0/x0iZ/8AAAAAAAAAAMzG
+u//8+Pf/+/b0//v08v+/t6r/Ylc1/2VZN/9oWzj/bF46/29gPP9yYz7/dmU//3po
+Qv99aUP/gWxG/4VvR/+JcUn/jXRL/5F2Tf+WelD/mn1S/59/VP+lglb/qYVY/7CI
+W/+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAACPAAAALwAAAAAAAAAAAAAAAJuR
+ff/++vn//Pf2//v19P/69PL/3NXN/3JpS/9iVzX/ZFk2/2hbOP9rXTr/bl87/3Ji
+Pf91ZT//eGdB/31pQ/+AbEX/hW9H/4hxSf+NdEv/kXZN/5Z6UP+afVL/n39U/6iF
+Wv+1jmL/s4pd/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAACPAAAALwAAAAAAAAAAAAAAAF1P
+MP/+/Pz//fr5//z39v/79fP/+vPx/+/o4/+so5H/aV9A/2FWNf9kWTb/Z1s4/2td
+Ov9uXzv/cmI9/3VlP/94Z0H/fWlD/4BsRf+Fb0f/iHFJ/410S/+XfFP/so9n/7yV
+bv+5kWj/to5i/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAACPAAAALwAAAAAAAAAAAAAAADgm
+AP/a1s///vz7//35+P/89/X/+/Xz//ny8P/58e7/7+bh/760pv+PhW3/al8//2RZ
+Nv9nWzj/a106/25fO/9yYj3/dWU//3hnQf+Cbkn/noRh/7WWdP/Gon//w516/7+Z
+c/+7lG3/uJBm/7WNYf+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAACPAAAALwAAAAAAAAAAAAAAADgm
+AP92alD///7+//77+v/8+Pf//Pb1//v08v/58vD/+fDu//jv7P/37er/9Onj/97R
+xf/Juqn/xrSi/8SwnP/DrZb/waqR/8qwlv/TtZv/z6+U/8yrjf/IpoX/xaB+/8Kc
+eP+/mXL/u5Rs/7iQZf+0jF//s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAACPAAAALwAAAAAAAAAAAAAAADgm
+AP84JgD/7OLW///+/f/++/r//Pf2//v29P/69PL/+fLw//nw7f/47uv/9+3q//Lm
+4P/u39b/6dfM/+XRw//hyrn/3sWy/9vBq//WuqH/0rOZ/8+ukv/Lqov/yKWE/8Sf
+ff/Bm3b/vpdw/7qTa/+3j2T/tIte/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAACPAAAALwAAAAAAAAAAAAAAADgm
+AP84JgD/uJFm//r49f/+/fz//vr5//z39v/79fT/+vPx//ny7//58O3/9+7r//fs
+6f/x5d7/7N3T/+jWyv/l0MH/4Mm4/93EsP/Zv6j/1bmg/9GymP/OrZH/yqmJ/8ek
+gv/En3z/wJp1/72Wb/+6kmn/to5j/7OKXf+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAACPAAAALwAAAAAAAAAAAAAAADgm
+AP84JgD/s4pc/8Gge//6+PX//vz7//35+P/89/X/+/Xz//nz8f/58e//+e/s//ft
+6v/26+f/8OTc/+vb0P/n1Mf/5M6//+DItv/dw67/2L2m/9S3nv/RsZf/zayQ/8mn
+h//Go4H/w557/8CadP+8lW7/uZFn/7aNYf+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAACOAAAALgAAAAAAAAAAAAAAADgm
+AP84JgD/s4pc/7OKXP/BoHv/+vf1//77+v/9+Pf//Pb1//v18//58vD/+fHu//jv
+7P/37er/9erl/+/i2f/q2s//5tLF/+PNvf/fx7X/3MKt/9e8pP/TtZz/0LCV/82s
+jv/Ipob/xaF//8Kdef+/mXP/u5Rs/7iQZv+1jF//s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAACGAAAAKwAAAAAAAAAAAAAAADgm
+AP84JgD/s4pc/7OKXP+zilz/uJFm/+zh1f/++/r//Pj3//v29P/79PL/+fLw//nw
+7v/47uv/9+3q//Pn4v/v4dj/6tjN/+bRxP/iy7r/38az/9vBq//Wu6P/0rSa/8+v
+lP/Mq43/yKaE/8Wgff/CnHf/vphx/7iQZv+zil3/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/OCYA/zgmAP8AAAB5AAAAJAAAAAAAAAAAAAAAADgm
+AP84JgD/s4pc/7OKXP+zilz/s4pc/7OKXP/PtZj/9Ozm//z39v/79fT/+vTy//ny
+7//58O3/9+7r//ft6v/y5t//7d7V/+nXzP/l0MH/4cq5/97Esf/awKr/1rqh/9Gz
+mf/OrpH/y6mL/8elg//CnXj/to5i/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+cd0v/OCYA/zYkAPoAAABoAAAAHAAAAAAAAAAAAAAAADgm
+APA4JgD/pH5R/7OKXP+zilz/s4pc/7OKXP+zilz/uJFm/8+zlv/z6eP/+/Xz//rz
+8f/58e//+fDt//ft6v/37On/8OTc/+zc0v/o1sr/5M/A/+DJuP/dw6//2b6n/9W4
+oP/Rspf/yaaH/7uVbP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+UcUX/OCYA/y4fAOcAAABSAAAAEAAAAAAAAAAAAAAAADcm
+AME4JgD/hWU6/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/wZ55/9e/
+p//o2Mv/9erl//nv7P/37er/9uvn//Di2v/r29D/59PH/+POv//dw7D/z7GU/8Og
+e/+3kGT/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP92WC7/OCYA/yocANQAAAA3AAAABgAAAAAAAAAAAAAAADgm
+AIA4JgD/XkUd/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP/Eo4D/xKOA/8Ohff/Cn3r/wJ14/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP9PORH/OCYA/yEXAKEAAAAdAAAAAQAAAAAAAAAAAAAAADgm
+ACA4JgD/OCYA/6R+Uf+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/6R+Uf84JgD/OCYA/wwIAEsAAAAKAAAAAAAAAAAAAAAAAAAAAAAA
+AAA4JgDAOCYA/2ZMI/+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/15FHf84JgD/LR8AxAAAABwAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+AAA4JgBAOCYA/zgmAP+Naz//s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/jWs//zgmAP84JgD/GREARwAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAOCYAjzgmAP9ALAb/nHdL/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+cd0v/QCwG/zgmAP8wIQCmAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAADgmAM84JgD/QCwG/31eNP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/41r
+P/9ALAb/OCYA/zYlANcAAAAKAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAADgmABA4JgCvOCYA/zgmAP9HMwz/dlgu/5RxRf+UcUX/lHFF/5Rx
+Rf+UcUX/lHFF/5RxRf+UcUX/lHFF/5RxRf+UcUX/lHFF/5RxRf+UcUX/lHFF/5Rx
+Rf+UcUX/lHFF/5RxRf+UcUX/lHFF/5RxRf+UcUX/lHFF/5RxRf99XjT/TzkR/zgm
+AP84JgD/NyUA1CkcABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAOCYAcDgmAO84JgD/OCYA/zgmAP84JgD/OCYA/zgm
+AP84JgD/OCYA/zgmAP84JgD/OCYA/zgmAP84JgD/OCYA/zgmAP84JgD/OCYA/zgm
+AP84JgD/OCYA/zgmAP84JgD/OCYA/zgmAP84JgD/OCYA/zgmAP84JgD/OCYA/zgm
+APA3JQCDAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4JgBgOCYAjzgmAL84JgC/OCYAvzgm
+AL84JgC/OCYAvzgmAL84JgC/OCYAvzgmAL84JgC/OCYAvzgmAL84JgC/OCYAvzgm
+AL84JgC/OCYAvzgmAL84JgC/OCYAvzgmAL84JgC/OCYAvzgmAL84JgCfOCYAYDgm
+ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+/////wAA////////AAD//8D///8AAP/wAAH//wAA/4AAAD//AAD+AAAAB/8AAPwA
+AAAB/wAA+AAAAAB4AADwAAAAADAAAOAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAIAA
+AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAcAAAAA
+AAAABwAAAAAAAAAHAAAAAAAAAAcAAAAAAAAABwAAAAAAAAAHAAAAAAAAAAcAAAAA
+AAAABwAAAAAAAAAHAAAAAAAAAAcAAAAAAAAABwAAAAAAAAAHAAAAAAAAAAcAAAAA
+AAAABwAAAAAAAAAPAACAAAAAAA8AAIAAAAAAHwAAwAAAAAA/AADgAAAAAD8AAOAA
+AAAA/wAA+AAAAAH/AAD+AAAAB/8AAP///////wAA////////AAD///////8AACgA
+AAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAYAAAASAAAAHwAAACcAAAAsAAAALwAA
+AC8AAAAuAAAAKAAAACEAAAAXAAAADAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA
+AA0AAAAhAAAAOQAAAFUAAABtAAAAfgAAAIkAAACOAAAAjwAAAIsAAACBAAAAcwAA
+AF8AAABIAAAAMgAAAB8AAAAPAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAfAAAARgAAAG8AAACOAAAAoQAA
+AK4AAAC2AAAAvAAAAL4AAAC/AAAAvQAAALgAAACxAAAApgAAAJoAAACIAAAAbQAA
+AEwAAAAuAAAAFgAAAAcAAAABAAAAAAAAAAIAAAAGAAAABAAAAAEAAAAAAAAAAAAA
+AAAAAAAJAAAAKwEBAmMAAACSBQUPtg0PLtUcIFrsKC958y85jP0wO47/MD6Q/zFC
+k/8vQ4v0JDJw7xQaQd4ICB7QAgIGwQAAAbkAAACtAAAAmwAAAH8AAABXAAAALgAA
+ABAAAAAEAAAAEwAAACcAAAAcAAAABgAAAAAAAAAAAAAABgAAACUCAgVmDxQtsyEn
+aOs5QaX/QEq2/0FLt/9ATbf/QlW7/0VdxP9IaMr/Sm/P/0x21f9Of93/UYXh/1B9
+1v9BX6f8IC1f6Q4UK9EDBAjAAQECtgAAAJ0AAAB2AAAARgAAACoAAABGAAABZAAA
+ADsAAAALAAAAAAAAAAEAAAAZCxEhYx8oYNRHV6v/UVip/0xLjv9HRH//RUF7/0VD
+fP9IS4b/S1aa/0xltP9GasH/RnbT/1WH4P9fjuD/YZDg/2aW5f9kleb/VHzK/zBE
+hPYQFTTYAwMKwQAAAK4AAACNAAAAdggJHaIEBRCaAAAASQAAAA0AAAAAAAAACgwU
+I0Q1S4fLZGud/4NtbP+feFH/u49V/8OUV//Ck1f/wpRX/7yPVv+lfFP/hGVU/2JZ
+bv9TYJT/Xn/C/16J1f9zoOf/dKDk/3Kd4v9tmuX/Zpfo/1J/0/8jM27uCg0izgAA
+ALYGBxW8JSx1+goLJrgAAABJAAAADQAAAAASFR0fRVJyoX9zef+4iVH/vpBY/7eN
+XP+0i1z/s4pc/7OKXP+zilz/tItc/7aNXP+6j1v/v5FY/7GEU/+CZFf/aWuJ/26H
+u/95ouH/hrDt/3eh4/9ql+D/YJHj/1KG4v80UZ76ERY83TBBj/c/UbD/CgsktwAA
+AEkAAAANAAAAAnp1bkyujWT8pn9M/6+JW/+yiVz/tIpd/7SKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/tYtc/7qPWv+xhVT/hWhb/3V4lP92l9L/ga3t/3Of
+5P9kkd7/U4Xd/05+3f9BYLr/SmbK/z1Rrv8KCyS3AAAASQAAAA1LSEcKx766poty
+SP+UeE7/nH5T/6WDV/+th1r/s4lc/7SKXf+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7WMXP+5jVn/pHxW/3lrc/9qhLz/cKDp/2aU4f9ThNz/THrX/0pv
+z/9IZcj/PVCu/woLJLcAAABKAAAADVhWVRHs5N/6dF40/4ZvR/+Mc0v/lHlP/5x9
+U/+lglf/rIZa/7OJXf+0i1z/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+3jVz/sIVV/4VuZf9mfbP/X4/h/1KE3P9KeNX/SWzL/0dlxv89UK3/CgsmrQAA
+AEMAAAAMxcC/M/Lr5/+HeVj/dWM8/39rRP+Gb0f/jHNK/5J4Tv+afFL/o4FW/6uG
+Wv+ziV3/tItc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+1jFz/uYtU/3hp
+b/9LcsT/UYTh/0l10v9Ia8r/R2PF/zxNq/8NDjCHAAAAKQAAAAfe3t5O+fPw/761
+pf9ZSiP/c2M//3hnQf9/a0T/hm5I/4tzS/+Sd07/mnxS/6KBVv+qhVn/sopc/7SL
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7eLWv+KcWT/UGyv/06G6f9Jf+T/R3LZ/0lt
+1/9MaM//P1Gy/xMWSF4AAAALAAAAAZqShE//////8erm/5uRe/9XSiT/bV06/3Fh
+Pv92ZkD/fWlC/4RtRv+Lckr/kXdO/5h8Uf+hgFb/qYVZ/7KKW/+zilz/s4pc/7OK
+XP+1i1z/qIJc/3RdXf9aT2b/X1Rq/19Uaf9YTmT/Mi5D/xcaSdkXHFe0FRhQMAAA
+AAAAAAAANygIT//+/f/++vn/8uzn/6SciP9ZTyz/ZFc0/2tdOf9wYT3/dmU//3xp
+Qv+EbUb/inFJ/491Tf+Ye1H/pYNY/7aNYv+zilv/s4pc/7OKXP+zilz/sYlc/7GJ
+XP+xiVz/tIxf/6aAU/9MNQT/BgYSpAEBAz4DBA0HAAAAAAAAAAA0JARPvbiq////
+///8+Pb//Pb0/+HY0f+bknz/bGJD/2VZOP9tXjz/cmM//3dnQf99akP/mH5b/7GS
+bf/Bm3b/upNq/7WNYP+zilv/s4pc/7OKXP+zilz/s4pc/7OKXP+2jV//p4FT/0k0
+Df8MCACjAAAAPAAAAAYAAAAAAAAAADIiAE9VRSb///////78/P/79vT//Pbz///3
+9f//+vn/59zU/9DAsP/Ouqj/zbag/9u9pv/Us5n/zKmL/8Whfv+/mXT/upNp/7WM
+Xv+zilz/s4pc/7OKXP+zilz/s4pc/7aNX/+ngVP/STQN/wsIAKMAAAA8AAAABgAA
+AAAAAAAAMiIAT0AsCf/ZvZ7////////8/P/79fT/+vPw//jw7f/57uz/9Obh/+va
+zv/kzb3/3MKv/9a5oP/Pr5P/yaiH/8OffP+/mHH/uZFn/7OLXf+zilz/s4pc/7OK
+XP+zilz/to1f/6eBU/9JNA3/CwgAowAAADwAAAAGAAAAAAAAAAA0IwBLQS0G/76T
+Zv/eyrX/+/n2///////89vT/+fLv//jw7f/26+f/7uDZ/+jVyP/hyrn/27+q/9S2
+nf/OrpH/yKaE/8KdeP+9l3D/uJBl/7KJW/+zilz/s4pc/7OKXP+2jV//p4FT/0k0
+Df8MCACfAAAAOAAAAAUAAAAAAAAAADcmAEtBLgf/u5Bh/7CFVf/NspP/8Ofe//z4
+9////Pz/+/Tz//nx7v/16ub/7N3T/+bTxf/gxrb/2b2o/9S1m//OrZH/yKWE/76Y
+cv+3jmP/s4pb/7OKXP+zilz/s4pc/7aNX/+ngFP/STQN/w0JAI0AAAArAAAABAAA
+AAAAAAAAOCYAKEAsBv+rg1b/tItc/6+EVP+5k2j/1Lyj/+bXyP/y59//+vPx//33
++P/58O7/8OLb/+rWzP/hybj/1Lee/8imhP++mXL/to9j/7KJW/+zilz/s4pc/7OK
+XP+zilz/uI9g/5h0R/9FMAn/DwoAcAAAABkAAAABAAAAAAAAAAA4JgAGPSoD/4dn
+O/+6kGH/s4pc/7GHV/+vhFP/t5Bl/8Wmgv/PtJf/07ie/9O5n//Pspb/y62P/8el
+hf+/mnP/to9i/7KIWf+yiVr/s4pc/7OKXP+zilz/s4pc/7OKXP/AlGb/eFow/zUk
+A+cQCwBLAAAACgAAAAAAAAAAAAAAADgmAAM4JgChVj8X/76TZP+0i13/s4pc/7OK
+XP+yiFr/sIZW/6+EVP+vg1P/r4RT/6+FVP+whVX/sIZW/7GIWP+yiVr/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/tYxe/7WLXf9ZQRj/JxoAoQ0JAB8AAAABAAAAAAAA
+AAAAAAAAAAAAADgmACY7KAT/fF0y/7+UZf+0ilz/s4pc/7OKXP+zilz/s4pc/7OK
+XP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7SL
+Xf/Blmf/elwx/zkmAvMiFwBDAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAOCYABTgm
+AHBALQb/fl80/7+TZf++k2X/vJJj/7ySY/+8kmP/vJJj/7ySY/+8kmP/vJJj/7yS
+Y/+8kmP/vJJj/7ySY/+8kmP/vJJj/7ySY/++k2X/upBi/4VkOf9CLgj/LyAAdRgQ
+AAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCYACjgmAGs7KAL8TDcP/2FI
+Hv9kSiH/Y0kg/2NJIP9jSSD/Y0kg/2NJIP9jSSD/Y0kg/2NJIP9jSSD/Y0kg/2NJ
+IP9jSSD/ZEkg/2JIH/9PORH/OygD+TUkAGolGQADAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAADgmABs4JgBwOCYAizknAYY5JwGGOScBhjkn
+AYY5JwGGOScBhjknAYY5JwGGOScBhjknAYY5JwGGOScBhjknAYY5JwGGOScBijgm
+AHY4JgAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA/////////////////gAH//gAAH/gAAAQ4AAAAMAAAACAAAAAgAAAAIAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAA
+AAMAAAADAAAABwAAAAeAAAAPgAAAH8AAAD/wAAD///////////8oAAAAEAAAACAA
+AAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAADwAA
+AB4AAAAoAAAALgAAACsAAAAlAAAAHAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA
+AAEAAAAKAAAAJQAAAEwAAABsAAAAggAAAIsAAACHAAAAeQAAAGgAAABPAAAALgAA
+ABMAAAAGAAAAAwAAAAEAAAAHAAAAKwAAAGkAAACYAAAArQAAALgAAAC9AAAAuwAA
+ALQAAACsAAAAnQAAAH8AAABTAAAANAAAACUAAAAOAAAAFwAAAFw3NEC/NTRV6E5S
+iPhgYI//WFqM+ztEgfEqLFDmJyg92AAAAL4AAAC1AAAAnAAAAIYAAABkAAAAJAYH
+GTsvMV/cSkVs/21ebP92ZW3/Xld1/1NZl/9TZsL/Z4b2/1Zsy/88Roj4Cwwp1wAA
+ALsEBA/BAAAAiwAAAC5EP1aeg2hX/7OKXP+zilz/s4pc/7OKXP+zilz/jG5c/0dC
+b/9TZsL/Z4b2/1Zsy/8wM2HtLzJp+wAAAIYAAAArtKaR84tySv+aelD/qYRY/7OK
+XP+zilz/s4pc/7OKXP+zilz/g2dc/01YoP9nhvb/YHvl/0hXqP8AAABrAAAAHbuy
+ov9wYDz/fGhC/4tySv+aelD/qYRY/7OKXP+zilz/s4pc/7OKXP95YFz/T2G6/2eG
+9v9LXLH/AAAAUAAAABD8+Pf/kIdv/2VZN/9wYDz/fGhC/4tySv+aelD/qINX/7OK
+XP+zilz/eWBc/2ZTXP9WRlD/FhU22QAAAEcAAAAM5uPe//z39f/JwbX/mI54/4l7
+X/+VgmP/rpJy/8CbeP+2jWH/s4pc/7OKXP+zilz/lHFF/xQOALMAAABDAAAACoRu
+Tf/59vL/+/Xz//jw7f/26+f/59PF/9i8pv/Mq47/wZt3/7SLXv+zilz/s4pc/5Rx
+Rf8VDgCoAAAANAAAAAR2WC7/waB7/+ve0v/79PL/+O/s//Pn4v/kz8D/1Lef/8ej
+g/+3j2P/s4pc/7OKXP+UcUX/GhIAigAAABwAAAABaU4l77OKXP+zilz/wZ55/9K3
+nP/VvKP/0LSY/76Zcv+zilz/s4pc/7OKXP+zilz/blIo/xALADkAAAAIAAAAADgm
+AICUcUX/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/s4pc/7OKXP+zilz/nHdL/0At
+CKkAAAAIAAAAAQAAAAAAAAAAOCYAj2lOJe92WC7/dlgu/3ZYLv92WC7/dlgu/3ZY
+Lv92WC7/blIo/0QwCZ84JgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAP
+AAAAAAABAAAAGQAAIWMAAGDUAACr/wAAqf8AAI7/AAB//wAAe/8AAHz/AACG/wAB
+mv8AAbT/gAfB////0/8=
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=global.js
+Content-Type: application/x-javascript; charset=utf-8; name=global.js
+Content-Location: http://blogs.msdn.com/Utility/global.js?Version=2.1.61025.2
+Content-Transfer-Encoding: Base64
+
+ICAvKioqKioqKi8NCg0KICB2YXIgSUU0ID0gZG9jdW1lbnQuYWxsOw0KICB2YXIg
+TlM2ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQgJiYgIWRvY3VtZW50LmFsbDsN
+CiAgdmFyIGRpc2FwcGVhckRlbGF5ID0gNTAwOyAvLyBtaWxpc2Vjb25kcw0KICAg
+ICAgDQogIGZ1bmN0aW9uIER5bmFtaWNIaWRlIChub2RlLCBlKSB7DQogICAgaWYg
+KChJRTQgJiYgIW5vZGUuY29udGFpbnMoZS50b0VsZW1lbnQpKSB8fA0KICAgICAg
+ICAoTlM2ICYmIGUuY3VycmVudFRhcmdldCAhPSBlLnJlbGF0ZWRUYXJnZXQgJiYg
+IU5TNl9Db250YWlucyggZS5jdXJyZW50VGFyZ2V0LCBlLnJlbGF0ZWRUYXJnZXQg
+KSkpIA0KICAgIHsNCiAgICAgIEluaXRUaW1lciggbm9kZSApOw0KICAgIH0gDQog
+IH0gIA0KICANCiAgZnVuY3Rpb24gSGlkZU9iamVjdCAobm9kZUlEKSB7ICAgIA0K
+ICAgIHZhciBub2RlID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIG5vZGVJRCAp
+Ow0KICAgIA0KICAgIGlmICh0eXBlb2Ygbm9kZSAhPSAidW5kZWZpbmVkIikgew0K
+ICAgICAgaWYgKElFNCB8fCBOUzYpIHsNCiAgICAgICAgbm9kZS5zdHlsZS52aXNp
+YmlsaXR5ID0gImhpZGRlbiI7DQogICAgICAgIG5vZGUuc3R5bGUuZGlzcGxheSA9
+ICdub25lJzsNCiAgICAgIH0NCiAgICB9DQogIH0NCiAgDQogIGZ1bmN0aW9uIFJl
+bGVhc2VUaW1lciAobm9kZSkgeyAgICANCiAgICBpZiAodHlwZW9mIG5vZGUgIT0g
+InVuZGVmaW5lZCIpIHsNCiAgICAgIGlmICh0eXBlb2Ygbm9kZS5IaWRlVGltZXIg
+IT0gInVuZGVmaW5lZCIpIHsNCiAgICAgICAgY2xlYXJUaW1lb3V0KCBub2RlLkhp
+ZGVUaW1lciApOw0KICAgICAgfQ0KICAgIH0NCiAgfQ0KICANCiAgZnVuY3Rpb24g
+SW5pdFRpbWVyIChub2RlKSB7DQogICAgaWYgKHR5cGVvZiBub2RlICE9ICJ1bmRl
+ZmluZWQiKSB7DQogICAgICB2YXIgY2FsbEJhY2sgPSAnSGlkZU9iamVjdCggIicg
+KyBub2RlLmdldEF0dHJpYnV0ZSggJ2lkJyApICsgJyIgKSc7ICAgICAgDQogICAg
+ICBub2RlLkhpZGVUaW1lciA9IHNldFRpbWVvdXQoIGNhbGxCYWNrLCBkaXNhcHBl
+YXJEZWxheSApOw0KICAgIH0NCiAgfQ0KICAgIA0KICBmdW5jdGlvbiBOUzZfQ29u
+dGFpbnMgKGEsIGIpIHsNCiAgICB3aGlsZSAoYi5wYXJlbnROb2RlKSB7DQogICAg
+ICBpZiAoKGIgPSBiLnBhcmVudE5vZGUpID09IGEpDQogICAgICAgIHJldHVybiB0
+cnVlOw0KICAgIH0NCiAgICANCiAgICByZXR1cm4gZmFsc2U7DQogIH0NCiAgICAg
+ICAgDQogIC8qKioqKioqLw0KICAgDQogIGZ1bmN0aW9uIFRvZ2dsZVNlbmRUb0Zy
+aWVuZCgpIHsNCiAgICBzZW5kVG9GcmllbmRGb3JtID0gZG9jdW1lbnQuZ2V0RWxl
+bWVudEJ5SWQoJ1NlbmRUb0ZyaWVuZEZvcm0nKTsNCiAgICBzZW5kVG9GcmllbmRC
+dXR0b24gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnU2VuZFRvRnJpZW5kQnV0
+dG9uJyk7DQoNCiAgICBpZiAoc2VuZFRvRnJpZW5kRm9ybS5zdHlsZS52aXNpYmls
+aXR5ID09ICJoaWRkZW4iKSB7DQogICAgICBzZW5kVG9GcmllbmRGb3JtLnN0eWxl
+LnZpc2liaWxpdHkgPSAidmlzaWJsZSI7DQogICAgICBzZW5kVG9GcmllbmRGb3Jt
+LnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOw0KICAgIH0gZWxzZSB7DQogICAgICBz
+ZW5kVG9GcmllbmRGb3JtLnN0eWxlLnZpc2liaWxpdHkgPSAiaGlkZGVuIjsNCiAg
+ICAgIHNlbmRUb0ZyaWVuZEZvcm0uc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAg
+ICB9DQoNCiAgICAvL3NlbmRUb0ZyaWVuZEZvcm0uc3R5bGUubGVmdCA9IGdldHBv
+c09mZnNldChzZW5kVG9GcmllbmRCdXR0b24sICJsZWZ0IikgLSBzZW5kVG9Gcmll
+bmRGb3JtLm9mZnNldFdpZHRoICsgc2VuZFRvRnJpZW5kQnV0dG9uLm9mZnNldFdp
+ZHRoOw0KICAgIHNlbmRUb0ZyaWVuZEZvcm0uc3R5bGUubGVmdCA9IGdldHBvc09m
+ZnNldChzZW5kVG9GcmllbmRCdXR0b24sICJsZWZ0IikgLSAoc2VuZFRvRnJpZW5k
+Rm9ybS5vZmZzZXRXaWR0aCAvIDIpICsgKHNlbmRUb0ZyaWVuZEJ1dHRvbi5vZmZz
+ZXRXaWR0aCAvIDIpOw0KICAgIHNlbmRUb0ZyaWVuZEZvcm0uc3R5bGUudG9wID0g
+Z2V0cG9zT2Zmc2V0KHNlbmRUb0ZyaWVuZEJ1dHRvbiwgInRvcCIpICsgc2VuZFRv
+RnJpZW5kQnV0dG9uLm9mZnNldEhlaWdodDsNCiAgfQ0KICANCiAgZnVuY3Rpb24g
+VG9nZ2xlQWRkQ29tbWVudCgpIHsNCiAgICBjb21tZW50TWVudSA9IGRvY3VtZW50
+LmdldEVsZW1lbnRCeUlkKCdDb21tZW50TWVudScpOw0KICAgIGNvbW1lbnRCdXR0
+b24gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnQ29tbWVudEJ1dHRvbicpOw0K
+DQogICAgY29tbWVudE1lbnUuc3R5bGUubGVmdCA9IGdldHBvc09mZnNldChjb21t
+ZW50QnV0dG9uLCAibGVmdCIpOw0KICAgIGNvbW1lbnRNZW51LnN0eWxlLnRvcCA9
+IGdldHBvc09mZnNldChjb21tZW50QnV0dG9uLCAidG9wIikgKyBjb21tZW50QnV0
+dG9uLm9mZnNldEhlaWdodDsNCg0KICAgIGlmIChjb21tZW50TWVudS5zdHlsZS52
+aXNpYmlsaXR5ID09ICJoaWRkZW4iKSB7DQogICAgICBjb21tZW50TWVudS5zdHls
+ZS52aXNpYmlsaXR5ID0gInZpc2libGUiOw0KICAgICAgY29tbWVudE1lbnUuc3R5
+bGUuZGlzcGxheSA9ICdibG9jayc7DQogICAgfSBlbHNlIHsNCiAgICAgIGNvbW1l
+bnRNZW51LnN0eWxlLnZpc2liaWxpdHkgPSAiaGlkZGVuIjsNCiAgICAgIGNvbW1l
+bnRNZW51LnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQogICAgfQ0KICB9DQogIA0K
+ICBmdW5jdGlvbiBUb2dnbGVHYWxsZXJ5VGh1bWJuYWlsKHBpY3R1cmVJRCkgew0K
+ICAgIGxhcmdlVGh1bWJEaXYgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnU2Vj
+b25kYXJ5VGh1bWJEaXYnICsgcGljdHVyZUlEKTsNCiAgICBzbWFsbFRodW1iID0g
+ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ1NtYWxsVGh1bWInICsgcGljdHVyZUlE
+KTsNCg0KICAgIGlmIChsYXJnZVRodW1iRGl2LmNsYXNzTmFtZSA9PSAic2Vjb25k
+YXJ5VGh1bWJuYWlsSGlkZGVuIikgew0KICAgICAgbGFyZ2VUaHVtYkRpdi5jbGFz
+c05hbWUgPSAic2Vjb25kYXJ5VGh1bWJuYWlsUG9wdXAiOw0KICAgICAgbGFyZ2VU
+aHVtYkRpdi5zdHlsZS5sZWZ0ID0gZ2V0cG9zT2Zmc2V0KHNtYWxsVGh1bWIsICJs
+ZWZ0IikgLSAoKGxhcmdlVGh1bWJEaXYub2Zmc2V0V2lkdGggLSBzbWFsbFRodW1i
+Lm9mZnNldFdpZHRoKSAvIDIpICsgInB4IjsNCiAgICAgIGxhcmdlVGh1bWJEaXYu
+c3R5bGUudG9wID0gZ2V0cG9zT2Zmc2V0KHNtYWxsVGh1bWIsICJ0b3AiKSAgLSAo
+KGxhcmdlVGh1bWJEaXYub2Zmc2V0SGVpZ2h0IC0gc21hbGxUaHVtYi5vZmZzZXRI
+ZWlnaHQpIC8gMikgKyAicHgiOw0KICAgICAgc2V0VGltZW91dChmdW5jdGlvbigp
+IHsgbGFyZ2VUaHVtYkRpdi5zdHlsZS52aXNpYmlsaXR5ID0gInZpc2libGUiOyB9
+LCA1KTsNCiAgICB9IGVsc2Ugew0KCSAgbGFyZ2VUaHVtYkRpdi5jbGFzc05hbWUg
+PSAic2Vjb25kYXJ5VGh1bWJuYWlsSGlkZGVuIjsNCiAgICB9DQogIH0NCiAgDQog
+IGZ1bmN0aW9uIFRvZ2dsZVJhdGVNZW51KCkgew0KICAgIHJhdGVNZW51ID0gZG9j
+dW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ1JhdGVNZW51Jyk7DQogICAgcmF0ZUJ1dHRv
+biA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdSYXRlQnV0dG9uJyk7DQogICAg
+DQogICAgcmF0ZU1lbnUuc3R5bGUubGVmdCA9IGdldHBvc09mZnNldChyYXRlQnV0
+dG9uLCAibGVmdCIpOw0KICAgIHJhdGVNZW51LnN0eWxlLnRvcCA9IGdldHBvc09m
+ZnNldChyYXRlQnV0dG9uLCAidG9wIikgKyByYXRlQnV0dG9uLm9mZnNldEhlaWdo
+dDsNCg0KICAgIGlmIChyYXRlTWVudS5zdHlsZS52aXNpYmlsaXR5ID09ICJoaWRk
+ZW4iKSB7DQogICAgICByYXRlTWVudS5zdHlsZS52aXNpYmlsaXR5ID0gInZpc2li
+bGUiOw0KICAgICAgcmF0ZU1lbnUuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7DQog
+ICAgfSBlbHNlIHsNCiAgICAgIHJhdGVNZW51LnN0eWxlLnZpc2liaWxpdHkgPSAi
+aGlkZGVuIjsNCiAgICAgIHJhdGVNZW51LnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7
+DQogICAgfQ0KICAgIA0KICAgIC8vIEluaXQgYXV0b2hpZGUNCiAgICBpZiAod2lu
+ZG93LmV2ZW50KSB7DQogICAgICBldmVudC5jYW5jZWxCdWJibGUgPSB0cnVlOw0K
+ICAgIH0NCiAgICANCiAgICBSZWxlYXNlVGltZXIoIHJhdGVNZW51ICk7DQogIH0N
+CiAgDQogIGZ1bmN0aW9uIFRvZ2dsZVJhdGVQb3N0TWVudShjb250cm9sKSB7DQoJ
+cmF0ZUJ1dHRvbiA9IGNvbnRyb2wucGFyZW50Tm9kZTsNCglyYXRlTWVudSA9IHJh
+dGVCdXR0b24ubmV4dFNpYmxpbmcubmV4dFNpYmxpbmc7DQoNCglpZiAoKHJhdGVC
+dXR0b24uaWQgIT0gIlJhdGVCdXR0b24iKSB8fCAocmF0ZU1lbnUuaWQgIT0gIlJh
+dGVNZW51IikpDQoJCXJldHVybjsNCg0KICAgIHJhdGVNZW51LnN0eWxlLmxlZnQg
+PSBnZXRwb3NPZmZzZXQocmF0ZUJ1dHRvbiwgImxlZnQiKTsNCiAgICByYXRlTWVu
+dS5zdHlsZS50b3AgPSBnZXRwb3NPZmZzZXQocmF0ZUJ1dHRvbiwgInRvcCIpICsg
+cmF0ZUJ1dHRvbi5vZmZzZXRIZWlnaHQ7DQoNCiAgICBpZiAocmF0ZU1lbnUuc3R5
+bGUudmlzaWJpbGl0eSA9PSAiaGlkZGVuIikgew0KICAgICAgcmF0ZU1lbnUuc3R5
+bGUudmlzaWJpbGl0eSA9ICJ2aXNpYmxlIjsNCiAgICAgIHJhdGVNZW51LnN0eWxl
+LmRpc3BsYXkgPSAnYmxvY2snOw0KICAgIH0gZWxzZSB7DQogICAgICByYXRlTWVu
+dS5zdHlsZS52aXNpYmlsaXR5ID0gImhpZGRlbiI7DQogICAgICByYXRlTWVudS5z
+dHlsZS5kaXNwbGF5ID0gJ25vbmUnOw0KICAgIH0NCiAgICANCiAgICAvLyBJbml0
+IGF1dG9oaWRlDQogICAgaWYgKHdpbmRvdy5ldmVudCkgew0KICAgICAgZXZlbnQu
+Y2FuY2VsQnViYmxlID0gdHJ1ZTsNCiAgICB9DQogICAgDQogICAgUmVsZWFzZVRp
+bWVyKCByYXRlTWVudSApOw0KICB9DQoNCiAgZnVuY3Rpb24gVG9nZ2xlU2VhcmNo
+TWVudSgpIHsNCiAgICBzZWFyY2hNZW51ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5
+SWQoJ1NlYXJjaE1lbnUnKTsNCiAgICBzZWFyY2hCdXR0b24gPSBkb2N1bWVudC5n
+ZXRFbGVtZW50QnlJZCgnU2VhcmNoQnV0dG9uJyk7DQoNCiAgICBzZWFyY2hNZW51
+LnN0eWxlLmxlZnQgPSBnZXRwb3NPZmZzZXQoc2VhcmNoQnV0dG9uLCAibGVmdCIp
+Ow0KICAgIHNlYXJjaE1lbnUuc3R5bGUudG9wID0gZ2V0cG9zT2Zmc2V0KHNlYXJj
+aEJ1dHRvbiwgInRvcCIpICsgc2VhcmNoQnV0dG9uLm9mZnNldEhlaWdodDsNCg0K
+ICAgIGlmIChzZWFyY2hNZW51LnN0eWxlLnZpc2liaWxpdHkgPT0gImhpZGRlbiIp
+IHsNCiAgICAgIHNlYXJjaE1lbnUuc3R5bGUudmlzaWJpbGl0eSA9ICJ2aXNpYmxl
+IjsNCiAgICAgIHNlYXJjaE1lbnUuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7DQog
+ICAgfSBlbHNlIHsNCiAgICAgIHNlYXJjaE1lbnUuc3R5bGUudmlzaWJpbGl0eSA9
+ICJoaWRkZW4iOw0KICAgICAgc2VhcmNoTWVudS5zdHlsZS5kaXNwbGF5ID0gJ25v
+bmUnOw0KICAgIH0NCiAgfQ0KDQpmdW5jdGlvbiBnZXRwb3NPZmZzZXQod2hhdCwg
+b2Zmc2V0dHlwZSl7DQogIHZhciB0b3RhbG9mZnNldD0ob2Zmc2V0dHlwZT09Imxl
+ZnQiKT8gd2hhdC5vZmZzZXRMZWZ0IDogd2hhdC5vZmZzZXRUb3A7DQogIHZhciBw
+YXJlbnRFbD13aGF0Lm9mZnNldFBhcmVudDsNCiAgd2hpbGUgKHBhcmVudEVsIT1u
+dWxsKXsNCiAgICB0b3RhbG9mZnNldD0ob2Zmc2V0dHlwZT09ImxlZnQiKT8gdG90
+YWxvZmZzZXQrcGFyZW50RWwub2Zmc2V0TGVmdCA6IHRvdGFsb2Zmc2V0K3BhcmVu
+dEVsLm9mZnNldFRvcDsNCiAgICBwYXJlbnRFbD1wYXJlbnRFbC5vZmZzZXRQYXJl
+bnQ7DQogIH0NCiAgcmV0dXJuIHRvdGFsb2Zmc2V0Ow0KfQ0KDQpmdW5jdGlvbiBU
+b2dnbGVNZW51T25PZmYgKG1lbnVOYW1lKSB7DQogICAgdmFyIG1lbnUgPSBkb2N1
+bWVudC5nZXRFbGVtZW50QnlJZChtZW51TmFtZSk7DQoNCiAgICBpZiAobWVudS5z
+dHlsZS5kaXNwbGF5ID09ICdub25lJykgew0KICAgICAgbWVudS5zdHlsZS5kaXNw
+bGF5ID0gJ2Jsb2NrJzsNCiAgICB9IGVsc2Ugew0KICAgICAgbWVudS5zdHlsZS5k
+aXNwbGF5ID0gJ25vbmUnOw0KICAgIH0NCg0KfQ0KDQpmdW5jdGlvbiBPcGVuV2lu
+ZG93ICh0YXJnZXQpIHsgDQogIHdpbmRvdy5vcGVuKHRhcmdldCwgIl9DaGlsZCIs
+ICJ0b29sYmFyPW5vLHNjcm9sbGJhcnM9eWVzLHJlc2l6YWJsZT15ZXMsd2lkdGg9
+NDAwLGhlaWdodD00MDAiKTsgDQp9DQoNCmZ1bmN0aW9uIE9wZW5Qb3N0V2luZG93
+ICh0YXJnZXQpIHsgDQogIHdpbmRvdy5vcGVuKHRhcmdldCwgIl9DaGlsZCIsICJy
+ZXNpemFibGU9eWVzLHdpZHRoPTUwMCxoZWlnaHQ9NzAwIik7IA0KfQ0KDQovKg0K
+S2VlcCB0aGUgdXNlcidzIGNvb2tpZSBhbGl2ZQ0KKi8NCg0KZnVuY3Rpb24gTWFr
+ZUtlZXBBbGl2ZVJlcXVlc3QoKQ0Kew0KCWlmICghS2VlcEFsaXZlVXJsKQ0KCQly
+ZXR1cm47DQoNCglpZiAoS2VlcEFsaXZlVGltZXIgIT0gbnVsbCkNCgkJd2luZG93
+LmNsZWFyVGltZW91dChLZWVwQWxpdmVUaW1lcik7DQoNCgl2YXIgeCA9IG51bGw7
+DQoJaWYgKHR5cGVvZiBYTUxIdHRwUmVxdWVzdCAhPSAidW5kZWZpbmVkIikgDQoJ
+ew0KCQl4ID0gbmV3IFhNTEh0dHBSZXF1ZXN0KCk7DQoJfSANCgllbHNlIA0KCXsN
+CgkJdHJ5IA0KCQl7DQoJCQl4ID0gbmV3IEFjdGl2ZVhPYmplY3QoIk1zeG1sMi5Y
+TUxIVFRQIik7DQoJCX0gDQoJCWNhdGNoIChlKSANCgkJew0KCQkJdHJ5IA0KCQkJ
+ew0KCQkJCXggPSBuZXcgQWN0aXZlWE9iamVjdCgiTWljcm9zb2Z0LlhNTEhUVFAi
+KTsNCgkJCX0gDQoJCQljYXRjaCAoZSkgDQoJCQl7DQoJCQl9DQoJCX0NCgl9DQoJ
+DQoJdHJ5DQoJew0KCQkvLyBkb24ndCBkbyB0aGlzIGFzeW5jaHJvbm91c2x5DQoJ
+CXgub3BlbigiR0VUIiwgS2VlcEFsaXZlVXJsLCBmYWxzZSwgIiIsICIiKTsNCgkJ
+eC5zZW5kKG51bGwpOw0KCX0NCgljYXRjaCAoZSkNCgl7DQoJfQ0KCQ0KCUtlZXBB
+bGl2ZVRpbWVyID0gd2luZG93LnNldFRpbWVvdXQoTWFrZUtlZXBBbGl2ZVJlcXVl
+c3QsIDU5OTk5OSk7DQp9DQoNCmZ1bmN0aW9uIERldGVybWluZUtlZXBBbGl2ZVVy
+bCgpDQp7DQoJdmFyIHNjcmlwdHMgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFn
+TmFtZSgiU0NSSVBUIik7DQoJdmFyIGk7DQoJdmFyIHVybDsNCgkNCglmb3IgKGkg
+PSAwOyBpIDwgc2NyaXB0cy5sZW5ndGg7IGkrKykNCgl7DQoJCXVybCA9IHNjcmlw
+dHNbaV0uc3JjLnRvTG93ZXJDYXNlKCk7DQoJCWlmICh1cmwuaW5kZXhPZigndXRp
+bGl0eS9nbG9iYWwuanMnKSAhPSAtMSkNCgkJCXJldHVybiB1cmwucmVwbGFjZSgn
+dXRpbGl0eS9nbG9iYWwuanMnLCAndXRpbGl0eS9rZWVwYWxpdmUuYXNweCcpOw0K
+CX0NCgkNCglyZXR1cm4gbnVsbDsNCn0NCg0KdmFyIEtlZXBBbGl2ZVVybCA9IERl
+dGVybWluZUtlZXBBbGl2ZVVybCgpOw0KdmFyIEtlZXBBbGl2ZVRpbWVyID0gd2lu
+ZG93LnNldFRpbWVvdXQoTWFrZUtlZXBBbGl2ZVJlcXVlc3QsIDU5OTk5OSk7DQoN
+CmZ1bmN0aW9uIFNob3dFZGl0QmxvY2soYmxvY2spIHsNCglibG9jay5jbGFzc05h
+bWUgPSAiQ29tbW9uQ29udGVudFBhcnRCb3JkZXJPbiI7DQp9DQpmdW5jdGlvbiBI
+aWRlRWRpdEJsb2NrKGJsb2NrKSB7DQoJYmxvY2suY2xhc3NOYW1lID0gIkNvbW1v
+bkNvbnRlbnRQYXJ0Qm9yZGVyT2ZmIjsNCn0NCg0KZnVuY3Rpb24gZ2V0Q29va2ll
+KHNOYW1lKSB7DQoJdmFyIGNvb2tpZSA9ICIiICsgZG9jdW1lbnQuY29va2llOw0K
+CXZhciBzdGFydCA9IGNvb2tpZS5pbmRleE9mKHNOYW1lKTsNCglpZiAoY29va2ll
+ID09ICIiIHx8IHN0YXJ0ID09IC0xKSANCgkJcmV0dXJuICIiOw0KCXZhciBlbmQg
+PSBjb29raWUuaW5kZXhPZignOycsc3RhcnQpOw0KCWlmIChlbmQgPT0gLTEpDQoJ
+CWVuZCA9IGNvb2tpZS5sZW5ndGg7DQoJcmV0dXJuIHVuZXNjYXBlKGNvb2tpZS5z
+dWJzdHJpbmcoc3RhcnQrc05hbWUubGVuZ3RoICsgMSxlbmQpKTsNCn0NCmZ1bmN0
+aW9uIHNldENvb2tpZShzTmFtZSwgdmFsdWUpIHsNCglkb2N1bWVudC5jb29raWUg
+PSBzTmFtZSArICI9IiArIGVzY2FwZSh2YWx1ZSkgKyAiO3BhdGg9LzsiOw0KfQ0K
+ZnVuY3Rpb24gc2V0Q29va2llRm9yZXZlcihzTmFtZSwgdmFsdWUpIHsNCglkb2N1
+bWVudC5jb29raWUgPSBzTmFtZSArICI9IiArIGVzY2FwZSh2YWx1ZSkgKyAiO3Bh
+dGg9LztleHBpcmVzPUZyaSwgMSBKYW4gMjAxMCAwMDowMDowMCBHTVQ7IjsNCn0N
+Cg0KZnVuY3Rpb24gaW5MaW5lRWRpdE9uKGNvbnRyb2wpDQp7DQogICAgY29udHJv
+bC5jbGFzc05hbWUgPSAiQ29tbW9uSW5saW5lRWRpdE9uIjsNCn0NCg0KZnVuY3Rp
+b24gaW5MaW5lRWRpdE9mZihjb250cm9sKQ0Kew0KICAgIGNvbnRyb2wuY2xhc3NO
+YW1lID0gIkNvbW1vbklubGluZUVkaXRPZmYiOw0KfQ0KDQovL0FqYXggU3RhcnQN
+Cg0KZnVuY3Rpb24gQWpheF9HZXRYTUxIdHRwUmVxdWVzdCgpIHsNCglpZiAod2lu
+ZG93LlhNTEh0dHBSZXF1ZXN0KSB7DQoJCXJldHVybiBuZXcgWE1MSHR0cFJlcXVl
+c3QoKTsNCgl9IGVsc2Ugew0KCQlpZiAod2luZG93LkFqYXhfWE1MSHR0cFJlcXVl
+c3RQcm9nSUQpIHsNCgkJCXJldHVybiBuZXcgQWN0aXZlWE9iamVjdCh3aW5kb3cu
+QWpheF9YTUxIdHRwUmVxdWVzdFByb2dJRCk7DQoJCX0gZWxzZSB7DQoJCQl2YXIg
+cHJvZ0lEcyA9IFsiTXN4bWwyLlhNTEhUVFAuNS4wIiwgIk1zeG1sMi5YTUxIVFRQ
+LjQuMCIsICJNU1hNTDIuWE1MSFRUUC4zLjAiLCAiTVNYTUwyLlhNTEhUVFAiLCAi
+TWljcm9zb2Z0LlhNTEhUVFAiXTsNCgkJCWZvciAodmFyIGkgPSAwOyBpIDwgcHJv
+Z0lEcy5sZW5ndGg7ICsraSkgew0KCQkJCXZhciBwcm9nSUQgPSBwcm9nSURzW2ld
+Ow0KCQkJCXRyeSB7DQoJCQkJCXZhciB4ID0gbmV3IEFjdGl2ZVhPYmplY3QocHJv
+Z0lEKTsNCgkJCQkJd2luZG93LkFqYXhfWE1MSHR0cFJlcXVlc3RQcm9nSUQgPSBw
+cm9nSUQ7DQoJCQkJCXJldHVybiB4Ow0KCQkJCX0gY2F0Y2ggKGUpIHsNCgkJCQl9
+DQoJCQl9DQoJCX0NCgl9DQoJcmV0dXJuIG51bGw7DQp9DQpmdW5jdGlvbiBBamF4
+X0NhbGxCYWNrKHR5cGUsIGlkLCBtZXRob2QsIGFyZ3MsIGNsaWVudENhbGxCYWNr
+LCBkZWJ1Z1JlcXVlc3RUZXh0LCBkZWJ1Z1Jlc3BvbnNlVGV4dCwgZGVidWdFcnJv
+cnMsIGluY2x1ZGVDb250cm9sVmFsdWVzV2l0aENhbGxCYWNrLCB1cmwpIHsNCgkN
+CglpZiAoIXVybCkNCgl7DQoJCXVybCA9IHdpbmRvdy5sb2NhdGlvbi5ocmVmOw0K
+CQl1cmwgPSB1cmwucmVwbGFjZSgvXCMuKiQvLCAnJyk7DQoJCWlmICh1cmwuaW5k
+ZXhPZignPycpID4gLTEpDQoJCQl1cmwgKz0gIiZBamF4X0NhbGxCYWNrPXRydWUi
+Ow0KCQllbHNlDQoJCXsNCgkJCWlmICh1cmwuc3Vic3RyKHVybC5sZW5ndGggLSAx
+LCAxKSA9PSAiLyIpDQoJCQkJdXJsICs9ICJkZWZhdWx0LmFzcHgiOw0KCQkJCQ0K
+CQkJdXJsICs9ICI/QWpheF9DYWxsQmFjaz10cnVlIjsNCgkJfQ0KCX0NCg0KCXZh
+ciB4ID0gQWpheF9HZXRYTUxIdHRwUmVxdWVzdCgpOw0KCXZhciByZXN1bHQgPSBu
+dWxsOw0KCWlmICgheCkgew0KCQlyZXN1bHQgPSB7ICJ2YWx1ZSI6bnVsbCwgImVy
+cm9yIjogIk5PWE1MSFRUUCJ9Ow0KCQlpZiAoZGVidWdFcnJvcnMpIHsNCgkJCWFs
+ZXJ0KCJlcnJvcjogIiArIHJlc3VsdC5lcnJvcik7DQoJCX0NCgkJaWYgKGNsaWVu
+dENhbGxCYWNrKSB7DQoJCQljbGllbnRDYWxsQmFjayhyZXN1bHQpOw0KCQl9DQoJ
+CXJldHVybiByZXN1bHQ7DQoJfQ0KDQoJeC5vcGVuKCJQT1NUIiwgdXJsLCBjbGll
+bnRDYWxsQmFjayA/IHRydWUgOiBmYWxzZSk7DQoJeC5zZXRSZXF1ZXN0SGVhZGVy
+KCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNv
+ZGVkOyBjaGFyc2V0PXV0Zi04Iik7DQoJaWYgKGNsaWVudENhbGxCYWNrKSB7DQoJ
+CXgub25yZWFkeXN0YXRlY2hhbmdlID0gZnVuY3Rpb24oKSB7DQoJCQl2YXIgcmVz
+dWx0ID0gbnVsbDsNCgkJDQoJCQlpZiAoeC5yZWFkeVN0YXRlICE9IDQpIHsNCgkJ
+CQlyZXR1cm47DQoJCQl9DQoJCQkNCgkJCWlmIChkZWJ1Z1Jlc3BvbnNlVGV4dCkg
+ew0KCQkJCWFsZXJ0KHgucmVzcG9uc2VUZXh0KTsNCgkJCX0NCgkJCQ0KCQkJdHJ5
+DQoJCQl7DQoJCQkJdmFyIHJlc3VsdCA9IGV2YWwoIigiICsgeC5yZXNwb25zZVRl
+eHQgKyAiKSIpOw0KCQkJCWlmIChkZWJ1Z0Vycm9ycyAmJiByZXN1bHQuZXJyb3Ip
+IHsNCgkJCQkJYWxlcnQoImVycm9yOiAiICsgcmVzdWx0LmVycm9yKTsNCgkJCQl9
+DQoJCQl9DQoJCQljYXRjaCAoZXJyKQ0KCQkJew0KCQkJCWlmICh3aW5kb3cuY29u
+ZmlybSgnVGhlIGZvbGxvd2luZyBlcnJvciBvY2N1cmVkIHdoaWxlIHByb2Nlc3Np
+bmcgYW4gQUpBWCByZXF1ZXN0OiAnICsgZXJyLm1lc3NhZ2UgKyAnXG5cbldvdWxk
+IHlvdSBsaWtlIHRvIHNlZSB0aGUgcmVzcG9uc2U/JykpDQoJCQkJew0KCQkJCQl2
+YXIgdyA9IHdpbmRvdy5vcGVuKCk7DQoJCQkJCXcuZG9jdW1lbnQub3BlbigndGV4
+dC9wbGFpbicpOw0KCQkJCQl3LmRvY3VtZW50LndyaXRlKHgucmVzcG9uc2VUZXh0
+KTsNCgkJCQkJdy5kb2N1bWVudC5jbG9zZSgpOw0KCQkJCX0NCgkJCQkNCgkJCQly
+ZXN1bHQgPSBuZXcgT2JqZWN0KCk7DQoJCQkJcmVzdWx0LmVycm9yID0gJ0FuIEFK
+QVggZXJyb3Igb2NjdXJlZC4gIFRoZSByZXNwb25zZSBpcyBpbnZhbGlkLic7DQoJ
+CQl9DQoJCQkNCgkJCWNsaWVudENhbGxCYWNrKHJlc3VsdCk7CQkJDQoJCX0NCgl9
+DQoJdmFyIGVuY29kZWREYXRhID0gIkFqYXhfQ2FsbEJhY2tUeXBlPSIgKyB0eXBl
+Ow0KCWlmIChpZCkgew0KCQllbmNvZGVkRGF0YSArPSAiJkFqYXhfQ2FsbEJhY2tJ
+RD0iICsgaWQuc3BsaXQoIiQiKS5qb2luKCI6Iik7DQoJfQ0KCWVuY29kZWREYXRh
+ICs9ICImQWpheF9DYWxsQmFja01ldGhvZD0iICsgbWV0aG9kOw0KCWlmIChhcmdz
+KSB7DQoJCWZvciAodmFyIGkgaW4gYXJncykgew0KCQkJZW5jb2RlZERhdGEgKz0g
+IiZBamF4X0NhbGxCYWNrQXJndW1lbnQiICsgaSArICI9IiArIGVuY29kZVVSSUNv
+bXBvbmVudChhcmdzW2ldKTsNCgkJfQ0KCX0NCglpZiAoaW5jbHVkZUNvbnRyb2xW
+YWx1ZXNXaXRoQ2FsbEJhY2sgJiYgZG9jdW1lbnQuZm9ybXMubGVuZ3RoID4gMCkg
+ew0KCQl2YXIgZm9ybSA9IGRvY3VtZW50LmZvcm1zWzBdOw0KCQlmb3IgKHZhciBp
+ID0gMDsgaSA8IGZvcm0ubGVuZ3RoOyArK2kpIHsNCgkJCXZhciBlbGVtZW50ID0g
+Zm9ybS5lbGVtZW50c1tpXTsNCgkJCWlmIChlbGVtZW50Lm5hbWUpIHsNCgkJCQl2
+YXIgZWxlbWVudFZhbHVlID0gbnVsbDsNCgkJCQlpZiAoZWxlbWVudC5ub2RlTmFt
+ZSA9PSAiSU5QVVQiKSB7DQoJCQkJCXZhciBpbnB1dFR5cGUgPSBlbGVtZW50Lmdl
+dEF0dHJpYnV0ZSgiVFlQRSIpLnRvVXBwZXJDYXNlKCk7DQoJCQkJCWlmIChpbnB1
+dFR5cGUgPT0gIlRFWFQiIHx8IGlucHV0VHlwZSA9PSAiUEFTU1dPUkQiIHx8IGlu
+cHV0VHlwZSA9PSAiSElEREVOIikgew0KCQkJCQkJZWxlbWVudFZhbHVlID0gZWxl
+bWVudC52YWx1ZTsNCgkJCQkJfSBlbHNlIGlmIChpbnB1dFR5cGUgPT0gIkNIRUNL
+Qk9YIiB8fCBpbnB1dFR5cGUgPT0gIlJBRElPIikgew0KCQkJCQkJaWYgKGVsZW1l
+bnQuY2hlY2tlZCkgew0KCQkJCQkJCWVsZW1lbnRWYWx1ZSA9IGVsZW1lbnQudmFs
+dWU7DQoJCQkJCQl9DQoJCQkJCX0NCgkJCQl9IGVsc2UgaWYgKGVsZW1lbnQubm9k
+ZU5hbWUgPT0gIlNFTEVDVCIpIHsNCgkJCQkJZWxlbWVudFZhbHVlID0gZWxlbWVu
+dC52YWx1ZTsNCgkJCQl9IGVsc2UgaWYgKGVsZW1lbnQubm9kZU5hbWUgPT0gIlRF
+WFRBUkVBIikgew0KCQkJCQllbGVtZW50VmFsdWUgPSBlbGVtZW50LnZhbHVlOw0K
+CQkJCX0NCgkJCQlpZiAoZWxlbWVudFZhbHVlKSB7DQoJCQkJCWVuY29kZWREYXRh
+ICs9ICImIiArIGVsZW1lbnQubmFtZSArICI9IiArIGVuY29kZVVSSUNvbXBvbmVu
+dChlbGVtZW50VmFsdWUpOw0KCQkJCX0NCgkJCX0NCgkJfQ0KCX0NCglpZiAoZGVi
+dWdSZXF1ZXN0VGV4dCkgew0KCQlhbGVydChlbmNvZGVkRGF0YSk7DQoJfQ0KCXgu
+c2VuZChlbmNvZGVkRGF0YSk7DQoJaWYgKCFjbGllbnRDYWxsQmFjaykgew0KCQlp
+ZiAoZGVidWdSZXNwb25zZVRleHQpIHsNCgkJCWFsZXJ0KHgucmVzcG9uc2VUZXh0
+KTsNCgkJfQ0KCQlyZXN1bHQgPSBldmFsKCIoIiArIHgucmVzcG9uc2VUZXh0ICsg
+IikiKTsNCgkJaWYgKGRlYnVnRXJyb3JzICYmIHJlc3VsdC5lcnJvcikgew0KCQkJ
+YWxlcnQoImVycm9yOiAiICsgcmVzdWx0LmVycm9yKTsNCgkJfQ0KCX0NCglkZWxl
+dGUgeDsNCglyZXR1cm4gcmVzdWx0Ow0KfQ0KDQovL0FqYXggRW5kDQoNCi8vRWxl
+bWVudCBJdGVtcyBCb3Jyb3dlZCBGcm9tIFByb3RvdHlwZQ0KDQpmdW5jdGlvbiAk
+KCkgew0KICB2YXIgZWxlbWVudHMgPSBuZXcgQXJyYXkoKTsNCg0KICBmb3IgKHZh
+ciBpID0gMDsgaSA8IGFyZ3VtZW50cy5sZW5ndGg7IGkrKykgew0KICAgIHZhciBl
+bGVtZW50ID0gYXJndW1lbnRzW2ldOw0KICAgIGlmICh0eXBlb2YgZWxlbWVudCA9
+PSAnc3RyaW5nJykNCiAgICAgIGVsZW1lbnQgPSBkb2N1bWVudC5nZXRFbGVtZW50
+QnlJZChlbGVtZW50KTsNCg0KICAgIGlmIChhcmd1bWVudHMubGVuZ3RoID09IDEp
+IA0KICAgICAgcmV0dXJuIGVsZW1lbnQ7DQoNCiAgICBlbGVtZW50cy5wdXNoKGVs
+ZW1lbnQpOw0KICB9DQoNCiAgcmV0dXJuIGVsZW1lbnRzOw0KfQ0KDQoNCnZhciBF
+bGVtZW50ID0gew0KICANCiAgdG9nZ2xlOiBmdW5jdGlvbigpIHsNCiAgICBmb3Ig
+KHZhciBpID0gMDsgaSA8IGFyZ3VtZW50cy5sZW5ndGg7IGkrKykgew0KICAgICAg
+dmFyIGVsZW1lbnQgPSAkKGFyZ3VtZW50c1tpXSk7DQogICAgICBlbGVtZW50LnN0
+eWxlLmRpc3BsYXkgPSANCiAgICAgICAgKGVsZW1lbnQuc3R5bGUuZGlzcGxheSA9
+PSAnbm9uZScgPyAnJyA6ICdub25lJyk7DQogICAgfQ0KICB9LA0KDQogIGhpZGU6
+IGZ1bmN0aW9uKCkgew0KICAgIGZvciAodmFyIGkgPSAwOyBpIDwgYXJndW1lbnRz
+Lmxlbmd0aDsgaSsrKSB7DQogICAgICB2YXIgZWxlbWVudCA9ICQoYXJndW1lbnRz
+W2ldKTsNCiAgICAgIGVsZW1lbnQuc3R5bGUuZGlzcGxheSA9ICdub25lJzsNCiAg
+ICB9DQogIH0sDQoNCiAgc2hvdzogZnVuY3Rpb24oKSB7DQogICAgZm9yICh2YXIg
+aSA9IDA7IGkgPCBhcmd1bWVudHMubGVuZ3RoOyBpKyspIHsNCiAgICAgIHZhciBl
+bGVtZW50ID0gJChhcmd1bWVudHNbaV0pOw0KICAgICAgZWxlbWVudC5zdHlsZS5k
+aXNwbGF5ID0gJyc7DQogICAgfQ0KICB9LA0KDQogIHJlbW92ZTogZnVuY3Rpb24o
+ZWxlbWVudCkgew0KICAgIGVsZW1lbnQgPSAkKGVsZW1lbnQpOw0KICAgIGVsZW1l
+bnQucGFyZW50Tm9kZS5yZW1vdmVDaGlsZChlbGVtZW50KTsNCiAgfSwNCiAgIA0K
+ICBnZXRIZWlnaHQ6IGZ1bmN0aW9uKGVsZW1lbnQpIHsNCiAgICBlbGVtZW50ID0g
+JChlbGVtZW50KTsNCiAgICByZXR1cm4gZWxlbWVudC5vZmZzZXRIZWlnaHQ7IA0K
+ICB9DQp9DQoNCg0KLy9FbmQgRWxlbWVudCBJdGVtcw0K
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=Telligent_Modal.js
+Content-Type: application/x-javascript; charset=utf-8; name=Telligent_Modal.js
+Content-Location: http://blogs.msdn.com/Utility/telligent_web_ui/1_0_3/Telligent_Modal.js
+Content-Transfer-Encoding: Base64
+
+ClRlbGxpZ2VudF9Nb2RhbD1uZXcgT2JqZWN0KCk7VGVsbGlnZW50X01vZGFsLl92
+YXJpYWJsZU5hbWU9J1RlbGxpZ2VudF9Nb2RhbCc7VGVsbGlnZW50X01vZGFsLkxv
+YWRpbmdIdG1sVXJsPW51bGw7VGVsbGlnZW50X01vZGFsLldpbmRvd0Nzc0NsYXNz
+ZXM9bmV3IEFycmF5KCk7VGVsbGlnZW50X01vZGFsLldpbmRvd1RpdGxlQ3NzQ2xh
+c3Nlcz1uZXcgQXJyYXkoKTtUZWxsaWdlbnRfTW9kYWwuV2luZG93Q2xvc2VDc3ND
+bGFzc2VzPW5ldyBBcnJheSgpO1RlbGxpZ2VudF9Nb2RhbC5XaW5kb3dDb250ZW50
+Q3NzQ2xhc3Nlcz1uZXcgQXJyYXkoKTtUZWxsaWdlbnRfTW9kYWwuV2luZG93TWFz
+a0Nzc0NsYXNzZXM9bmV3IEFycmF5KCk7VGVsbGlnZW50X01vZGFsLldpbmRvd0Zv
+b3RlckNzc0NsYXNzZXM9bmV3IEFycmF5KCk7VGVsbGlnZW50X01vZGFsLldpbmRv
+d1Jlc2l6ZUNzc0NsYXNzZXM9bmV3IEFycmF5KCk7VGVsbGlnZW50X01vZGFsLlpJ
+bmRleD0xMDA7VGVsbGlnZW50X01vZGFsLl9pc1Nob3duPWZhbHNlO1RlbGxpZ2Vu
+dF9Nb2RhbC5faW5pdGlhbGl6ZWQ9ZmFsc2U7VGVsbGlnZW50X01vZGFsLl9tb2Rh
+bD1udWxsO1RlbGxpZ2VudF9Nb2RhbC5fbW9kYWxUaXRsZT1udWxsO1RlbGxpZ2Vu
+dF9Nb2RhbC5fbW9kYWxDbG9zZT1udWxsO1RlbGxpZ2VudF9Nb2RhbC5fbW9kYWxB
+bmltYXRpb25NYXNrPW51bGw7VGVsbGlnZW50X01vZGFsLl9tb2RhbE1hc2s9bnVs
+bDtUZWxsaWdlbnRfTW9kYWwuX21vZGFsSWZyYW1lPW51bGw7VGVsbGlnZW50X01v
+ZGFsLl9tb2RhbFJlc2l6ZT1udWxsO1RlbGxpZ2VudF9Nb2RhbC5fbW9kYWxGb290
+ZXI9bnVsbDtUZWxsaWdlbnRfTW9kYWwuX21vZGFsQ29udGVudD1udWxsO1RlbGxp
+Z2VudF9Nb2RhbC5fYW5pbWF0aW9uSGFuZGxlPW51bGw7VGVsbGlnZW50X01vZGFs
+Ll9pc09wZW5pbmc9ZmFsc2U7VGVsbGlnZW50X01vZGFsLl9oaWRkZW5TZWxlY3Rz
+PW51bGw7VGVsbGlnZW50X01vZGFsLl9jaGVja0ZvclNjcm9sbFJlc2l6ZUhhbmRs
+ZT1udWxsO1RlbGxpZ2VudF9Nb2RhbC5fbGFzdE1vZGFsSW5mbz1udWxsO1RlbGxp
+Z2VudF9Nb2RhbC5fbGFzdFdpbmRvd0luZm89bnVsbDtUZWxsaWdlbnRfTW9kYWwu
+X2lzRHJhZ2dpbmc9ZmFsc2U7VGVsbGlnZW50X01vZGFsLl9tb3ZlTW9kYWxJbmZv
+PW51bGw7VGVsbGlnZW50X01vZGFsLl9yZXNpemVNb2RhbEluZm89bnVsbDtUZWxs
+aWdlbnRfTW9kYWwuX2lzUmVzaXppbmc9ZmFsc2U7VGVsbGlnZW50X01vZGFsLkNv
+bmZpZ3VyZT1mdW5jdGlvbihsb2FkaW5nSHRtbFVybCx3aW5kb3dDc3NDbGFzc2Vz
+LHdpbmRvd1RpdGxlQ3NzQ2xhc3Nlcyx3aW5kb3dDbG9zZUNzc0NsYXNzZXMsd2lu
+ZG93Q29udGVudENzc0NsYXNzZXMsd2luZG93Rm9vdGVyQ3NzQ2xhc3Nlcyx3aW5k
+b3dSZXNpemVDc3NDbGFzc2VzLHdpbmRvd01hc2tDc3NDbGFzc2VzLHpJbmRleCkK
+e3RoaXMuTG9hZGluZ0h0bWxVcmw9bG9hZGluZ0h0bWxVcmw7dGhpcy5XaW5kb3dD
+c3NDbGFzc2VzPXdpbmRvd0Nzc0NsYXNzZXM7dGhpcy5XaW5kb3dUaXRsZUNzc0Ns
+YXNzZXM9d2luZG93VGl0bGVDc3NDbGFzc2VzO3RoaXMuV2luZG93Q2xvc2VDc3ND
+bGFzc2VzPXdpbmRvd0Nsb3NlQ3NzQ2xhc3Nlczt0aGlzLldpbmRvd0NvbnRlbnRD
+c3NDbGFzc2VzPXdpbmRvd0NvbnRlbnRDc3NDbGFzc2VzO3RoaXMuV2luZG93TWFz
+a0Nzc0NsYXNzZXM9d2luZG93TWFza0Nzc0NsYXNzZXM7dGhpcy5XaW5kb3dGb290
+ZXJDc3NDbGFzc2VzPXdpbmRvd0Zvb3RlckNzc0NsYXNzZXM7dGhpcy5XaW5kb3dS
+ZXNpemVDc3NDbGFzc2VzPXdpbmRvd1Jlc2l6ZUNzc0NsYXNzZXM7dGhpcy5aSW5k
+ZXg9ekluZGV4O30KVGVsbGlnZW50X01vZGFsLklzU2hvd249ZnVuY3Rpb24oKQp7
+cmV0dXJuIHRoaXMuX2lzU2hvd247fQpUZWxsaWdlbnRfTW9kYWwuX2dldFdpbmRv
+d0luZm89ZnVuY3Rpb24oKQp7dmFyIHNjcm9sbFg9MCxzY3JvbGxZPTAsd2lkdGg9
+MCxoZWlnaHQ9MCxjb250ZW50V2lkdGg9MCxjb250ZW50SGVpZ2h0PTA7aWYodHlw
+ZW9mKHdpbmRvdy5wYWdlWE9mZnNldCk9PSdudW1iZXInKQp7c2Nyb2xsWD13aW5k
+b3cucGFnZVhPZmZzZXQ7c2Nyb2xsWT13aW5kb3cucGFnZVlPZmZzZXQ7fQplbHNl
+IGlmKGRvY3VtZW50LmJvZHkmJihkb2N1bWVudC5ib2R5LnNjcm9sbExlZnR8fGRv
+Y3VtZW50LmJvZHkuc2Nyb2xsVG9wKSkKe3Njcm9sbFg9ZG9jdW1lbnQuYm9keS5z
+Y3JvbGxMZWZ0O3Njcm9sbFk9ZG9jdW1lbnQuYm9keS5zY3JvbGxUb3A7fQplbHNl
+IGlmKGRvY3VtZW50LmRvY3VtZW50RWxlbWVudCYmKGRvY3VtZW50LmRvY3VtZW50
+RWxlbWVudC5zY3JvbGxMZWZ0fHxkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc2Ny
+b2xsVG9wKSkKe3Njcm9sbFg9ZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnNjcm9s
+bExlZnQ7c2Nyb2xsWT1kb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc2Nyb2xsVG9w
+O30KaWYodHlwZW9mKHdpbmRvdy5pbm5lcldpZHRoKT09J251bWJlcicpCnt3aWR0
+aD13aW5kb3cuaW5uZXJXaWR0aDtoZWlnaHQ9d2luZG93LmlubmVySGVpZ2h0O30K
+ZWxzZSBpZihkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQmJihkb2N1bWVudC5kb2N1
+bWVudEVsZW1lbnQuY2xpZW50V2lkdGh8fGRvY3VtZW50LmRvY3VtZW50RWxlbWVu
+dC5jbGllbnRIZWlnaHQpKQp7d2lkdGg9ZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50
+LmNsaWVudFdpZHRoO2hlaWdodD1kb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuY2xp
+ZW50SGVpZ2h0O30KZWxzZSBpZihkb2N1bWVudC5ib2R5JiYoZG9jdW1lbnQuYm9k
+eS5jbGllbnRXaWR0aHx8ZG9jdW1lbnQuYm9keS5jbGllbnRIZWlnaHQpKQp7d2lk
+dGg9ZG9jdW1lbnQuYm9keS5jbGllbnRXaWR0aDtoZWlnaHQ9ZG9jdW1lbnQuYm9k
+eS5jbGllbnRIZWlnaHQ7fQppZihkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQmJihk
+b2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc2Nyb2xsSGVpZ2h0fHxkb2N1bWVudC5k
+b2N1bWVudEVsZW1lbnQub2Zmc2V0SGVpZ2h0KSkKe2lmKGRvY3VtZW50LmRvY3Vt
+ZW50RWxlbWVudC5zY3JvbGxIZWlnaHQ+ZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50
+Lm9mZnNldEhlaWdodCkKe2NvbnRlbnRXaWR0aD1kb2N1bWVudC5kb2N1bWVudEVs
+ZW1lbnQuc2Nyb2xsV2lkdGg7Y29udGVudEhlaWdodD1kb2N1bWVudC5kb2N1bWVu
+dEVsZW1lbnQuc2Nyb2xsSGVpZ2h0O30KZWxzZQp7Y29udGVudFdpZHRoPWRvY3Vt
+ZW50LmRvY3VtZW50RWxlbWVudC5vZmZzZXRXaWR0aDtjb250ZW50SGVpZ2h0PWRv
+Y3VtZW50LmRvY3VtZW50RWxlbWVudC5vZmZzZXRIZWlnaHQ7fX0KZWxzZSBpZihk
+b2N1bWVudC5ib2R5JiYoZG9jdW1lbnQuYm9keS5zY3JvbGxIZWlnaHR8fGRvY3Vt
+ZW50LmJvZHkub2Zmc2V0SGVpZ2h0KSkKe2lmKGRvY3VtZW50LmJvZHkuc2Nyb2xs
+SGVpZ2h0PmRvY3VtZW50LmJvZHkub2Zmc2V0SGVpZ2h0KQp7Y29udGVudFdpZHRo
+PWRvY3VtZW50LmJvZHkuc2Nyb2xsV2lkdGg7Y29udGVudEhlaWdodD1kb2N1bWVu
+dC5ib2R5LnNjcm9sbEhlaWdodDt9CmVsc2UKe2NvbnRlbnRXaWR0aD1kb2N1bWVu
+dC5ib2R5Lm9mZnNldFdpZHRoO2NvbnRlbnRIZWlnaHQ9ZG9jdW1lbnQuYm9keS5v
+ZmZzZXRIZWlnaHQ7fX0KZWxzZQp7Y29udGVudFdpZHRoPXdpZHRoO2NvbnRlbnRI
+ZWlnaHQ9aGVpZ2h0O30KaWYoaGVpZ2h0PmNvbnRlbnRIZWlnaHQpCmhlaWdodD1j
+b250ZW50SGVpZ2h0O2lmKHdpZHRoPmNvbnRlbnRXaWR0aCkKd2lkdGg9Y29udGVu
+dFdpZHRoO3ZhciByZWN0PW5ldyBPYmplY3QoKTtyZWN0LlNjcm9sbFg9c2Nyb2xs
+WDtyZWN0LlNjcm9sbFk9c2Nyb2xsWTtyZWN0LldpZHRoPXdpZHRoO3JlY3QuSGVp
+Z2h0PWhlaWdodDtyZWN0LkNvbnRlbnRXaWR0aD1jb250ZW50V2lkdGg7cmVjdC5D
+b250ZW50SGVpZ2h0PWNvbnRlbnRIZWlnaHQ7cmV0dXJuIHJlY3Q7fQpUZWxsaWdl
+bnRfTW9kYWwuX2dldEN1cnJlbnRTdHlsZVZhbHVlPWZ1bmN0aW9uKGVsZW1lbnQs
+c3R5bGVSdWxlLGpzU3R5bGVSdWxlKQp7dmFyIHZhbHVlPTA7aWYoZG9jdW1lbnQu
+ZGVmYXVsdFZpZXcmJmRvY3VtZW50LmRlZmF1bHRWaWV3LmdldENvbXB1dGVkU3R5
+bGUpCnZhbHVlPXBhcnNlSW50KGRvY3VtZW50LmRlZmF1bHRWaWV3LmdldENvbXB1
+dGVkU3R5bGUoZWxlbWVudCwiIikuZ2V0UHJvcGVydHlWYWx1ZShzdHlsZVJ1bGUp
+LDApO2Vsc2UgaWYoZWxlbWVudC5jdXJyZW50U3R5bGUpCnZhbHVlPXBhcnNlSW50
+KGVsZW1lbnQuY3VycmVudFN0eWxlW2pzU3R5bGVSdWxlXSwwKTtpZighaXNOYU4o
+dmFsdWUpKQpyZXR1cm4gdmFsdWU7ZWxzZQpyZXR1cm4gMDt9ClRlbGxpZ2VudF9N
+b2RhbC5fY2FsY3VsYXRlU3R5bGVPZmZzZXQ9ZnVuY3Rpb24oZWxlbWVudCkKe3Zh
+ciByZXN1bHQ9bmV3IE9iamVjdCgpO3Jlc3VsdC5IZWlnaHQ9dGhpcy5fZ2V0Q3Vy
+cmVudFN0eWxlVmFsdWUoZWxlbWVudCwnYm9yZGVyLXRvcC13aWR0aCcsJ2JvcmRl
+clRvcFdpZHRoJykrCnRoaXMuX2dldEN1cnJlbnRTdHlsZVZhbHVlKGVsZW1lbnQs
+J2JvcmRlci1ib3R0b20td2lkdGgnLCdib3JkZXJCb3R0b21XaWR0aCcpKwp0aGlz
+Ll9nZXRDdXJyZW50U3R5bGVWYWx1ZShlbGVtZW50LCdwYWRkaW5nLXRvcCcsJ3Bh
+ZGRpbmdUb3AnKSsKdGhpcy5fZ2V0Q3VycmVudFN0eWxlVmFsdWUoZWxlbWVudCwn
+cGFkZGluZy1ib3R0b20nLCdwYWRkaW5nQm90dG9tJyk7cmVzdWx0LldpZHRoPXRo
+aXMuX2dldEN1cnJlbnRTdHlsZVZhbHVlKGVsZW1lbnQsJ2JvcmRlci1sZWZ0LXdp
+ZHRoJywnYm9yZGVyTGVmdFdpZHRoJykrCnRoaXMuX2dldEN1cnJlbnRTdHlsZVZh
+bHVlKGVsZW1lbnQsJ2JvcmRlci1yaWdodC13aWR0aCcsJ2JvcmRlclJpZ2h0V2lk
+dGgnKSsKdGhpcy5fZ2V0Q3VycmVudFN0eWxlVmFsdWUoZWxlbWVudCwncGFkZGlu
+Zy1sZWZ0JywncGFkZGluZ0xlZnQnKSsKdGhpcy5fZ2V0Q3VycmVudFN0eWxlVmFs
+dWUoZWxlbWVudCwncGFkZGluZy1yaWdodCcsJ3BhZGRpbmdSaWdodCcpO3JldHVy
+biByZXN1bHQ7fQpUZWxsaWdlbnRfTW9kYWwuT3Blbj1mdW5jdGlvbih1cmwsd2lk
+dGgsaGVpZ2h0LG9uQ2xvc2VGdW5jdGlvbix4LHksaWdub3JlQ2xvc2VBbmRBbmlt
+YXRpb24pCntpZighaWdub3JlQ2xvc2VBbmRBbmltYXRpb24mJnRoaXMuX2lzU2hv
+d24pCnRoaXMuQ2xvc2UoKTtlbHNlIGlmKHRoaXMuX2hpZGRlblNlbGVjdHMpCntm
+b3IodmFyIGk9MDtpPHRoaXMuX2hpZGRlblNlbGVjdHMubGVuZ3RoO2krKykKe2lm
+KHRoaXMuX2hpZGRlblNlbGVjdHNbaV0uRWxlbWVudC5zdHlsZS52aXNpYmlsaXR5
+PT0naGlkZGVuJykKdGhpcy5faGlkZGVuU2VsZWN0c1tpXS5FbGVtZW50LnN0eWxl
+LnZpc2liaWxpdHk9dGhpcy5faGlkZGVuU2VsZWN0c1tpXS5WaXNpYmlsaXR5O30K
+dGhpcy5faGlkZGVuU2VsZWN0cz1udWxsO30KaWYoIXRoaXMuX2luaXRpYWxpemVk
+KQp0aGlzLl9pbml0aWFsaXplKCk7dHJ5Cnt0aGlzLl9tb2RhbFRpdGxlLmNoaWxk
+Tm9kZXNbMV0uaW5uZXJIVE1MPXRoaXMuX21vZGFsSWZyYW1lLmNvbnRlbnRXaW5k
+b3cuZG9jdW1lbnQudGl0bGU7fQpjYXRjaChlcnIpCnt9CmlmKCFpZ25vcmVDbG9z
+ZUFuZEFuaW1hdGlvbikKdGhpcy5fbW9kYWxJZnJhbWUuc3JjPXVybDt0cnkKe3Ro
+aXMuX21vZGFsSWZyYW1lLmNvbnRlbnRXaW5kb3cub3BlbmVyPXdpbmRvdzt9CmNh
+dGNoKGVycikKe30KdGhpcy5fbW9kYWxBbmltYXRpb25NYXNrLnN0eWxlLmRpc3Bs
+YXk9J25vbmUnO3RoaXMuX21vZGFsTWFzay5zdHlsZS5kaXNwbGF5PSdub25lJzt0
+aGlzLl9sYXN0V2luZG93SW5mbz10aGlzLl9nZXRXaW5kb3dJbmZvKCk7dGhpcy5f
+bW9kYWxBbmltYXRpb25NYXNrLnN0eWxlLmRpc3BsYXk9J2Jsb2NrJztpZih3aWR0
+aD50aGlzLl9sYXN0V2luZG93SW5mby5XaWR0aCkKd2lkdGg9dGhpcy5fbGFzdFdp
+bmRvd0luZm8uV2lkdGg7dGhpcy5fbW9kYWxBbmltYXRpb25NYXNrLnN0eWxlLnBv
+c2l0aW9uPSdhYnNvbHV0ZSc7dGhpcy5fbW9kYWxBbmltYXRpb25NYXNrLnN0eWxl
+LnpJbmRleD10aGlzLlpJbmRleDt0aGlzLl9tb2RhbEFuaW1hdGlvbk1hc2suc3R5
+bGUuZGlzcGxheT0nYmxvY2snO3RoaXMuX21vZGFsQW5pbWF0aW9uTWFzay5zdHls
+ZS52aXNpYmlsaXR5PSdoaWRkZW4nO3RoaXMuX21vZGFsQW5pbWF0aW9uTWFzay5z
+dHlsZS5vdmVyZmxvdz0naGlkZGVuJzt0aGlzLl9tb2RhbEFuaW1hdGlvbk1hc2su
+c3R5bGUud2lkdGg9d2lkdGgrJ3B4Jzt0aGlzLl9tb2RhbENvbnRlbnQuc3R5bGUu
+d2lkdGg9d2lkdGgrJ3B4Jzt0aGlzLl9tb2RhbC5zdHlsZS5wb3NpdGlvbj0nYWJz
+b2x1dGUnO3RoaXMuX21vZGFsLnN0eWxlLmRpc3BsYXk9J2Jsb2NrJzt0aGlzLl9t
+b2RhbC5zdHlsZS52aXNpYmlsaXR5PSdoaWRkZW4nO3RoaXMuX21vZGFsLnN0eWxl
+LmxlZnQ9JzBweCc7dGhpcy5fbW9kYWwuc3R5bGUudG9wPScwcHgnO3RoaXMuX21v
+ZGFsTWFzay5zdHlsZS5wb3NpdGlvbj0nYWJzb2x1dGUnO3RoaXMuX21vZGFsTWFz
+ay5zdHlsZS5kaXNwbGF5PSdibG9jayc7dGhpcy5fbW9kYWxNYXNrLnN0eWxlLnpJ
+bmRleD10aGlzLlpJbmRleDt0aGlzLl9tb2RhbE1hc2suc3R5bGUudmlzaWJpbGl0
+eT0ndmlzaWJsZSc7dmFyIG1vZGFsQ29udGVudE9mZnNldD10aGlzLl9jYWxjdWxh
+dGVTdHlsZU9mZnNldCh0aGlzLl9tb2RhbENvbnRlbnQpO3ZhciBvZmZzZXQ9KHRo
+aXMuX21vZGFsLm9mZnNldEhlaWdodC10aGlzLl9tb2RhbENvbnRlbnQub2Zmc2V0
+SGVpZ2h0KS1tb2RhbENvbnRlbnRPZmZzZXQuSGVpZ2h0O2lmKGhlaWdodCtvZmZz
+ZXQ+dGhpcy5fbGFzdFdpbmRvd0luZm8uSGVpZ2h0KQpoZWlnaHQ9dGhpcy5fbGFz
+dFdpbmRvd0luZm8uSGVpZ2h0LW9mZnNldDtpZih3aWR0aDx0aGlzLl9tb2RhbFJl
+c2l6ZS5vZmZzZXRXaWR0aCoyKQp3aWR0aD10aGlzLl9tb2RhbFJlc2l6ZS5vZmZz
+ZXRXaWR0aCoyO2lmKHdpZHRoPHRoaXMuX21vZGFsQ2xvc2Uub2Zmc2V0V2lkdGgq
+MikKd2lkdGg9dGhpcy5fbW9kYWxDbG9zZS5vZmZzZXRXaWR0aCoyO2lmKGhlaWdo
+dDx0aGlzLl9tb2RhbFRpdGxlLm9mZnNldEhlaWdodCt0aGlzLl9tb2RhbEZvb3Rl
+ci5vZmZzZXRIZWlnaHQpCmhlaWdodD10aGlzLl9tb2RhbFRpdGxlLm9mZnNldEhl
+aWdodCt0aGlzLl9tb2RhbEZvb3Rlci5vZmZzZXRIZWlnaHQ7dGhpcy5fbW9kYWxJ
+ZnJhbWUuc3R5bGUuaGVpZ2h0PWhlaWdodCsncHgnO3RoaXMuX21vZGFsQ29udGVu
+dC5zdHlsZS5oZWlnaHQ9aGVpZ2h0KydweCc7dGhpcy5fbW9kYWxDb250ZW50LnN0
+eWxlLndpZHRoPSh3aWR0aC0odGhpcy5fbW9kYWwub2Zmc2V0V2lkdGgtdGhpcy5f
+bW9kYWxDb250ZW50Lm9mZnNldFdpZHRoKS1tb2RhbENvbnRlbnRPZmZzZXQuV2lk
+dGgpKydweCc7dGhpcy5fbW9kYWxBbmltYXRpb25NYXNrLnN0eWxlLndpZHRoPXdp
+ZHRoKydweCc7dGhpcy5fbW9kYWxBbmltYXRpb25NYXNrLnN0eWxlLmhlaWdodD10
+aGlzLl9tb2RhbC5vZmZzZXRIZWlnaHQrJ3B4Jzt0aGlzLl9tb2RhbE1hc2suc3R5
+bGUubGVmdD0nMHB4Jzt0aGlzLl9tb2RhbE1hc2suc3R5bGUudG9wPScwcHgnO3Ro
+aXMuX21vZGFsTWFzay5zdHlsZS53aWR0aD10aGlzLl9sYXN0V2luZG93SW5mby5D
+b250ZW50V2lkdGgrJ3B4Jzt0aGlzLl9tb2RhbE1hc2suc3R5bGUuaGVpZ2h0PXRo
+aXMuX2xhc3RXaW5kb3dJbmZvLkNvbnRlbnRIZWlnaHQrJ3B4Jzt0aGlzLl9sYXN0
+V2luZG93SW5mbz10aGlzLl9nZXRXaW5kb3dJbmZvKCk7dmFyIHBhbmVsV2lkdGg9
+dGhpcy5fbW9kYWwub2Zmc2V0V2lkdGg7dmFyIHBhbmVsSGVpZ2h0PXRoaXMuX21v
+ZGFsLm9mZnNldEhlaWdodDt2YXIgYW5pbWF0ZVByb3BlcnR5TmFtZSxhbmltYXRl
+VGFyZ2V0VmFsdWUsYW5pbWF0ZU5leHRWYWx1ZTtpZih0eXBlb2YoeCk9PSd1bmRl
+ZmluZWQnfHxpc05hTihwYXJzZUludCh4LDEwKSkpCng9KCh0aGlzLl9sYXN0V2lu
+ZG93SW5mby5XaWR0aC1wYW5lbFdpZHRoKS8yKSt0aGlzLl9sYXN0V2luZG93SW5m
+by5TY3JvbGxYO2lmKHgrcGFuZWxXaWR0aD50aGlzLl9sYXN0V2luZG93SW5mby5X
+aWR0aCt0aGlzLl9sYXN0V2luZG93SW5mby5TY3JvbGxYKQp4PXRoaXMuX2xhc3RX
+aW5kb3dJbmZvLldpZHRoK3RoaXMuX2xhc3RXaW5kb3dJbmZvLlNjcm9sbFgtcGFu
+ZWxXaWR0aDtpZih4PHRoaXMuX2xhc3RXaW5kb3dJbmZvLlNjcm9sbFgpCng9dGhp
+cy5fbGFzdFdpbmRvd0luZm8uU2Nyb2xsWDtpZih0eXBlb2YoeSk9PSd1bmRlZmlu
+ZWQnfHxpc05hTihwYXJzZUludCh5LDEwKSkpCnk9KCh0aGlzLl9sYXN0V2luZG93
+SW5mby5IZWlnaHQtcGFuZWxIZWlnaHQpLzIpK3RoaXMuX2xhc3RXaW5kb3dJbmZv
+LlNjcm9sbFk7aWYoeStwYW5lbEhlaWdodD50aGlzLl9sYXN0V2luZG93SW5mby5I
+ZWlnaHQrdGhpcy5fbGFzdFdpbmRvd0luZm8uU2Nyb2xsWSkKeT10aGlzLl9sYXN0
+V2luZG93SW5mby5IZWlnaHQrdGhpcy5fbGFzdFdpbmRvd0luZm8uU2Nyb2xsWS1w
+YW5lbEhlaWdodDtpZih5PHRoaXMuX2xhc3RXaW5kb3dJbmZvLlNjcm9sbFkpCnk9
+dGhpcy5fbGFzdFdpbmRvd0luZm8uU2Nyb2xsWTt0aGlzLl9tb2RhbEFuaW1hdGlv
+bk1hc2suc3R5bGUubGVmdD14KydweCc7dGhpcy5fbW9kYWxBbmltYXRpb25NYXNr
+LnN0eWxlLnRvcD15KydweCc7YW5pbWF0ZVRhcmdldFZhbHVlPTA7YW5pbWF0ZU5l
+eHRWYWx1ZT0tcGFuZWxIZWlnaHQ7dGhpcy5fbW9kYWwuc3R5bGUudmlzaWJpbGl0
+eT0ndmlzaWJsZSc7dGhpcy5fbW9kYWxBbmltYXRpb25NYXNrLnN0eWxlLnZpc2li
+aWxpdHk9J3Zpc2libGUnO3RoaXMuX21vZGFsQW5pbWF0aW9uTWFzay5zdHlsZS5v
+dmVyZmxvdz0naGlkZGVuJztpZih0aGlzLl9tb2RhbEFuaW1hdGlvbk1hc2suZ2V0
+Q2xpZW50UmVjdHMpCnt2YXIgc2VsZWN0Qm94ZXM9ZG9jdW1lbnQuZ2V0RWxlbWVu
+dHNCeVRhZ05hbWUoJ3NlbGVjdCcpO3RoaXMuX2hpZGRlblNlbGVjdHM9bmV3IEFy
+cmF5KCk7Zm9yKHZhciBpPTA7aTxzZWxlY3RCb3hlcy5sZW5ndGg7aSsrKQp7dGhp
+cy5faGlkZGVuU2VsZWN0c1t0aGlzLl9oaWRkZW5TZWxlY3RzLmxlbmd0aF09e0Vs
+ZW1lbnQ6c2VsZWN0Qm94ZXNbaV0sVmlzaWJpbGl0eTpzZWxlY3RCb3hlc1tpXS5z
+dHlsZS52aXNpYmlsaXR5fTtzZWxlY3RCb3hlc1tpXS5zdHlsZS52aXNpYmlsaXR5
+PSdoaWRkZW4nO319CnRoaXMuX2lzT3BlbmluZz10cnVlO2lmKGlnbm9yZUNsb3Nl
+QW5kQW5pbWF0aW9uKQp0aGlzLl9hbmltYXRpb25IYW5kbGU9d2luZG93LnNldFRp
+bWVvdXQobmV3IEZ1bmN0aW9uKHRoaXMuX3ZhcmlhYmxlTmFtZSsnLl9hbmltYXRl
+KDAsMCwwLDApOycpLDkpO2Vsc2UKe3RoaXMuX21vZGFsSWZyYW1lLnN0eWxlLmRp
+c3BsYXk9J25vbmUnO3RoaXMuX2FuaW1hdGUoMCwtcGFuZWxIZWlnaHQscGFuZWxI
+ZWlnaHQvMywuNjcpO30KdGhpcy5fbGFzdE1vZGFsSW5mbz17VXJsOnRoaXMuX21v
+ZGFsSWZyYW1lLnNyYyxPbkNsb3NlRnVuY3Rpb246b25DbG9zZUZ1bmN0aW9uLFg6
+eCxZOnksV2lkdGg6cGFyc2VJbnQod2lkdGgsMTApLEhlaWdodDpwYXJzZUludCho
+ZWlnaHQsMTApfTt0aGlzLl9pc1Nob3duPXRydWU7fQpUZWxsaWdlbnRfTW9kYWwu
+X2NoZWNrRm9yU2Nyb2xsUmVzaXplPWZ1bmN0aW9uKCkKe2lmKHRoaXMuX2NoZWNr
+Rm9yU2Nyb2xsUmVzaXplSGFuZGxlKQp3aW5kb3cuY2xlYXJUaW1lb3V0KHRoaXMu
+X2NoZWNrRm9yU2Nyb2xsUmVzaXplSGFuZGxlKTtpZih0aGlzLl9pc1Nob3duJiYh
+dGhpcy5faXNPcGVuaW5nJiZ0aGlzLl9sYXN0V2luZG93SW5mbykKe3RyeQp7dGhp
+cy5fbW9kYWxUaXRsZS5jaGlsZE5vZGVzWzFdLmlubmVySFRNTD10aGlzLl9tb2Rh
+bElmcmFtZS5jb250ZW50V2luZG93LmRvY3VtZW50LnRpdGxlO30KY2F0Y2goZXJy
+KQp7fQp2YXIgd2luZG93SW5mbz10aGlzLl9nZXRXaW5kb3dJbmZvKCk7aWYod2lu
+ZG93SW5mby5TY3JvbGxYIT10aGlzLl9sYXN0V2luZG93SW5mby5TY3JvbGxYfHx3
+aW5kb3dJbmZvLlNjcm9sbFkhPXRoaXMuX2xhc3RXaW5kb3dJbmZvLlNjcm9sbFl8
+fHdpbmRvd0luZm8uV2lkdGghPXRoaXMuX2xhc3RXaW5kb3dJbmZvLldpZHRofHx3
+aW5kb3dJbmZvLkhlaWdodCE9dGhpcy5fbGFzdFdpbmRvd0luZm8uSGVpZ2h0KQp0
+aGlzLk9wZW4obnVsbCx0aGlzLl9sYXN0TW9kYWxJbmZvLldpZHRoLHRoaXMuX2xh
+c3RNb2RhbEluZm8uSGVpZ2h0LHRoaXMuX2xhc3RNb2RhbEluZm8uT25DbG9zZUZ1
+bmN0aW9uLHRoaXMuX2xhc3RNb2RhbEluZm8uWCx0aGlzLl9sYXN0TW9kYWxJbmZv
+LlksdHJ1ZSk7ZWxzZQp0aGlzLl9jaGVja0ZvclNjcm9sbFJlc2l6ZUhhbmRsZT13
+aW5kb3cuc2V0VGltZW91dChuZXcgRnVuY3Rpb24oJ3dpbmRvdy4nK3RoaXMuX3Zh
+cmlhYmxlTmFtZSsnLl9jaGVja0ZvclNjcm9sbFJlc2l6ZSgpOycpLDk5OSk7fX0K
+VGVsbGlnZW50X01vZGFsLkNsb3NlPWZ1bmN0aW9uKHJldHVyblZhbHVlKQp7aWYo
+dGhpcy5faXNTaG93bikKe2lmKCF0aGlzLl9pbml0aWFsaXplZCkKdGhpcy5faW5p
+dGlhbGl6ZSgpO3RoaXMuX21vZGFsLnN0eWxlLnBvc2l0aW9uPSdhYnNvbHV0ZSc7
+dGhpcy5fbW9kYWwuc3R5bGUuZGlzcGxheT0nbm9uZSc7dGhpcy5fbW9kYWxBbmlt
+YXRpb25NYXNrLnN0eWxlLnBvc2l0aW9uPSdhYnNvbHV0ZSc7dGhpcy5fbW9kYWxB
+bmltYXRpb25NYXNrLnN0eWxlLmRpc3BsYXk9J25vbmUnO3RoaXMuX21vZGFsTWFz
+ay5zdHlsZS5wb3NpdGlvbj0nYWJzb2x1dGUnO3RoaXMuX21vZGFsTWFzay5zdHls
+ZS5kaXNwbGF5PSdub25lJzt0aGlzLl9tb2RhbElmcmFtZS5zcmM9dGhpcy5Mb2Fk
+aW5nSHRtbFVybDt2YXIgb25DbG9zZUZ1bmN0aW9uPXRoaXMuX2xhc3RNb2RhbElu
+Zm8uT25DbG9zZUZ1bmN0aW9uO3RoaXMuX2lzU2hvd249ZmFsc2U7dGhpcy5fbGFz
+dE1vZGFsSW5mbz1udWxsO3RoaXMuX3dpbmRvd0luZm89bnVsbDtpZih0aGlzLl9o
+aWRkZW5TZWxlY3RzKQp7Zm9yKHZhciBpPTA7aTx0aGlzLl9oaWRkZW5TZWxlY3Rz
+Lmxlbmd0aDtpKyspCntpZih0aGlzLl9oaWRkZW5TZWxlY3RzW2ldLkVsZW1lbnQu
+c3R5bGUudmlzaWJpbGl0eT09J2hpZGRlbicpCnRoaXMuX2hpZGRlblNlbGVjdHNb
+aV0uRWxlbWVudC5zdHlsZS52aXNpYmlsaXR5PXRoaXMuX2hpZGRlblNlbGVjdHNb
+aV0uVmlzaWJpbGl0eTt9CnRoaXMuX2hpZGRlblNlbGVjdHM9bnVsbDt9CmlmKG9u
+Q2xvc2VGdW5jdGlvbikKb25DbG9zZUZ1bmN0aW9uKHJldHVyblZhbHVlKTt0aGlz
+LkRpc3Bvc2UoKTt9fQpUZWxsaWdlbnRfTW9kYWwuUmVmcmVzaD1mdW5jdGlvbigp
+CntpZih0aGlzLl9hbmltYXRpb25IYW5kbGUpCndpbmRvdy5jbGVhclRpbWVvdXQo
+dGhpcy5fYW5pbWF0aW9uSGFuZGxlKTt0aGlzLkRpc3Bvc2UoKTtpZih0aGlzLl9p
+c1Nob3duJiZ0aGlzLl9sYXN0TW9kYWxJbmZvKQp0aGlzLk9wZW4odGhpcy5fbGFz
+dE1vZGFsSW5mby5VcmwsdGhpcy5fbGFzdE1vZGFsSW5mby5XaWR0aCx0aGlzLl9s
+YXN0TW9kYWxJbmZvLk9uQ2xvc2VGdW5jdGlvbix0aGlzLl9sYXN0TW9kYWxJbmZv
+LkhlaWdodCx0aGlzLl9sYXN0TW9kYWxJbmZvLk9uQ2xvc2VGdW5jdGlvbix0aGlz
+Ll9sYXN0TW9kYWxJbmZvLlgsdGhpcy5fbGFzdE1vZGFsSW5mby5ZKTt9ClRlbGxp
+Z2VudF9Nb2RhbC5faW5pdGlhbGl6ZT1mdW5jdGlvbigpCnt0aGlzLl9tb2RhbE1h
+c2s9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2Jyk7dGhpcy5fbW9kYWxNYXNr
+LnN0eWxlLndpZHRoPSdhdXRvJzt0aGlzLl9tb2RhbE1hc2suc3R5bGUuaGVpZ2h0
+PSdhdXRvJzt0aGlzLl9tb2RhbE1hc2suc3R5bGUucG9zaXRpb249J2Fic29sdXRl
+Jzt0aGlzLl9tb2RhbE1hc2suc3R5bGUuZGlzcGxheT0nbm9uZSc7dmFyIG1tPXRo
+aXMuX21vZGFsTWFzaztpZih0aGlzLldpbmRvd01hc2tDc3NDbGFzc2VzLmxlbmd0
+aD4wKQp7bW0uY2xhc3NOYW1lPXRoaXMuV2luZG93TWFza0Nzc0NsYXNzZXNbMF07
+Zm9yKHZhciBpPTE7aTx0aGlzLldpbmRvd01hc2tDc3NDbGFzc2VzLmxlbmd0aDtp
+KyspCnttbS5hcHBlbmRDaGlsZChkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYn
+KSk7bW09bW0uY2hpbGROb2Rlc1swXTttbS5jbGFzc05hbWU9dGhpcy5XaW5kb3dN
+YXNrQ3NzQ2xhc3Nlc1tpXTttbS5zdHlsZS53aWR0aD0nYXV0byc7bW0uc3R5bGUu
+aGVpZ2h0PSdhdXRvJzt9fQpkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKHRoaXMu
+X21vZGFsTWFzayk7dGhpcy5fbW9kYWxBbmltYXRpb25NYXNrPWRvY3VtZW50LmNy
+ZWF0ZUVsZW1lbnQoJ2RpdicpO3RoaXMuX21vZGFsQW5pbWF0aW9uTWFzay5zdHls
+ZS5wb3NpdGlvbj0nYWJzb2x1dGUnO3RoaXMuX21vZGFsQW5pbWF0aW9uTWFzay5z
+dHlsZS5kaXNwbGF5PSdub25lJzt0aGlzLl9tb2RhbEFuaW1hdGlvbk1hc2suc3R5
+bGUub3ZlcmZsb3c9J2hpZGRlbic7dGhpcy5fbW9kYWw9ZG9jdW1lbnQuY3JlYXRl
+RWxlbWVudCgnZGl2Jyk7dGhpcy5fbW9kYWwuc3R5bGUud2lkdGg9J2F1dG8nO3Ro
+aXMuX21vZGFsLnN0eWxlLmhlaWdodD0nYXV0byc7dGhpcy5fbW9kYWwuc3R5bGUu
+cG9zaXRpb249J2Fic29sdXRlJzt0aGlzLl9tb2RhbC5zdHlsZS5kaXNwbGF5PSdu
+b25lJzt2YXIgbT10aGlzLl9tb2RhbDtpZih0aGlzLldpbmRvd0Nzc0NsYXNzZXMu
+bGVuZ3RoPjApCnttLmNsYXNzTmFtZT10aGlzLldpbmRvd0Nzc0NsYXNzZXNbMF07
+Zm9yKHZhciBpPTE7aTx0aGlzLldpbmRvd0Nzc0NsYXNzZXMubGVuZ3RoO2krKykK
+e20uYXBwZW5kQ2hpbGQoZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2JykpO209
+bS5jaGlsZE5vZGVzWzBdO20uY2xhc3NOYW1lPXRoaXMuV2luZG93Q3NzQ2xhc3Nl
+c1tpXTttLnN0eWxlLndpZHRoPSdhdXRvJzttLnN0eWxlLmhlaWdodD0nYXV0byc7
+fX0KdGhpcy5fbW9kYWxUaXRsZT1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYn
+KTttLmFwcGVuZENoaWxkKHRoaXMuX21vZGFsVGl0bGUpO2lmKHRoaXMuV2luZG93
+VGl0bGVDc3NDbGFzc2VzLmxlbmd0aD4wKQp7dGhpcy5fbW9kYWxUaXRsZS5jbGFz
+c05hbWU9dGhpcy5XaW5kb3dUaXRsZUNzc0NsYXNzZXNbMF07Zm9yKHZhciBpPTE7
+aTx0aGlzLldpbmRvd1RpdGxlQ3NzQ2xhc3Nlcy5sZW5ndGg7aSsrKQp7dGhpcy5f
+bW9kYWxUaXRsZS5hcHBlbmRDaGlsZChkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdk
+aXYnKSk7dGhpcy5fbW9kYWxUaXRsZT10aGlzLl9tb2RhbFRpdGxlLmNoaWxkTm9k
+ZXNbMF07dGhpcy5fbW9kYWxUaXRsZS5jbGFzc05hbWU9dGhpcy5XaW5kb3dUaXRs
+ZUNzc0NsYXNzZXNbaV07fX0KdGhpcy5fbW9kYWxUaXRsZS5vbm1vdXNlZG93bj1u
+ZXcgRnVuY3Rpb24oJ2V2ZW50Jywnd2luZG93LicrdGhpcy5fdmFyaWFibGVOYW1l
+KycuX3N0YXJ0RHJhZyhldmVudCk7IHJldHVybiBmYWxzZTsnKTt0aGlzLl9tb2Rh
+bENsb3NlPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpO3RoaXMuX21vZGFs
+VGl0bGUuYXBwZW5kQ2hpbGQodGhpcy5fbW9kYWxDbG9zZSk7dmFyIG1jPXRoaXMu
+X21vZGFsQ2xvc2U7aWYodGhpcy5XaW5kb3dDbG9zZUNzc0NsYXNzZXMubGVuZ3Ro
+PjApCnttYy5jbGFzc05hbWU9dGhpcy5XaW5kb3dDbG9zZUNzc0NsYXNzZXNbMF07
+Zm9yKHZhciBpPTE7aTx0aGlzLldpbmRvd0Nsb3NlQ3NzQ2xhc3Nlcy5sZW5ndGg7
+aSsrKQp7bWMuYXBwZW5kQ2hpbGQoZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2
+JykpO21jPW1jLmNoaWxkTm9kZXNbMF07bWMuY2xhc3NOYW1lPXRoaXMuV2luZG93
+Q2xvc2VDc3NDbGFzc2VzW2ldO319CnRoaXMuX21vZGFsQ2xvc2Uub25jbGljaz1u
+ZXcgRnVuY3Rpb24oJ3dpbmRvdy4nK3RoaXMuX3ZhcmlhYmxlTmFtZSsnLkNsb3Nl
+KCk7Jyk7dGhpcy5fbW9kYWxUaXRsZS5hcHBlbmRDaGlsZChkb2N1bWVudC5jcmVh
+dGVFbGVtZW50KCdzcGFuJykpO3ZhciBlPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQo
+J2RpdicpO2Uuc3R5bGUuY2xlYXI9J2JvdGgnO3RoaXMuX21vZGFsVGl0bGUuYXBw
+ZW5kQ2hpbGQoZSk7dGhpcy5fbW9kYWxDb250ZW50PWRvY3VtZW50LmNyZWF0ZUVs
+ZW1lbnQoJ2RpdicpO20uYXBwZW5kQ2hpbGQodGhpcy5fbW9kYWxDb250ZW50KTtp
+Zih0aGlzLldpbmRvd0NvbnRlbnRDc3NDbGFzc2VzLmxlbmd0aD4wKQp7dGhpcy5f
+bW9kYWxDb250ZW50LmNsYXNzTmFtZT10aGlzLldpbmRvd0NvbnRlbnRDc3NDbGFz
+c2VzWzBdO2Zvcih2YXIgaT0xO2k8dGhpcy5XaW5kb3dDb250ZW50Q3NzQ2xhc3Nl
+cy5sZW5ndGg7aSsrKQp7dGhpcy5fbW9kYWxDb250ZW50LmFwcGVuZENoaWxkKGRv
+Y3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpKTt0aGlzLl9tb2RhbENvbnRlbnQ9
+dGhpcy5fbW9kYWxDb250ZW50LmNoaWxkTm9kZXNbMF07dGhpcy5fbW9kYWxDb250
+ZW50LmNsYXNzTmFtZT10aGlzLldpbmRvd0NvbnRlbnRDc3NDbGFzc2VzW2ldO319
+CnRoaXMuX21vZGFsSWZyYW1lPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2lmcmFt
+ZScpO3RoaXMuX21vZGFsSWZyYW1lLnNyYz10aGlzLkxvYWRpbmdIdG1sVXJsO3Ro
+aXMuX21vZGFsSWZyYW1lLndpZHRoPScxMDAlJzt0aGlzLl9tb2RhbElmcmFtZS5i
+b3JkZXI9JzAnO3RoaXMuX21vZGFsSWZyYW1lLmZyYW1lQm9yZGVyPSdubyc7dGhp
+cy5fbW9kYWxJZnJhbWUuc3R5bGUuYm9yZGVyTGVmdFdpZHRoPScwcHgnO3RoaXMu
+X21vZGFsSWZyYW1lLnN0eWxlLmJvcmRlclJpZ2h0V2lkdGg9JzBweCc7dGhpcy5f
+bW9kYWxJZnJhbWUuc3R5bGUuYm9yZGVyVG9wV2lkdGg9JzBweCc7dGhpcy5fbW9k
+YWxJZnJhbWUuc3R5bGUuYm9yZGVyQm90dG9tV2lkdGg9JzBweCc7dGhpcy5fbW9k
+YWxDb250ZW50LmFwcGVuZENoaWxkKHRoaXMuX21vZGFsSWZyYW1lKTt0aGlzLl9t
+b2RhbEZvb3Rlcj1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTttLmFwcGVu
+ZENoaWxkKHRoaXMuX21vZGFsRm9vdGVyKTt2YXIgbWY9dGhpcy5fbW9kYWxGb290
+ZXI7aWYodGhpcy5XaW5kb3dGb290ZXJDc3NDbGFzc2VzLmxlbmd0aD4wKQp7bWYu
+Y2xhc3NOYW1lPXRoaXMuV2luZG93Rm9vdGVyQ3NzQ2xhc3Nlc1swXTtmb3IodmFy
+IGk9MTtpPHRoaXMuV2luZG93Rm9vdGVyQ3NzQ2xhc3Nlcy5sZW5ndGg7aSsrKQp7
+bWYuYXBwZW5kQ2hpbGQoZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2JykpO21m
+PW1mLmNoaWxkTm9kZXNbMF07bWYuY2xhc3NOYW1lPXRoaXMuV2luZG93Rm9vdGVy
+Q3NzQ2xhc3Nlc1tpXTt9fQp0aGlzLl9tb2RhbFJlc2l6ZT1kb2N1bWVudC5jcmVh
+dGVFbGVtZW50KCdkaXYnKTttZi5hcHBlbmRDaGlsZCh0aGlzLl9tb2RhbFJlc2l6
+ZSk7dmFyIGU9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2Jyk7ZS5zdHlsZS5j
+bGVhcj0nYm90aCc7bWYuYXBwZW5kQ2hpbGQoZSk7dmFyIG1yPXRoaXMuX21vZGFs
+UmVzaXplO2lmKHRoaXMuV2luZG93UmVzaXplQ3NzQ2xhc3Nlcy5sZW5ndGg+MCkK
+e21yLmNsYXNzTmFtZT10aGlzLldpbmRvd1Jlc2l6ZUNzc0NsYXNzZXNbMF07Zm9y
+KHZhciBpPTE7aTx0aGlzLldpbmRvd1Jlc2l6ZUNzc0NsYXNzZXMubGVuZ3RoO2kr
+KykKe21yLmFwcGVuZENoaWxkKGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2Rpdicp
+KTttcj1tci5jaGlsZE5vZGVzWzBdO21yLmNsYXNzTmFtZT10aGlzLldpbmRvd1Jl
+c2l6ZUNzc0NsYXNzZXNbaV07fX0KdGhpcy5fbW9kYWxSZXNpemUub25tb3VzZWRv
+d249bmV3IEZ1bmN0aW9uKCdldmVudCcsJ3dpbmRvdy4nK3RoaXMuX3ZhcmlhYmxl
+TmFtZSsnLl9zdGFydFJlc2l6ZShldmVudCk7IHJldHVybiBmYWxzZTsnKTt0aGlz
+Ll9tb2RhbEFuaW1hdGlvbk1hc2suYXBwZW5kQ2hpbGQodGhpcy5fbW9kYWwpO2Rv
+Y3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQodGhpcy5fbW9kYWxBbmltYXRpb25NYXNr
+KTt0aGlzLl9pbml0aWFsaXplZD10cnVlO30KVGVsbGlnZW50X01vZGFsLkRpc3Bv
+c2U9ZnVuY3Rpb24oKQp7aWYodGhpcy5faW5pdGlhbGl6ZWQpCntpZih0aGlzLl9h
+bmltYXRpb25IYW5kbGUpCndpbmRvdy5jbGVhclRpbWVvdXQodGhpcy5fYW5pbWF0
+aW9uSGFuZGxlKTt0aGlzLl9pc1Nob3duPWZhbHNlO3RoaXMuX2lzT3BlbmluZz1m
+YWxzZTtpZihkb2N1bWVudCYmZG9jdW1lbnQuYm9keSkKe2RvY3VtZW50LmJvZHku
+cmVtb3ZlQ2hpbGQodGhpcy5fbW9kYWxBbmltYXRpb25NYXNrKTtkb2N1bWVudC5i
+b2R5LnJlbW92ZUNoaWxkKHRoaXMuX21vZGFsTWFzayk7dGhpcy5fbW9kYWxDbG9z
+ZS5vbmNsaWNrPW51bGw7dGhpcy5fbW9kYWxUaXRsZS5vbm1vdXNlZG93bj1udWxs
+O3RoaXMuX21vZGFsUmVzaXplLm9ubW91c2Vkb3duPW51bGw7dGhpcy5fbW9kYWw9
+bnVsbDt0aGlzLl9tb2RhbFRpdGxlPW51bGw7dGhpcy5fbW9kYWxDbG9zZT1udWxs
+O3RoaXMuX21vZGFsQW5pbWF0aW9uTWFzaz1udWxsO3RoaXMuX21vZGFsTWFzaz1u
+dWxsO3RoaXMuX21vZGFsSWZyYW1lPW51bGw7dGhpcy5fbW9kYWxSZXNpemU9bnVs
+bDt0aGlzLl9tb2RhbEZvb3Rlcj1udWxsO3RoaXMuX21vZGFsQ29udGVudD1udWxs
+O30KdGhpcy5faW5pdGlhbGl6ZWQ9ZmFsc2U7fX0KVGVsbGlnZW50X01vZGFsLl9h
+bmltYXRlPWZ1bmN0aW9uKHRhcmdldFZhbHVlLG5leHRWYWx1ZSxzdGVwLGFjY2Vs
+ZXJhdGlvbikKe2lmKHRoaXMuX2FuaW1hdGlvbkhhbmRsZSkKd2luZG93LmNsZWFy
+VGltZW91dCh0aGlzLl9hbmltYXRpb25IYW5kbGUpO2lmKCF0aGlzLl9pc09wZW5p
+bmcpCnJldHVybjt2YXIgY3VyclZhbHVlPXBhcnNlSW50KHRoaXMuX21vZGFsLnN0
+eWxlLnRvcCwxMCk7aWYoKHN0ZXA8MCYmY3VyclZhbHVlPHRhcmdldFZhbHVlKXx8
+KHN0ZXA+MCYmY3VyclZhbHVlPnRhcmdldFZhbHVlKXx8TWF0aC5hYnMoc3RlcCk8
+MSkKe2lmKHRoaXMuX2hpZGRlblNlbGVjdHMpCntmb3IodmFyIGk9MDtpPHRoaXMu
+X2hpZGRlblNlbGVjdHMubGVuZ3RoO2krKykKdGhpcy5faGlkZGVuU2VsZWN0c1tp
+XS5FbGVtZW50LnN0eWxlLnZpc2liaWxpdHk9J2hpZGRlbic7fQp0aGlzLl9tb2Rh
+bC5zdHlsZS50b3A9dGFyZ2V0VmFsdWUrJ3B4Jzt0aGlzLl9tb2RhbC5zdHlsZS5w
+b3NpdGlvbj0nc3RhdGljJzt0aGlzLl9tb2RhbEFuaW1hdGlvbk1hc2suc3R5bGUu
+b3ZlcmZsb3c9J3Zpc2libGUnO3RoaXMuX2FuaW1hdGlvbkhhbmRsZT1udWxsO2lm
+KCF0aGlzLl9pc1Jlc2l6aW5nJiYhdGhpcy5faXNEcmFnZ2luZykKdGhpcy5fbW9k
+YWxJZnJhbWUuc3R5bGUuZGlzcGxheT0nYmxvY2snO3RoaXMuX2lzT3BlbmluZz1m
+YWxzZTt0aGlzLl9sYXN0V2luZG93SW5mbz10aGlzLl9nZXRXaW5kb3dJbmZvKCk7
+dGhpcy5fY2hlY2tGb3JTY3JvbGxSZXNpemVIYW5kbGU9d2luZG93LnNldFRpbWVv
+dXQobmV3IEZ1bmN0aW9uKCd3aW5kb3cuJyt0aGlzLl92YXJpYWJsZU5hbWUrJy5f
+Y2hlY2tGb3JTY3JvbGxSZXNpemUoKTsnKSw5OTkpO30KZWxzZQp7dGhpcy5fbW9k
+YWwuc3R5bGUudG9wPW5leHRWYWx1ZSsncHgnO25leHRWYWx1ZT1uZXh0VmFsdWUr
+c3RlcDtpZihzdGVwPjAmJm5leHRWYWx1ZT50YXJnZXRWYWx1ZSkKbmV4dFZhbHVl
+PXRhcmdldFZhbHVlO2Vsc2UgaWYoc3RlcDwwJiZuZXh0VmFsdWU8dGFyZ2V0VmFs
+dWUpCm5leHRWYWx1ZT10YXJnZXRWYWx1ZTtzdGVwPXN0ZXAqYWNjZWxlcmF0aW9u
+O3RoaXMuX2FuaW1hdGlvbkhhbmRsZT13aW5kb3cuc2V0VGltZW91dChuZXcgRnVu
+Y3Rpb24odGhpcy5fdmFyaWFibGVOYW1lKycuX2FuaW1hdGUoJyt0YXJnZXRWYWx1
+ZSsnLCcrbmV4dFZhbHVlKycsJytzdGVwKycsJythY2NlbGVyYXRpb24rJyk7Jyks
+MTkpO319ClRlbGxpZ2VudF9Nb2RhbC5fc3RhcnREcmFnPWZ1bmN0aW9uKGV2ZW50
+KQp7aWYoIXRoaXMuX2luaXRpYWxpemVkKQp0aGlzLl9pbml0aWFsaXplKCk7aWYo
+IWV2ZW50KQpldmVudD13aW5kb3cuZXZlbnQ7dGhpcy5fbW92ZU1vZGFsSW5mbz1u
+ZXcgT2JqZWN0KCk7dGhpcy5fbW92ZU1vZGFsSW5mby5TdGFydE1vdXNlWD1ldmVu
+dC5wYWdlWD9ldmVudC5wYWdlWDpldmVudC5zY3JlZW5YO3RoaXMuX21vdmVNb2Rh
+bEluZm8uU3RhcnRNb3VzZVk9ZXZlbnQucGFnZVk/ZXZlbnQucGFnZVk6ZXZlbnQu
+c2NyZWVuWTt0aGlzLl9tb3ZlTW9kYWxJbmZvLlN0YXJ0TW9kYWxYPXRoaXMuX2xh
+c3RNb2RhbEluZm8uWDt0aGlzLl9tb3ZlTW9kYWxJbmZvLlN0YXJ0TW9kYWxZPXRo
+aXMuX2xhc3RNb2RhbEluZm8uWTt0aGlzLl9tb3ZlTW9kYWxJbmZvLkJ1dHRvbj1l
+dmVudC5idXR0b247ZG9jdW1lbnQub25tb3VzZXVwPW5ldyBGdW5jdGlvbignZXZl
+bnQnLCd3aW5kb3cuJyt0aGlzLl92YXJpYWJsZU5hbWUrJy5fZW5kRHJhZyhldmVu
+dCk7IHJldHVybiBmYWxzZTsnKTtkb2N1bWVudC5vbm1vdXNlbW92ZT1uZXcgRnVu
+Y3Rpb24oJ2V2ZW50Jywnd2luZG93LicrdGhpcy5fdmFyaWFibGVOYW1lKycuX2Ry
+YWcoZXZlbnQpOyByZXR1cm4gZmFsc2U7Jyk7dGhpcy5fbW9kYWxJZnJhbWUuc3R5
+bGUuZGlzcGxheT0nbm9uZSc7dGhpcy5faXNEcmFnZ2luZz10cnVlO30KVGVsbGln
+ZW50X01vZGFsLl9lbmREcmFnPWZ1bmN0aW9uKGV2ZW50KQp7aWYoIXRoaXMuX2lu
+aXRpYWxpemVkKQp0aGlzLl9pbml0aWFsaXplKCk7dGhpcy5faXNEcmFnZ2luZz1m
+YWxzZTt0aGlzLl9tb3ZlTW9kYWxJbmZvPW51bGw7ZG9jdW1lbnQub25tb3VzZXVw
+PW51bGw7ZG9jdW1lbnQub25tb3VzZW1vdmU9bnVsbDt0aGlzLl9tb2RhbElmcmFt
+ZS5zdHlsZS5kaXNwbGF5PSdibG9jayc7fQpUZWxsaWdlbnRfTW9kYWwuX2RyYWc9
+ZnVuY3Rpb24oZXZlbnQpCntpZighdGhpcy5faW5pdGlhbGl6ZWQpCnRoaXMuX2lu
+aXRpYWxpemUoKTtpZighZXZlbnQpCmV2ZW50PXdpbmRvdy5ldmVudDtpZihldmVu
+dC5idXR0b24hPXRoaXMuX21vdmVNb2RhbEluZm8uQnV0dG9uKQp7dGhpcy5fZW5k
+RHJhZyhldmVudCk7cmV0dXJuO30KdmFyIGV2ZW50WD10eXBlb2YoZXZlbnQucGFn
+ZVgpIT0ndW5kZWZpbmVkJz9ldmVudC5wYWdlWDpldmVudC5zY3JlZW5YO3ZhciBl
+dmVudFk9dHlwZW9mKGV2ZW50LnBhZ2VZKSE9J3VuZGVmaW5lZCc/ZXZlbnQucGFn
+ZVk6ZXZlbnQuc2NyZWVuWTt2YXIgeENoYW5nZT1ldmVudFgtdGhpcy5fbW92ZU1v
+ZGFsSW5mby5TdGFydE1vdXNlWDt2YXIgeUNoYW5nZT1ldmVudFktdGhpcy5fbW92
+ZU1vZGFsSW5mby5TdGFydE1vdXNlWTt0aGlzLk9wZW4obnVsbCx0aGlzLl9sYXN0
+TW9kYWxJbmZvLldpZHRoLHRoaXMuX2xhc3RNb2RhbEluZm8uSGVpZ2h0LHRoaXMu
+X2xhc3RNb2RhbEluZm8uT25DbG9zZUZ1bmN0aW9uLHRoaXMuX21vdmVNb2RhbElu
+Zm8uU3RhcnRNb2RhbFgreENoYW5nZSx0aGlzLl9tb3ZlTW9kYWxJbmZvLlN0YXJ0
+TW9kYWxZK3lDaGFuZ2UsdHJ1ZSk7fQpUZWxsaWdlbnRfTW9kYWwuX3N0YXJ0UmVz
+aXplPWZ1bmN0aW9uKGV2ZW50KQp7aWYoIXRoaXMuX2luaXRpYWxpemVkKQp0aGlz
+Ll9pbml0aWFsaXplKCk7aWYoIWV2ZW50KQpldmVudD13aW5kb3cuZXZlbnQ7dGhp
+cy5fcmVzaXplTW9kYWxJbmZvPW5ldyBPYmplY3QoKTt0aGlzLl9yZXNpemVNb2Rh
+bEluZm8uU3RhcnRNb3VzZVg9ZXZlbnQucGFnZVg/ZXZlbnQucGFnZVg6ZXZlbnQu
+c2NyZWVuWDt0aGlzLl9yZXNpemVNb2RhbEluZm8uU3RhcnRNb3VzZVk9ZXZlbnQu
+cGFnZVk/ZXZlbnQucGFnZVk6ZXZlbnQuc2NyZWVuWTt0aGlzLl9yZXNpemVNb2Rh
+bEluZm8uU3RhcnRNb2RhbFdpZHRoPXRoaXMuX2xhc3RNb2RhbEluZm8uV2lkdGg7
+dGhpcy5fcmVzaXplTW9kYWxJbmZvLlN0YXJ0TW9kYWxIZWlnaHQ9dGhpcy5fbGFz
+dE1vZGFsSW5mby5IZWlnaHQ7dGhpcy5fcmVzaXplTW9kYWxJbmZvLkJ1dHRvbj1l
+dmVudC5idXR0b247ZG9jdW1lbnQub25tb3VzZXVwPW5ldyBGdW5jdGlvbignZXZl
+bnQnLCd3aW5kb3cuJyt0aGlzLl92YXJpYWJsZU5hbWUrJy5fZW5kUmVzaXplKGV2
+ZW50KTsgcmV0dXJuIGZhbHNlOycpO2RvY3VtZW50Lm9ubW91c2Vtb3ZlPW5ldyBG
+dW5jdGlvbignZXZlbnQnLCd3aW5kb3cuJyt0aGlzLl92YXJpYWJsZU5hbWUrJy5f
+cmVzaXplKGV2ZW50KTsgcmV0dXJuIGZhbHNlOycpO3RoaXMuX21vZGFsSWZyYW1l
+LnN0eWxlLmRpc3BsYXk9J25vbmUnO3RoaXMuX2lzUmVzaXppbmc9dHJ1ZTt9ClRl
+bGxpZ2VudF9Nb2RhbC5fZW5kUmVzaXplPWZ1bmN0aW9uKGV2ZW50KQp7aWYoIXRo
+aXMuX2luaXRpYWxpemVkKQp0aGlzLl9pbml0aWFsaXplKCk7dGhpcy5faXNSZXNp
+emluZz1mYWxzZTt0aGlzLl9yZXNpemVNb2RhbEluZm89bnVsbDtkb2N1bWVudC5v
+bm1vdXNldXA9bnVsbDtkb2N1bWVudC5vbm1vdXNlbW92ZT1udWxsO3RoaXMuX21v
+ZGFsSWZyYW1lLnN0eWxlLmRpc3BsYXk9J2Jsb2NrJzt9ClRlbGxpZ2VudF9Nb2Rh
+bC5fcmVzaXplPWZ1bmN0aW9uKGV2ZW50KQp7aWYoIXRoaXMuX2luaXRpYWxpemVk
+KQp0aGlzLl9pbml0aWFsaXplKCk7aWYoIWV2ZW50KQpldmVudD13aW5kb3cuZXZl
+bnQ7aWYoZXZlbnQuYnV0dG9uIT10aGlzLl9yZXNpemVNb2RhbEluZm8uQnV0dG9u
+KQp7dGhpcy5fZW5kUmVzaXplKGV2ZW50KTtyZXR1cm47fQp2YXIgZXZlbnRYPXR5
+cGVvZihldmVudC5wYWdlWCkhPSd1bmRlZmluZWQnP2V2ZW50LnBhZ2VYOmV2ZW50
+LnNjcmVlblg7dmFyIGV2ZW50WT10eXBlb2YoZXZlbnQucGFnZVkpIT0ndW5kZWZp
+bmVkJz9ldmVudC5wYWdlWTpldmVudC5zY3JlZW5ZO3ZhciB4Q2hhbmdlPWV2ZW50
+WC10aGlzLl9yZXNpemVNb2RhbEluZm8uU3RhcnRNb3VzZVg7dmFyIHlDaGFuZ2U9
+ZXZlbnRZLXRoaXMuX3Jlc2l6ZU1vZGFsSW5mby5TdGFydE1vdXNlWTt0aGlzLk9w
+ZW4obnVsbCx0aGlzLl9yZXNpemVNb2RhbEluZm8uU3RhcnRNb2RhbFdpZHRoK3hD
+aGFuZ2UsdGhpcy5fcmVzaXplTW9kYWxJbmZvLlN0YXJ0TW9kYWxIZWlnaHQreUNo
+YW5nZSx0aGlzLl9sYXN0TW9kYWxJbmZvLk9uQ2xvc2VGdW5jdGlvbix0aGlzLl9s
+YXN0TW9kYWxJbmZvLlgsdGhpcy5fbGFzdE1vZGFsSW5mby5ZLHRydWUpO30=
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=ratingcontrol.js
+Content-Type: application/x-javascript; charset=utf-8; name=ratingcontrol.js
+Content-Location: http://blogs.msdn.com/utility/ratingcontrol.js
+Content-Transfer-Encoding: Base64
+
+ZnVuY3Rpb24gUmF0ZUNvbnRyb2wgKHZhck5hbWUsIGNvbnRhaW5lcklkLCB2YWx1
+ZUlkLCBudW1iZXJPZkl0ZW1zLCBpbWFnZXNQYXRoVXJsLCB1c2VIYWxmU3RhcnMs
+IGNvbnRhaW5lclN0eWxlQ2xhc3MsIGNvbnRhaW5lck92ZXJTdHlsZUNsYXNzLCBj
+b250YWluZXJSZWFkT25seVN0eWxlQ2xhc3MsIHRpdGxlcywgaXNSZWFkT25seSwg
+YWxsb3dNdWx0aXBsZVNlbGVjdGlvbnMpIA0Kew0KCXRoaXMuVmFyaWFibGVOYW1l
+ID0gdmFyTmFtZTsNCgl0aGlzLlZhbHVlSGFuZGxlID0gZG9jdW1lbnQuZ2V0RWxl
+bWVudEJ5SWQodmFsdWVJZCk7DQoJdGhpcy5Db250YWluZXJIYW5kbGUgPSBkb2N1
+bWVudC5nZXRFbGVtZW50QnlJZChjb250YWluZXJJZCk7DQoJdGhpcy5JbWFnZXNQ
+YXRoVXJsID0gaW1hZ2VzUGF0aFVybDsNCgl0aGlzLlVzZUhhbGZTdGFycyA9IHVz
+ZUhhbGZTdGFyczsNCgl0aGlzLkl0ZW1zID0gbmV3IEFycmF5KG51bWJlck9mSXRl
+bXMpOw0KCXRoaXMuSXNJbml0aWFsaXplZCA9IGZhbHNlOw0KCXRoaXMuTnVtYmVy
+T2ZJdGVtcyA9IG51bWJlck9mSXRlbXM7DQoJdGhpcy5Db250YWluZXJTdHlsZUNs
+YXNzID0gY29udGFpbmVyU3R5bGVDbGFzczsNCgl0aGlzLkNvbnRhaW5lck92ZXJT
+dHlsZUNsYXNzID0gY29udGFpbmVyT3ZlclN0eWxlQ2xhc3M7DQoJdGhpcy5Db250
+YWluZXJSZWFkT25seVN0eWxlQ2xhc3MgPSBjb250YWluZXJSZWFkT25seVN0eWxl
+Q2xhc3M7DQoJdGhpcy5UaXRsZXMgPSB0aXRsZXM7DQoJdGhpcy5Jc1JlYWRPbmx5
+ID0gaXNSZWFkT25seTsNCgl0aGlzLkFsbG93TXVsdGlwbGVTZWxlY3Rpb25zID0g
+YWxsb3dNdWx0aXBsZVNlbGVjdGlvbnM7DQoJdGhpcy5TZXRBbmltYXRpb25IYW5k
+bGUgPSBudWxsOw0KCXRoaXMuU2F2aW5nVmFsdWUgPSBmYWxzZTsNCgl0aGlzLkNh
+Y2hlZEltYWdlcyA9IG5ldyBBcnJheSgpOw0KCQ0KCXRoaXMuTW91c2VPdmVyID0g
+ZnVuY3Rpb24gKHZhbHVlKQ0KCXsNCgkJaWYgKCF0aGlzLklzSW5pdGlhbGl6ZWQg
+fHwgdGhpcy5Jc1JlYWRPbmx5KQ0KCQkJcmV0dXJuOw0KCQkJDQoJCXRoaXMuQ29u
+dGFpbmVySGFuZGxlLmNsYXNzTmFtZSA9IHRoaXMuQ29udGFpbmVyT3ZlclN0eWxl
+Q2xhc3M7DQoJDQoJCXRoaXMuU2hvd1ZhbHVlKHZhbHVlKTsNCgl9DQoJDQoJdGhp
+cy5Nb3VzZU91dCA9IGZ1bmN0aW9uICgpDQoJew0KCQlpZiAoIXRoaXMuSXNJbml0
+aWFsaXplZCB8fCB0aGlzLklzUmVhZE9ubHkpDQoJCQlyZXR1cm47DQoJCQkNCgkJ
+dGhpcy5Db250YWluZXJIYW5kbGUuY2xhc3NOYW1lID0gdGhpcy5Db250YWluZXJT
+dHlsZUNsYXNzOw0KCQkNCgkJdGhpcy5TaG93Q3VycmVudFZhbHVlKCk7DQoJfQ0K
+CQ0KCXRoaXMuU2V0VmFsdWUgPSBmdW5jdGlvbiAodmFsdWUpDQoJew0KCQlpZiAo
+IXRoaXMuSXNJbml0aWFsaXplZCB8fCB0aGlzLklzUmVhZE9ubHkpDQoJCQlyZXR1
+cm47DQoJCQ0KCQl0aGlzLlNob3dWYWx1ZSh2YWx1ZSk7CQ0KCQl0aGlzLlZhbHVl
+SGFuZGxlLnZhbHVlID0gdmFsdWU7DQoJCQ0KCQlpZiAodGhpcy5TZXRBbmltYXRp
+b25IYW5kbGUpDQoJCQl3aW5kb3cuY2xlYXJUaW1lb3V0KHRoaXMuU2V0QW5pbWF0
+aW9uSGFuZGxlKTsNCgkJCQ0KCQlpZiAoIXRoaXMuQWxsb3dNdWx0aXBsZVNlbGVj
+dGlvbnMpDQoJCQl0aGlzLklzUmVhZE9ubHkgPSB0cnVlOw0KCQkJDQoJCXRoaXMu
+U2F2aW5nVmFsdWUgPSB0cnVlOw0KCQlSYXRpbmdDb250cm9sQUpBWC5TYXZlUmF0
+aW5nKHRoaXMuVmFyaWFibGVOYW1lLCB2YWx1ZSwgbmV3IEZ1bmN0aW9uKCdyZXN1
+bHQnLCAnd2luZG93LicgKyB0aGlzLlZhcmlhYmxlTmFtZSArICcuVmFsdWVTYXZl
+ZChyZXN1bHQpOycpKTsNCgkJCQ0KCQl0aGlzLlNldEFuaW1hdGlvbkhhbmRsZSA9
+IHdpbmRvdy5zZXRUaW1lb3V0KHRoaXMuVmFyaWFibGVOYW1lICsgIi5TZXRBbmlt
+YXRpb24oMCk7IiwgOTkpOw0KCX0NCgkNCgl0aGlzLlZhbHVlU2F2ZWQgPSBmdW5j
+dGlvbihyZXN1bHQpDQoJew0KCQlpZiAocmVzdWx0LmVycm9yKQ0KCQl7DQoJCQlh
+bGVydChyZXN1bHQuZXJyb3IpOw0KCQkJdGhpcy5Jc1NhdmluZyA9IGZhbHNlOw0K
+CQkJd2luZG93LmNsZWFyVGltZW91dCh0aGlzLlNldEFuaW1hdGlvbkhhbmRsZSk7
+DQoJCQl0aGlzLklzUmVhZE9ubHkgPSBmYWxzZTsNCgkJCXRoaXMuSW5pdGlhbGl6
+ZSgpOw0KCQkJcmV0dXJuOw0KCQl9DQoJDQoJCXRoaXMuVmFsdWVIYW5kbGUudmFs
+dWUgPSByZXN1bHQudmFsdWVbMF07DQoJCXRoaXMuQ29udGFpbmVySGFuZGxlLnRp
+dGxlID0gcmVzdWx0LnZhbHVlWzFdOw0KCQl0aGlzLklzUmVhZE9ubHkgPSByZXN1
+bHQudmFsdWVbM10gIT0gJ3RydWUnOw0KCQlpZiAocmVzdWx0LnZhbHVlWzJdKQ0K
+CQl7DQoJCQlpZiAodGhpcy5Jc1JlYWRPbmx5KQ0KCQkJew0KCQkJCXRoaXMuQ29u
+dGFpbmVySGFuZGxlLm9uY2xpY2sgPSBuZXcgRnVuY3Rpb24ocmVzdWx0LnZhbHVl
+WzJdKTsNCgkJCQl0aGlzLkNvbnRhaW5lckhhbmRsZS5zdHlsZS5jdXJzb3IgPSAi
+cG9pbnRlciI7DQoJCQl9DQoJCX0NCgkJCQ0KCQl0aGlzLlNhdmluZ1ZhbHVlID0g
+ZmFsc2U7DQoJfQ0KCQ0KCXRoaXMuU2V0QW5pbWF0aW9uID0gZnVuY3Rpb24gKHN0
+ZXApDQoJew0KCQlpZiAoc3RlcCA+IDYgfHwgIXRoaXMuSXNJbml0aWFsaXplZCkN
+CgkJew0KCQkJaWYgKCF0aGlzLkFsbG93TXVsdGlwbGVTZWxlY3Rpb25zKQ0KCQkJ
+CXRoaXMuSXNSZWFkT25seSA9IHRydWU7DQoJCQkNCgkJCXRoaXMuSW5pdGlhbGl6
+ZSgpOw0KCQkJcmV0dXJuOw0KCQl9DQoJCQkNCgkJaWYgKHN0ZXAgJSAyID09IDAp
+DQoJCQl0aGlzLkNvbnRhaW5lckhhbmRsZS5jbGFzc05hbWUgPSB0aGlzLkNvbnRh
+aW5lclN0eWxlQ2xhc3M7DQoJCWVsc2UNCgkJCXRoaXMuQ29udGFpbmVySGFuZGxl
+LmNsYXNzTmFtZSA9IHRoaXMuQ29udGFpbmVyT3ZlclN0eWxlQ2xhc3M7DQoNCgkJ
+aWYgKCF0aGlzLlNhdmluZ1ZhbHVlKQ0KCQkJc3RlcCA9IHN0ZXAgKyAxOw0KCQll
+bHNlDQoJCQlzdGVwID0gKHN0ZXAgKyAxKSAlIDI7DQoJCQkNCgkJdGhpcy5TZXRB
+bmltYXRpb25IYW5kbGUgPSB3aW5kb3cuc2V0VGltZW91dCh0aGlzLlZhcmlhYmxl
+TmFtZSArICIuU2V0QW5pbWF0aW9uKCIgKyBzdGVwICsgIik7IiwgMTk5KTsNCgl9
+DQoJDQoJdGhpcy5TaG93VmFsdWUgPSBmdW5jdGlvbiAodmFsdWUpDQoJew0KCQlp
+ZiAoIXRoaXMuSXNJbml0aWFsaXplZCkNCgkJCXJldHVybjsNCgkJCQ0KCQl2YXIg
+aTsNCgkJdmFyIGogPSB0aGlzLk51bWJlck9mSXRlbXMgKiAyOw0KCQl2YWx1ZSA9
+IHZhbHVlICogMjsNCgkJdmFsdWUgPSB2YWx1ZSAtIDE7DQoJCQkNCgkJZm9yIChp
+ID0gMDsgaSA8IGo7IGkrKykNCgkJew0KCQkJaWYgKGkgPD0gdmFsdWUpDQoJCQkJ
+dGhpcy5Db250YWluZXJIYW5kbGUuY2hpbGROb2Rlc1tpXS5zcmMgPSB0aGlzLkdl
+dEl0ZW1zT25TcmMoaSk7DQoJCQllbHNlDQoJCQkJdGhpcy5Db250YWluZXJIYW5k
+bGUuY2hpbGROb2Rlc1tpXS5zcmMgPSB0aGlzLkdldEl0ZW1zT2ZmU3JjKGkpOw0K
+CQl9DQoJfQ0KCQ0KCXRoaXMuU2hvd0N1cnJlbnRWYWx1ZSA9IGZ1bmN0aW9uKCkN
+Cgl7DQoJCWlmICghdGhpcy5Jc0luaXRpYWxpemVkKQ0KCQkJcmV0dXJuOw0KCQkJ
+DQoJCXRoaXMuU2hvd1ZhbHVlKHRoaXMuVmFsdWVIYW5kbGUudmFsdWUpOw0KCX0N
+CgkNCgl0aGlzLkdldFZhbHVlID0gZnVuY3Rpb24oKQ0KCXsNCgkJaWYgKCF0aGlz
+LklzSW5pdGlhbGl6ZWQpDQoJCQlyZXR1cm4gbnVsbDsNCg0KCQlyZXR1cm4gdGhp
+cy5WYWx1ZUhhbmRsZS52YWx1ZTsNCgl9DQoJDQoJdGhpcy5HZXRJdGVtc09uU3Jj
+ID0gZnVuY3Rpb24gKGluZGV4KQ0KCXsNCgkJaWYgKGluZGV4ICUgMiA9PSAxKQ0K
+CQkJcmV0dXJuIHRoaXMuSW1hZ2VzUGF0aFVybCArICdzdGFyLXJpZ2h0LW9uLmdp
+Zic7DQoJCWVsc2UNCgkJCXJldHVybiB0aGlzLkltYWdlc1BhdGhVcmwgKyAnc3Rh
+ci1sZWZ0LW9uLmdpZic7DQoJfQ0KCQ0KCXRoaXMuR2V0SXRlbXNPZmZTcmMgPSBm
+dW5jdGlvbiAoaW5kZXgpDQoJew0KCQlpZiAoaW5kZXggJSAyID09IDEpDQoJCQly
+ZXR1cm4gdGhpcy5JbWFnZXNQYXRoVXJsICsgJ3N0YXItcmlnaHQtb2ZmLmdpZic7
+DQoJCWVsc2UNCgkJCXJldHVybiB0aGlzLkltYWdlc1BhdGhVcmwgKyAnc3Rhci1s
+ZWZ0LW9mZi5naWYnOw0KCX0NCgkNCgl0aGlzLkdldEl0ZW1UaXRsZSA9IGZ1bmN0
+aW9uIChpbmRleCwgdmFsdWUpDQoJew0KCQlpZiAodHlwZW9mKHRoaXMuVGl0bGVz
+KSA9PSAib2JqZWN0IikNCgkJCXJldHVybiB0aGlzLlRpdGxlc1tpbmRleF0ucmVw
+bGFjZSgiezB9IiwgKHZhbHVlKSk7DQoJCWVsc2UgaWYgKHRoaXMuVGl0bGVzKQ0K
+CQkJcmV0dXJuIHRoaXMuVGl0bGVzLnJlcGxhY2UoInswfSIsICh2YWx1ZSkpOw0K
+CQllbHNlDQoJCQlyZXR1cm4gdmFsdWU7CQkJDQoJfQ0KCQ0KCXRoaXMuQ2FjaGVJ
+bWFnZXMgPSBmdW5jdGlvbigpDQoJew0KCQl2YXIgaW1hZ2U7DQoJCXZhciB1cmw7
+DQoJCXZhciBpOw0KCQl2YXIgaiA9IDI7DQoNCgkJZm9yIChpID0gMDsgaSA8IGo7
+IGkrKykNCgkJew0KCQkJdXJsID0gdGhpcy5HZXRJdGVtc09uU3JjKGkpOw0KCQkJ
+aWYgKCF0aGlzLklzSW1hZ2VDYWNoZWQodXJsKSkNCgkJCXsNCgkJCQlpbWFnZSA9
+IG5ldyBJbWFnZSgpOw0KCQkJCWltYWdlLnNyYyA9IHVybDsNCgkJCQl0aGlzLkNh
+Y2hlZEltYWdlc1t0aGlzLkNhY2hlZEltYWdlcy5sZW5ndGhdID0gaW1hZ2U7DQoJ
+CQl9DQoJCQkNCgkJCXVybCA9IHRoaXMuR2V0SXRlbXNPZmZTcmMoaSk7DQoJCQlp
+ZiAoIXRoaXMuSXNJbWFnZUNhY2hlZCh1cmwpKQ0KCQkJew0KCQkJCWltYWdlID0g
+bmV3IEltYWdlKCk7DQoJCQkJaW1hZ2Uuc3JjID0gdXJsOw0KCQkJCXRoaXMuQ2Fj
+aGVkSW1hZ2VzW3RoaXMuQ2FjaGVkSW1hZ2VzLmxlbmd0aF0gPSBpbWFnZTsNCgkJ
+CX0NCgkJfQ0KCX0NCgkNCgl0aGlzLklzSW1hZ2VDYWNoZWQgPSBmdW5jdGlvbiAo
+dXJsKQ0KCXsNCgkJdmFyIGk7DQoJCWZvciAoaSA9IDA7IGkgPCB0aGlzLkNhY2hl
+ZEltYWdlcy5sZW5ndGg7IGkrKykNCgkJew0KCQkJaWYgKHRoaXMuQ2FjaGVkSW1h
+Z2VzW2ldLnNyYyA9PSB1cmwpDQoJCQkJcmV0dXJuIHRydWU7DQoJCX0NCgkJDQoJ
+CXJldHVybiBmYWxzZTsNCgl9DQoJDQoJdGhpcy5Jbml0aWFsaXplID0gZnVuY3Rp
+b24oKQ0KCXsNCgkJdGhpcy5DYWNoZUltYWdlcygpOw0KCQ0KCQl3aGlsZSAodGhp
+cy5Db250YWluZXJIYW5kbGUuY2hpbGROb2Rlcy5sZW5ndGggPiAwKQ0KCQkJdGhp
+cy5Db250YWluZXJIYW5kbGUucmVtb3ZlQ2hpbGQodGhpcy5Db250YWluZXJIYW5k
+bGUuY2hpbGROb2Rlc1swXSk7DQoJCQkNCgkJaWYgKCF0aGlzLklzUmVhZE9ubHkp
+DQoJCQl0aGlzLkNvbnRhaW5lckhhbmRsZS5jbGFzc05hbWUgPSB0aGlzLkNvbnRh
+aW5lclN0eWxlQ2xhc3M7DQoJCWVsc2UNCgkJCXRoaXMuQ29udGFpbmVySGFuZGxl
+LmNsYXNzTmFtZSA9IHRoaXMuQ29udGFpbmVyUmVhZE9ubHlTdHlsZUNsYXNzOw0K
+CQ0KCQl2YXIgaSwgZSwgdmFsdWU7DQoJCXZhciBqID0gdGhpcy5OdW1iZXJPZkl0
+ZW1zICogMjsNCgkJDQoJCWZvciAoaSA9IDA7IGkgPCBqOyBpKyspDQoJCXsNCgkJ
+CWUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJpbWciKTsNCgkJCQ0KCQkJdmFs
+dWUgPSAoaSArIDEpIC8gMjsNCg0KCQkJaWYgKHZhbHVlIDw9IHRoaXMuVmFsdWVI
+YW5kbGUudmFsdWUpDQoJCQkJZS5zcmMgPSB0aGlzLkdldEl0ZW1zT25TcmMoaSk7
+DQoJCQllbHNlDQoJCQkJZS5zcmMgPSB0aGlzLkdldEl0ZW1zT2ZmU3JjKGkpOw0K
+CQkJCQ0KCQkJaWYgKCF0aGlzLklzUmVhZE9ubHkpDQoJCQl7DQoJCQkJaWYgKCF0
+aGlzLlVzZUhhbGZTdGFycykNCgkJCQl7DQoJCQkJCXZhbHVlID0gTWF0aC5jZWls
+KHZhbHVlKTsNCgkJCQkJZS50aXRsZSA9IHRoaXMuR2V0SXRlbVRpdGxlKHZhbHVl
+LCB2YWx1ZSk7DQoJCQkJfQ0KCQkJCWVsc2UNCgkJCQkJZS50aXRsZSA9IHRoaXMu
+R2V0SXRlbVRpdGxlKGksIHZhbHVlKTsNCg0KCQkJCWUub25jbGljayA9IG5ldyBG
+dW5jdGlvbigid2luZG93LiIgKyB0aGlzLlZhcmlhYmxlTmFtZSArICIuU2V0VmFs
+dWUoIiArIHZhbHVlICsgIik7Iik7DQoJCQkJZS5vbm1vdXNlb3ZlciA9IG5ldyBG
+dW5jdGlvbigid2luZG93LiIgKyB0aGlzLlZhcmlhYmxlTmFtZSArICIuTW91c2VP
+dmVyKCIgKyB2YWx1ZSArICIpOyIpOw0KCQkJCWUub25tb3VzZW91dCA9IG5ldyBG
+dW5jdGlvbigid2luZG93LiIgKyB0aGlzLlZhcmlhYmxlTmFtZSArICIuTW91c2VP
+dXQoKTsiKTsNCgkJCX0NCg0KCQkJZS5hbGlnbiA9ICJhYnNtaWRkbGUiOw0KCQkJ
+ZS5ib3JkZXIgPSAwOwkJDQoJCQkNCgkJCXRoaXMuQ29udGFpbmVySGFuZGxlLmFw
+cGVuZENoaWxkKGUpOw0KCQl9DQoJCQ0KCQl0aGlzLklzSW5pdGlhbGl6ZWQgPSB0
+cnVlOw0KCX0NCgkNCgl0aGlzLkluaXRpYWxpemUoKTsNCn0=
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=wt.js
+Content-Type: application/x-javascript; charset=utf-8; name=wt.js
+Content-Location: http://blogs.msdn.com/wt.js
+Content-Transfer-Encoding: Base64
+
+Ly9UYWcgVmVyc2lvbjogTU5QIDIuMS8xMS0xOC0wNw0KdmFyIGdUYWdWZXIgPSAi
+TU5QIDIuMS8xMS0xOC0wNyI7DQp2YXIgZ1NlcnZpY2UgPSB0cnVlOw0KdmFyIGdU
+aW1lWm9uZSA9IC04Ow0KZnVuY3Rpb24gZGNzQ29va2llKCl7DQoJaWYgKHR5cGVv
+ZihkY3NPdGhlcik9PSJmdW5jdGlvbiIpew0KCQlkY3NPdGhlcigpOw0KCX0NCgll
+bHNlIGlmICh0eXBlb2YoZGNzUGx1Z2luKT09ImZ1bmN0aW9uIil7DQoJCWRjc1Bs
+dWdpbigpOw0KCX0NCgllbHNlIGlmICh0eXBlb2YoZGNzRlBDKT09ImZ1bmN0aW9u
+Iil7DQoJCWRjc0ZQQyhnVGltZVpvbmUpOw0KCX0NCn0NCmZ1bmN0aW9uIGRjc0dl
+dENvb2tpZShuYW1lKXsNCgl2YXIgcG9zPWRvY3VtZW50LmNvb2tpZS5pbmRleE9m
+KG5hbWUrIj0iKTsNCglpZiAocG9zIT0tMSl7DQoJCXZhciBzdGFydD1wb3MrbmFt
+ZS5sZW5ndGgrMTsNCgkJdmFyIGVuZD1kb2N1bWVudC5jb29raWUuaW5kZXhPZigi
+OyIsc3RhcnQpOw0KCQlpZiAoZW5kPT0tMSl7DQoJCQllbmQ9ZG9jdW1lbnQuY29v
+a2llLmxlbmd0aDsNCgkJfQ0KCQlyZXR1cm4gdW5lc2NhcGUoZG9jdW1lbnQuY29v
+a2llLnN1YnN0cmluZyhzdGFydCxlbmQpKTsNCgl9DQoJcmV0dXJuIG51bGw7DQp9
+DQpmdW5jdGlvbiBkY3NHZXRDcnVtYihuYW1lLGNydW1iKXsNCgl2YXIgYUNvb2tp
+ZT1kY3NHZXRDb29raWUobmFtZSkuc3BsaXQoIjoiKTsNCglmb3IgKHZhciBpPTA7
+aTxhQ29va2llLmxlbmd0aDtpKyspew0KCQl2YXIgYUNydW1iPWFDb29raWVbaV0u
+c3BsaXQoIj0iKTsNCgkJaWYgKGNydW1iPT1hQ3J1bWJbMF0pew0KCQkJcmV0dXJu
+IGFDcnVtYlsxXTsNCgkJfQ0KCX0NCglyZXR1cm4gbnVsbDsNCn0NCmZ1bmN0aW9u
+IGRjc0dldElkQ3J1bWIobmFtZSxjcnVtYil7DQoJdmFyIGNvb2tpZT1kY3NHZXRD
+b29raWUobmFtZSk7DQoJdmFyIGlkPWNvb2tpZS5zdWJzdHJpbmcoMCxjb29raWUu
+aW5kZXhPZigiOmx2PSIpKTsNCgl2YXIgYUNydW1iPWlkLnNwbGl0KCI9Iik7DQoJ
+Zm9yICh2YXIgaT0wO2k8YUNydW1iLmxlbmd0aDtpKyspew0KCQlpZiAoY3J1bWI9
+PWFDcnVtYlswXSl7DQoJCQlyZXR1cm4gYUNydW1iWzFdOw0KCQl9DQoJfQ0KCXJl
+dHVybiBudWxsOw0KfQ0KZnVuY3Rpb24gZGNzRlBDKG9mZnNldCl7DQoJaWYgKHR5
+cGVvZihvZmZzZXQpPT0idW5kZWZpbmVkIil7DQoJCXJldHVybjsNCgl9DQoJaWYg
+KGRvY3VtZW50LmNvb2tpZS5pbmRleE9mKCJXVExPUFRPVVQ9IikhPS0xKXsNCgkJ
+cmV0dXJuOw0KCX0NCgl2YXIgbmFtZT1nRnBjOw0KCXZhciBkQ3VyPW5ldyBEYXRl
+KCk7DQoJdmFyIGFkaj0oZEN1ci5nZXRUaW1lem9uZU9mZnNldCgpKjYwMDAwKSso
+b2Zmc2V0KjM2MDAwMDApOw0KCWRDdXIuc2V0VGltZShkQ3VyLmdldFRpbWUoKSth
+ZGopOw0KCXZhciBkRXhwPW5ldyBEYXRlKGRDdXIuZ2V0VGltZSgpKzMxNTM2MDAw
+MDAwMCk7DQoJdmFyIGRTZXM9bmV3IERhdGUoZEN1ci5nZXRUaW1lKCkpOw0KCWlm
+IChkb2N1bWVudC5jb29raWUuaW5kZXhPZihuYW1lKyI9Iik9PS0xKXsNCgkJaWYg
+KCh0eXBlb2YoZ1d0SWQpIT0idW5kZWZpbmVkIikmJihnV3RJZCE9IiIpKXsNCgkJ
+CVdULmNvX2Y9Z1d0SWQ7DQoJCX0NCgkJZWxzZSBpZiAoKHR5cGVvZihnVGVtcFd0
+SWQpIT0idW5kZWZpbmVkIikmJihnVGVtcFd0SWQhPSIiKSl7DQoJCQlXVC5jb19m
+PWdUZW1wV3RJZDsNCgkJCVdULnZ0X2Y9IjEiOw0KCQl9DQoJCWVsc2V7DQoJCQlX
+VC5jb19mPSIyIjsNCgkJCXZhciBjdXI9ZEN1ci5nZXRUaW1lKCkudG9TdHJpbmco
+KTsNCgkJCWZvciAodmFyIGk9MjtpPD0oMzItY3VyLmxlbmd0aCk7aSsrKXsNCgkJ
+CQlXVC5jb19mKz1NYXRoLmZsb29yKE1hdGgucmFuZG9tKCkqMTYuMCkudG9TdHJp
+bmcoMTYpOw0KCQkJfQ0KCQkJV1QuY29fZis9Y3VyOw0KCQkJV1QudnRfZj0iMSI7
+DQoJCX0NCgkJaWYgKHR5cGVvZihnV3RBY2NvdW50Um9sbHVwKT09InVuZGVmaW5l
+ZCIpew0KCQkJV1QudnRfZl9hPSIxIjsNCgkJfQ0KCQlXVC52dF9mX3M9IjEiOw0K
+CQlXVC52dF9mX2Q9IjEiOw0KCQlXVC52dF9mX3RsaD1XVC52dF9mX3Rsdj0iMCI7
+DQoJfQ0KCWVsc2V7DQoJCXZhciBpZD1kY3NHZXRJZENydW1iKG5hbWUsImlkIik7
+DQoJCXZhciBsdj1wYXJzZUludChkY3NHZXRDcnVtYihuYW1lLCJsdiIpKTsNCgkJ
+dmFyIHNzPXBhcnNlSW50KGRjc0dldENydW1iKG5hbWUsInNzIikpOw0KCQlpZiAo
+KGlkPT1udWxsKXx8KGlkPT0ibnVsbCIpfHxpc05hTihsdil8fGlzTmFOKHNzKSl7
+DQoJCQlyZXR1cm47DQoJCX0NCgkJV1QuY29fZj1pZDsNCgkJdmFyIGRMc3Q9bmV3
+IERhdGUobHYpOw0KCQlXVC52dF9mX3RsaD1NYXRoLmZsb29yKChkTHN0LmdldFRp
+bWUoKS1hZGopLzEwMDApOw0KCQlkU2VzLnNldFRpbWUoc3MpOw0KCQlpZiAoKGRD
+dXIuZ2V0VGltZSgpPihkTHN0LmdldFRpbWUoKSsxODAwMDAwKSl8fChkQ3VyLmdl
+dFRpbWUoKT4oZFNlcy5nZXRUaW1lKCkrMjg4MDAwMDApKSl7DQoJCQlXVC52dF9m
+X3Rsdj1NYXRoLmZsb29yKChkU2VzLmdldFRpbWUoKS1hZGopLzEwMDApOw0KCQkJ
+ZFNlcy5zZXRUaW1lKGRDdXIuZ2V0VGltZSgpKTsNCgkJCVdULnZ0X2Zfcz0iMSI7
+DQoJCX0NCgkJaWYgKChkQ3VyLmdldERheSgpIT1kTHN0LmdldERheSgpKXx8KGRD
+dXIuZ2V0TW9udGgoKSE9ZExzdC5nZXRNb250aCgpKXx8KGRDdXIuZ2V0WWVhcigp
+IT1kTHN0LmdldFllYXIoKSkpew0KCQkJV1QudnRfZl9kPSIxIjsNCgkJfQ0KCX0N
+CglXVC5jb19mPWVzY2FwZShXVC5jb19mKTsNCglXVC52dF9zaWQ9V1QuY29fZisi
+LiIrKGRTZXMuZ2V0VGltZSgpLWFkaik7DQoJdmFyIGV4cGlyeT0iOyBleHBpcmVz
+PSIrZEV4cC50b0dNVFN0cmluZygpOw0KCWRvY3VtZW50LmNvb2tpZT1uYW1lKyI9
+IisiaWQ9IitXVC5jb19mKyI6bHY9IitkQ3VyLmdldFRpbWUoKS50b1N0cmluZygp
+KyI6c3M9IitkU2VzLmdldFRpbWUoKS50b1N0cmluZygpK2V4cGlyeSsiOyBwYXRo
+PS8iKygoKHR5cGVvZihnRnBjRG9tKSE9InVuZGVmaW5lZCIpJiYoZ0ZwY0RvbSE9
+IiIpKT8oIjsgZG9tYWluPSIrZ0ZwY0RvbSk6KCIiKSk7DQoJaWYgKGRvY3VtZW50
+LmNvb2tpZS5pbmRleE9mKG5hbWUrIj0iKT09LTEpew0KCQlXVC5jb19mPVdULnZ0
+X3NpZD1XVC52dF9mX3M9V1QudnRfZl9kPVdULnZ0X2ZfdGxoPVdULnZ0X2ZfdGx2
+PSIiOw0KCQlXVC52dF9mPVdULnZ0X2ZfYT0iMiI7DQoJfQ0KfQ0KDQp2YXIgZ0Zw
+Y0RvbT0iLm1pY3Jvc29mdC5jb20iOw0KDQpmdW5jdGlvbiBkY3NFdnQoZXZ0LHRh
+Zyl7DQoJdmFyIGU9ZXZ0LnRhcmdldHx8ZXZ0LnNyY0VsZW1lbnQ7DQoJd2hpbGUg
+KGUudGFnTmFtZSYmKGUudGFnTmFtZSE9dGFnKSl7DQoJCWU9ZS5wYXJlbnRFbGVt
+ZW50fHxlLnBhcmVudE5vZGU7DQoJfQ0KCXJldHVybiBlOw0KfQ0KZnVuY3Rpb24g
+ZGNzQmluZChldmVudCxmdW5jKXsNCglpZiAoKHR5cGVvZih3aW5kb3dbZnVuY10p
+PT0iZnVuY3Rpb24iKSYmZG9jdW1lbnQuYm9keSl7DQoJCWlmIChkb2N1bWVudC5i
+b2R5LmFkZEV2ZW50TGlzdGVuZXIpew0KCQkJZG9jdW1lbnQuYm9keS5hZGRFdmVu
+dExpc3RlbmVyKGV2ZW50LCB3aW5kb3dbZnVuY10sIHRydWUpOw0KCQl9DQoJCWVs
+c2UgaWYoZG9jdW1lbnQuYm9keS5hdHRhY2hFdmVudCl7DQoJCQlkb2N1bWVudC5i
+b2R5LmF0dGFjaEV2ZW50KCJvbiIrZXZlbnQsIHdpbmRvd1tmdW5jXSk7DQoJCX0N
+Cgl9DQp9DQpmdW5jdGlvbiBkY3NFVCgpew0KCXZhciBlPShuYXZpZ2F0b3IuYXBw
+VmVyc2lvbi5pbmRleE9mKCJNU0lFIikhPS0xKT8iY2xpY2siOiJtb3VzZWRvd24i
+Ow0KCWRjc0JpbmQoZSwiZGNzRG93bmxvYWQiKTsNCglkY3NCaW5kKGUsImRjc0Zv
+cm1CdXR0b24iKTsNCglkY3NCaW5kKCJrZXlwcmVzcyIsImRjc0Zvcm1CdXR0b24i
+KTsNCglkY3NCaW5kKGUsImRjc0ltYWdlTWFwIik7DQp9DQpmdW5jdGlvbiBkY3NN
+dWx0aVRyYWNrKCl7DQoJaWYgKGFyZ3VtZW50cy5sZW5ndGglMj09MCl7DQoJCWZv
+ciAodmFyIGk9MDtpPGFyZ3VtZW50cy5sZW5ndGg7aSs9Mil7DQoJCQlpZiAoYXJn
+dW1lbnRzW2ldLmluZGV4T2YoJ1dULicpPT0wKXsNCgkJCQlXVFthcmd1bWVudHNb
+aV0uc3Vic3RyaW5nKDMpXT1hcmd1bWVudHNbaSsxXTsNCgkJCX0NCgkJCWVsc2Ug
+aWYgKGFyZ3VtZW50c1tpXS5pbmRleE9mKCdEQ1MuJyk9PTApew0KCQkJCURDU1th
+cmd1bWVudHNbaV0uc3Vic3RyaW5nKDQpXT1hcmd1bWVudHNbaSsxXTsNCgkJCX0N
+CgkJCWVsc2UgaWYgKGFyZ3VtZW50c1tpXS5pbmRleE9mKCdEQ1NleHQuJyk9PTAp
+ew0KCQkJCURDU2V4dFthcmd1bWVudHNbaV0uc3Vic3RyaW5nKDcpXT1hcmd1bWVu
+dHNbaSsxXTsNCgkJCX0NCgkJfQ0KCQl2YXIgZEN1cnJlbnQ9bmV3IERhdGUoKTsN
+CgkJRENTLmRjc2RhdD1kQ3VycmVudC5nZXRUaW1lKCk7DQoJCWRjc1RhZygpOw0K
+CX0NCn0NCmZ1bmN0aW9uIGRjc1NldFZhcigpew0KCWlmICgoYXJndW1lbnRzLmxl
+bmd0aCUyPT0wKSYmKG5hdmlnYXRvci5hcHBWZXJzaW9uLmluZGV4T2YoIk1TSUUi
+KSE9LTEpKXsNCgkJZm9yICh2YXIgaT0wO2k8YXJndW1lbnRzLmxlbmd0aDtpKz0y
+KXsNCgkJCWlmIChhcmd1bWVudHNbaV0uaW5kZXhPZignV1QuJyk9PTApew0KCQkJ
+CWlmIChkY3NTZXRWYXJWYWxpZGF0ZShhcmd1bWVudHNbaV0pKXsNCgkJCQkJV1Rb
+InNldHZhcl8iK2FyZ3VtZW50c1tpXS5zdWJzdHJpbmcoMyldPWFyZ3VtZW50c1tp
+KzFdOw0KCQkJCX0NCgkJCQllbHNle1dUW2FyZ3VtZW50c1tpXS5zdWJzdHJpbmco
+MyldPWFyZ3VtZW50c1tpKzFdO30NCgkJCX0NCgkJCWVsc2UgaWYgKGFyZ3VtZW50
+c1tpXS5pbmRleE9mKCdEQ1MuJyk9PTApew0KCQkJCWlmIChkY3NTZXRWYXJWYWxp
+ZGF0ZShhcmd1bWVudHNbaV0pKXsNCgkJCQkJRENTWyJzZXR2YXJfIithcmd1bWVu
+dHNbaV0uc3Vic3RyaW5nKDQpXT1hcmd1bWVudHNbaSsxXTsNCgkJCQl9DQoJCQkJ
+ZWxzZXtEQ1NbYXJndW1lbnRzW2ldLnN1YnN0cmluZyg0KV09YXJndW1lbnRzW2kr
+MV07fQ0KDQoJCQl9DQoJCQllbHNlIGlmIChhcmd1bWVudHNbaV0uaW5kZXhPZign
+RENTZXh0LicpPT0wKXsNCgkJCQlpZiAoZGNzU2V0VmFyVmFsaWRhdGUoYXJndW1l
+bnRzW2ldKSl7DQoJCQkJCURDU2V4dFsic2V0dmFyXyIrYXJndW1lbnRzW2ldLnN1
+YnN0cmluZyg3KV09YXJndW1lbnRzW2krMV07DQoJCQkJfQ0KCQkJCWVsc2V7RENT
+ZXh0W2FyZ3VtZW50c1tpXS5zdWJzdHJpbmcoNyldPWFyZ3VtZW50c1tpKzFdO30N
+CgkJCX0NCgkJfQ0KICAgIH0NCn0NCmZ1bmN0aW9uIGRjc1NldFZhclZhbGlkYXRl
+KHZhbGlkYXRlKXsNCgl2YXIgd3RQYXJhbUxpc3QgPSAiRENTLmRjc3NpcCxEQ1Mu
+ZGNzdXJpLERDUy5kY3NxcnksV1QudGksV1QubWNfaWQiOw0KCXd0UGFyYW1MaXN0
+ID0gd3RQYXJhbUxpc3Quc3BsaXQoIiwiKTsNCglmb3IodmFyIGk9MDtpPHd0UGFy
+YW1MaXN0Lmxlbmd0aDtpKyspew0KCQlpZih3dFBhcmFtTGlzdFtpXT09dmFsaWRh
+dGUpew0KCQkJcmV0dXJuIDE7DQoJCX0NCgl9DQoJcmV0dXJuIDA7DQp9DQpmdW5j
+dGlvbiBkY3NTZXRWYXJDYXAoZSl7DQoJdmFyIGdDYXAgPSBlLm9uY2xpY2sudG9T
+dHJpbmcoKTsNCgl2YXIgZ1N0YXJ0ID0gZ0NhcC5zdWJzdHJpbmcoZ0NhcC5pbmRl
+eE9mKCJkY3NTZXRWYXIoIikrMTAsZ0NhcC5sZW5ndGgpOw0KICAJdmFyIGdFbmQg
+PSBnU3RhcnQuc3Vic3RyaW5nKDAsZ1N0YXJ0LmluZGV4T2YoIik7IikpLnJlcGxh
+Y2UoL1xzIi9naSwiIikucmVwbGFjZSgvIi9naSwiIik7DQogIAl2YXIgZ1NwbGl0
+ID0gZ0VuZC5zcGxpdCgiLCIpOw0KICAJaWYgKGdTcGxpdC5sZW5ndGghPS0xKXsN
+CgkJZm9yICh2YXIgaT0wO2k8Z1NwbGl0Lmxlbmd0aDtpKz0yKXsNCiAgICAJCWlm
+IChnU3BsaXRbaV0uaW5kZXhPZignV1QuJyk9PTApew0KCQkJCWlmIChkY3NTZXRW
+YXJWYWxpZGF0ZShnU3BsaXRbaV0pKXsNCgkJCQkJV1RbInNldHZhcl8iK2dTcGxp
+dFtpXS5zdWJzdHJpbmcoMyldPWdTcGxpdFtpKzFdOw0KCQkJCX0NCgkJCQllbHNl
+e1dUW2dTcGxpdFtpXS5zdWJzdHJpbmcoMyldPWdTcGxpdFtpKzFdO30NCgkJCX0N
+CgkJCWVsc2UgaWYgKGdTcGxpdFtpXS5pbmRleE9mKCdEQ1MuJyk9PTApew0KCQkJ
+CWlmIChkY3NTZXRWYXJWYWxpZGF0ZShnU3BsaXRbaV0pKXsNCgkJCQkJRENTWyJz
+ZXR2YXJfIitnU3BsaXRbaV0uc3Vic3RyaW5nKDQpXT1nU3BsaXRbaSsxXTsNCgkJ
+CQl9DQoJCQkJZWxzZXtEQ1NbZ1NwbGl0W2ldLnN1YnN0cmluZyg0KV09Z1NwbGl0
+W2krMV07fQ0KDQoJCQl9DQoJCQllbHNlIGlmIChnU3BsaXRbaV0uaW5kZXhPZign
+RENTZXh0LicpPT0wKXsNCgkJCQlpZiAoZGNzU2V0VmFyVmFsaWRhdGUoZ1NwbGl0
+W2ldKSl7DQoJCQkJCURDU2V4dFsic2V0dmFyXyIrZ1NwbGl0W2ldLnN1YnN0cmlu
+Zyg3KV09Z1NwbGl0W2krMV07DQoJCQkJfQ0KCQkJCWVsc2V7RENTZXh0W2dTcGxp
+dFtpXS5zdWJzdHJpbmcoNyldPWdTcGxpdFtpKzFdO30NCgkJCX0NCgkJfQ0KICAJ
+fQ0KfQ0KZnVuY3Rpb24gZGNzRG93bmxvYWQoZXZ0KXsNCglldnQ9ZXZ0fHwod2lu
+ZG93LmV2ZW50fHwiIik7DQoJaWYgKGV2dCl7DQoJCXZhciBlPWRjc0V2dChldnQs
+IkEiKTsNCgkJdmFyIGY9ZGNzRXZ0KGV2dCwiSU1HIik7DQoJCWlmKGUpew0KCQkJ
+aWYgKGUuaG9zdG5hbWUmJmUuaHJlZiYmZS5wcm90b2NvbCYmKGUucHJvdG9jb2wu
+aW5kZXhPZigiaHR0cCIpIT0tMSkpew0KCQkJCWRjc05hdmlnYXRpb24oZSk7DQoJ
+CQkJaWYoKG5hdmlnYXRvci5hcHBWZXJzaW9uLmluZGV4T2YoIk1TSUUiKT09LTEp
+JiYoZS5vbmNsaWNrKSl7ZGNzU2V0VmFyQ2FwKGUpO30NCiAgICAgICAJCQl2YXIg
+Z1BhdGg9ZS5wYXRobmFtZT8oKGUucGF0aG5hbWUuaW5kZXhPZigiLyIpIT0wKT8i
+LyIrZS5wYXRobmFtZTplLnBhdGhuYW1lKToiLyI7DQogICAgICAgCQkJdmFyIGdQ
+YXRoPURDUy5zZXR2YXJfZGNzdXJpfHxnUGF0aDsNCiAgICAgICAJCQl2YXIgZ0hv
+c3Q9RENTLnNldHZhcl9kY3NzaXB8fGUuaG9zdG5hbWU7DQogICAgICAgCQkJdmFy
+IGdRcnk9RENTLnNldHZhcl9kY3Nxcnl8fGUuc2VhcmNofHwiIjsNCgkJCQlpZihm
+LmFsdCl7Z1RpdGxlPWYuYWx0O30NCgkJCQllbHNle2lmKGRvY3VtZW50LmFsbCl7
+Z1RpdGxlPWUuaW5uZXJUZXh0fHxlLmlubmVySFRNTHx8IiI7fWVsc2V7Z1RpdGxl
+PWUudGV4dHx8ZS5pbm5lckhUTUx8fCIiO319DQoJCQkJZ1RpdGxlPVdULnNldHZh
+cl90aXx8Z1RpdGxlOw0KCQkJCVdULm1jX2lkPVdULnNldHZhcl9tY19pZHx8IiI7
+DQoJCQkJV1Quc3A9V1QuYWQ9RENTLnNldHZhcl9kY3N1cmk9RENTLnNldHZhcl9k
+Y3NzaXA9RENTLnNldHZhcl9kY3Nxcnk9V1Quc2V0dmFyX3RpPSIiOw0KCQkJCWRj
+c011bHRpVHJhY2soIkRDUy5kY3NzaXAiLGdIb3N0LCJEQ1MuZGNzdXJpIixnUGF0
+aCwiRENTLmRjc3FyeSIsZ1FyeSwiV1QudGkiLCJMaW5rOiIrZ1RpdGxlLCJXVC5k
+bCIsIjEiLCJXVC5zcCIsIiIsIldULmFkIiwiIik7DQoJCQkJRENTLmRjc3NpcD1E
+Q1MuZGNzdXJpPURDUy5kY3Nxcnk9V1QudGk9V1QuZGw9Z1RpdGxlPWdQYXRoPWdR
+cnk9Z0hvc3Q9IiI7DQoJCQl9DQoJCX0NCgl9DQp9DQpmdW5jdGlvbiBkY3NOYXZp
+Z2F0aW9uKHd0bm9kZSl7DQoJdHJ5ew0KCXZhciB3dENvdW50PTA7DQoJd2hpbGUo
+d3RDb3VudCE9MSl7DQoJCWlmKHd0bm9kZS5wYXJlbnROb2RlLnRhZ05hbWUhPSJE
+SVYiKXsNCgkJCXd0bm9kZT13dG5vZGUucGFyZW50Tm9kZTsNCgkJfQ0KCQlpZih3
+dG5vZGUucGFyZW50Tm9kZS50YWdOYW1lPT0iRElWIil7DQoJCQlpZigod3Rub2Rl
+LnBhcmVudE5vZGUuZ2V0QXR0cmlidXRlKCdpZCcpKXx8KHd0bm9kZS5wYXJlbnRO
+b2RlLmNsYXNzTmFtZSkpew0KCQkJCURDU2V4dC53dE5hdmlnYXRpb24gPSB3dG5v
+ZGUucGFyZW50Tm9kZS5nZXRBdHRyaWJ1dGUoImlkIil8fHd0bm9kZS5wYXJlbnRO
+b2RlLmNsYXNzTmFtZTsNCgkJCQl3dENvdW50PTE7DQoJCQl9DQoJCQllbHNlew0K
+CQkJCXd0bm9kZT13dG5vZGUucGFyZW50Tm9kZTsNCgkJCX0NCgkJfQ0KCX19DQoJ
+Y2F0Y2goZXJyb3Ipe30NCn0NCmZ1bmN0aW9uIGRjc0ltYWdlTWFwKGV2dCl7DQoJ
+ZXZ0PWV2dHx8KHdpbmRvdy5ldmVudHx8IiIpOw0KCWlmIChldnQpew0KCQl2YXIg
+ZT1kY3NFdnQoZXZ0LCJBUkVBIik7DQoJCWlmKGUpew0KCQkJaWYgKGUuaG9zdG5h
+bWUmJmUuaHJlZiYmZS5wcm90b2NvbCYmKGUucHJvdG9jb2wuaW5kZXhPZigiaHR0
+cCIpIT0tMSkpew0KCQkJCWRjc05hdmlnYXRpb24oZSk7DQoJCQkJaWYoKG5hdmln
+YXRvci5hcHBWZXJzaW9uLmluZGV4T2YoIk1TSUUiKT09LTEpJiYoZS5vbmNsaWNr
+KSl7ZGNzU2V0VmFyQ2FwKGUpO30NCgkJCQl2YXIgZ1BhdGg9ZS5wYXRobmFtZT8o
+KGUucGF0aG5hbWUuaW5kZXhPZigiLyIpIT0wKT8iLyIrZS5wYXRobmFtZTplLnBh
+dGhuYW1lKToiLyI7DQogICAgICAgCQkJdmFyIGdIb3N0PURDUy5zZXR2YXJfZGNz
+c2lwfHxlLmhvc3RuYW1lOw0KICAgICAgIAkJCXZhciBnUXJ5PURDUy5zZXR2YXJf
+ZGNzcXJ5fHxlLnNlYXJjaHx8IiI7DQoJCQkJZGNzTXVsdGlUcmFjaygiRENTLmRj
+c3NpcCIsZ0hvc3QsIkRDUy5kY3N1cmkiLGdQYXRoLCJEQ1MuZGNzcXJ5IixnUXJ5
+LCJXVC50aSIsIkxpbms6SW1hZ2UgTWFwIiwiV1QuZGwiLCIxIiwiV1Quc3AiLCIi
+LCJXVC5hZCIsIiIpOw0KCQkJCURDUy5kY3NzaXA9RENTLmRjc3VyaT1EQ1MuZGNz
+cXJ5PVdULnRpPVdULmRsPWdQYXRoPWdIb3N0PWdRcnk9IiI7DQoJCQl9DQoJCX0N
+Cgl9DQp9DQpmdW5jdGlvbiBkY3NGb3JtQnV0dG9uKGV2dCl7DQoJZXZ0PWV2dHx8
+KHdpbmRvdy5ldmVudHx8IiIpOw0KCWlmIChldnQpew0KCQl2YXIgZT1kY3NFdnQo
+ZXZ0LCJJTlBVVCIpOw0KCQl2YXIgdHlwZT1lLnR5cGV8fCIiOw0KCQlpZiAodHlw
+ZSYmKCh0eXBlPT0ic3VibWl0Iil8fCh0eXBlPT0iaW1hZ2UiKXx8KHR5cGU9PSJi
+dXR0b24iKXx8KHR5cGU9PSJyZXNldCIpKXx8KCh0eXBlPT0idGV4dCIpJiYoKGV2
+dC53aGljaHx8ZXZ0LmtleUNvZGUpPT0xMykpKXsNCgkJCXZhciBnVXJpPWdUaXRs
+ZT1nTWV0aG9kPXFyeT0iIjsNCgkJCWlmKGUuZm9ybSl7DQoJCQkJdmFyIGVsZW1z
+PWUuZm9ybS5lbGVtZW50czsNCgkJCQlmb3IgKHZhciBpPTA7aTxlbGVtcy5sZW5n
+dGg7aSsrKXsNCgkJCQkJdmFyIGV0eXBlPWVsZW1zW2ldLnR5cGU7DQoJCQkJCWlm
+IChldHlwZT09InRleHQiKXsNCgkJCQkJCXFyeSs9KChxcnk9PSIiKT8iIjoiJiIp
+K2VzY2FwZShlbGVtc1tpXS5uYW1lKSsiPSIrZXNjYXBlKGVsZW1zW2ldLnZhbHVl
+KTsNCgkJCQkJfQ0KCQkJCX0NCgkJCQlnVXJpPWUuZm9ybS5hY3Rpb258fHdpbmRv
+dy5sb2NhdGlvbi5wYXRobmFtZTsNCgkJCQlnVGl0bGU9ZS5mb3JtLmlkfHxlLmZv
+cm0uY2xhc3NOYW1lfHxlLmZvcm0ubmFtZXx8IlVua25vd24iOw0KCQkJCWdNZXRo
+b2Q9ZS5mb3JtLm1ldGhvZHx8IlVua25vd24iOw0KCQkJfQ0KCQkJZWxzZXsNCgkJ
+CQlnVXJpPXdpbmRvdy5sb2NhdGlvbi5wYXRobmFtZTsNCgkJCQlnVGl0bGU9ZS5u
+YW1lfHxlLmlkfHwiVW5rbm93biI7DQoJCQkJZ01ldGhvZD0iSW5wdXQiOw0KCQkJ
+fQ0KCQkJaWYoKGdVcmkhPSIiKSYmKGdUaXRsZSE9IiIpJiYoZ01ldGhvZCE9IiIp
+JiYoZXZ0LmtleUNvZGUhPTkpKXsNCgkJCQlkY3NNdWx0aVRyYWNrKCJEQ1MuZGNz
+dXJpIixnVXJpLCJEQ1MuZGNzcXJ5IixxcnksIldULnRpIiwiRm9ybUJ1dHRvbjoi
+K2dUaXRsZSwiV1QuZGwiLCIyIiwiV1QuZm0iLGdNZXRob2QsIldULmFkIiwiIiwi
+V1QubWNfaWQiLCIiLCJXVC5zcCIsIiIpOw0KCQkJfQ0KCQkJRENTLmRjc3VyaT1E
+Q1MuZGNzcXJ5PXFyeT1XVC50aT1XVC5kbD1XVC5mbT1nVXJpPWdUaXRsZT1nTWV0
+aG9kPSIiOw0KCQl9DQoJfQ0KfQ0KZnVuY3Rpb24gZGNzQWRTZWFyY2goKXsNCglp
+ZiAoZG9jdW1lbnQubGlua3Mpew0KCQlmb3IgKHZhciBpPTA7aTxkb2N1bWVudC5s
+aW5rcy5sZW5ndGg7aSsrKXsNCgkJCXZhciBhbmNoPWRvY3VtZW50LmxpbmtzW2ld
+LmhyZWYrIiI7DQoJCQl2YXIgcG9zPWFuY2gudG9VcHBlckNhc2UoKS5pbmRleE9m
+KCJXVC5BQz0iKTsNCgkJCWlmIChwb3MhPS0xKXsNCgkJCQl2YXIgc3RhcnQ9cG9z
+KzY7DQoJCQkJdmFyIGVuZD1hbmNoLmluZGV4T2YoIiYiLHN0YXJ0KTsNCgkJCQl2
+YXIgdmFsdWU9YW5jaC5zdWJzdHJpbmcoc3RhcnQsKGVuZCE9LTEpP2VuZDphbmNo
+Lmxlbmd0aCk7DQoJCQkJV1QuYWQ9V1QuYWQ/KFdULmFkKyI7Iit2YWx1ZSk6dmFs
+dWU7DQoJCQl9DQoJCX0NCgl9DQp9DQpmdW5jdGlvbiBkY3NOdnIoKXsNCglpZiAo
+ZG9jdW1lbnQuY29va2llLmluZGV4T2YoIldUTE9QVE9VVD0iKSE9LTEpew0KCQly
+ZXR1cm47DQoJfQ0KCXZhciBjdXI9bmV3IERhdGUoKTsNCgl2YXIgZXhwPW5ldyBE
+YXRlKGN1ci5nZXRUaW1lKCkrMzE1MzYwMDAwMDAwKTsNCgl2YXIgY2ZpZWxkcz17
+bmFtZToiV1RfTlZSIix2YWx1ZToiIixleHBpcnk6IjsgZXhwaXJlcz0iK2V4cC50
+b0dNVFN0cmluZygpLHBhdGg6IjsgcGF0aD0vIixkb21haW46IjsgZG9tYWluPSIr
+d2luZG93LmxvY2F0aW9uLmhvc3RuYW1lfTsNCgl2YXIgY2RhdGE9ZGNzTnZyUmVh
+ZChjZmllbGRzLm5hbWUpOw0KCXZhciBpc25ldz1kY3NOdnJQcm9jZXNzKGNkYXRh
+KTsNCglpZiAoaXNuZXd8fGRjc052ckZpbmQoY2ZpZWxkcy5uYW1lLCIsIikpew0K
+CQl2YXIgYz1kY3NOdnJDb21wb3NlKGNkYXRhLGNmaWVsZHMpOw0KCQlmb3IgKHZh
+ciBpPTA7aTxjLmxlbmd0aDtpKyspew0KCQkJZG9jdW1lbnQuY29va2llPWNbaV07
+DQoJCX0NCgl9DQoJaWYgKGlzbmV3KXsNCgkJdmFyIHZhbD0oZG9jdW1lbnQuY29v
+a2llLmluZGV4T2YoY2ZpZWxkcy5uYW1lKyI9IikhPS0xKT8iMSI6IjIiOw0KCQlm
+b3IgKHZhciBpPTA7aTxjZGF0YS5sZW5ndGg7aSsrKXsNCgkJCWlmIChjZGF0YVtp
+XVsxXSl7DQoJCQkJV1RbInZ0X252ciIrKGkrMSldPXZhbDsNCgkJCX0NCgkJfQ0K
+CX0NCn0NCg0KZnVuY3Rpb24gZGNzTnZyUmVhZChuYW1lKXsNCgl2YXIgZGF0YT1u
+ZXcgQXJyYXkoKTsNCgl2YXIgbnVtPTA7DQoJdmFyIHJlPS8sL2c7DQoJdmFyIHZh
+bHVlPWRjc052ckdldENvb2tpZShuYW1lKTsNCgl3aGlsZSh2YWx1ZSl7DQoJCXZh
+ciBsZXZlbHM9dmFsdWUuc3BsaXQoIjoiKTsNCgkJZm9yICh2YXIgaT0wO2k8bGV2
+ZWxzLmxlbmd0aDtpKyspew0KCQkJdmFyIGNydW1icz1sZXZlbHNbaV0uc3BsaXQo
+Ij0iKTsNCgkJCXZhciBsZXZlbD1wYXJzZUludChjcnVtYnNbMF0pOw0KCQkJdmFy
+IHBhdGhzPWNydW1ic1sxXS5yZXBsYWNlKHJlLCJ8Iikuc3BsaXQoInwiKTsNCgkJ
+CWlmICh0eXBlb2YoZGF0YVtsZXZlbF0pIT0ib2JqZWN0Iil7DQoJCQkJZGF0YVts
+ZXZlbF09bmV3IEFycmF5KHBhdGhzLGZhbHNlKTsNCgkJCX0NCgkJCWVsc2V7DQoJ
+CQkJZGF0YVtsZXZlbF1bMF09ZGF0YVtsZXZlbF1bMF0uY29uY2F0KHBhdGhzKTsN
+CgkJCX0NCgkJfQ0KCQludW0rKzsNCgkJdmFsdWU9ZGNzTnZyR2V0Q29va2llKG5h
+bWUrbnVtKTsNCgl9DQoJcmV0dXJuIGRhdGE7DQp9DQoNCmZ1bmN0aW9uIGRjc052
+ckZpbmQobmFtZSx0b2ZpbmQpew0KCXZhciBmb3VuZD1mYWxzZTsNCgl2YXIgbnVt
+PTA7DQoJdmFyIHZhbHVlPWRjc052ckdldENvb2tpZShuYW1lKTsNCgl3aGlsZSh2
+YWx1ZSl7DQoJCWlmICh2YWx1ZS5pbmRleE9mKHRvZmluZCkhPS0xKXsNCgkJCWZv
+dW5kPXRydWU7DQoJCQlicmVhazsNCgkJfQ0KCQludW0rKzsNCgkJdmFsdWU9ZGNz
+TnZyR2V0Q29va2llKG5hbWUrbnVtKTsNCgl9DQoJcmV0dXJuIGZvdW5kOw0KfQ0K
+DQpmdW5jdGlvbiBkY3NOdnJHZXRDb29raWUobmFtZSl7DQoJdmFyIHBvcz1kb2N1
+bWVudC5jb29raWUuaW5kZXhPZihuYW1lKyI9Iik7DQoJaWYgKHBvcyE9LTEpew0K
+CQl2YXIgc3RhcnQ9cG9zK25hbWUubGVuZ3RoKzE7DQoJCXZhciBlbmQ9ZG9jdW1l
+bnQuY29va2llLmluZGV4T2YoIjsiLHN0YXJ0KTsNCgkJaWYgKGVuZD09LTEpew0K
+CQkJZW5kPWRvY3VtZW50LmNvb2tpZS5sZW5ndGg7DQoJCX0NCgkJcmV0dXJuIGRv
+Y3VtZW50LmNvb2tpZS5zdWJzdHJpbmcoc3RhcnQsZW5kKTsNCgl9DQoJcmV0dXJu
+IG51bGw7DQp9DQoNCmZ1bmN0aW9uIGRjc052clByb2Nlc3MoZGF0YSl7DQoJdmFy
+IG5ld3Y9ZmFsc2U7DQoJdmFyIG1heGxldmVsPTM7DQoJdmFyIGN1cmxldmVsPTA7
+DQoJdmFyIHNwbGl0cD1uZXcgQXJyYXkoKTsNCgl2YXIgcD13aW5kb3cubG9jYXRp
+b24ucGF0aG5hbWU7DQoJdmFyIGN1cnBhdGg9cC5zdWJzdHJpbmcocC5pbmRleE9m
+KCIvIikrMSxwLmxhc3RJbmRleE9mKCIvIikpLnRvTG93ZXJDYXNlKCk7DQoJdmFy
+IGJhZGNoYXJzPXsiJTA5IjovXHQvZywiJTIwIjovIC9nLCIlMkMiOi8sL2csIiUz
+QiI6LzsvZ307DQoJdmFyIHRtcD1uZXcgU3RyaW5nKGN1cnBhdGgpOw0KCWZvciAo
+dmFyIGNoIGluIGJhZGNoYXJzKXsNCgkJdG1wPXRtcC5yZXBsYWNlKGJhZGNoYXJz
+W2NoXSxjaCk7DQoJfQ0KCWN1cnBhdGg9dG1wOw0KDQoJaWYgKGN1cnBhdGgubGVu
+Z3RoPjEpew0KCQlzcGxpdHA9Y3VycGF0aC5zcGxpdCgiLyIsbWF4bGV2ZWwpOw0K
+CQljdXJsZXZlbD1zcGxpdHAubGVuZ3RoOw0KCQljdXJwYXRoPXNwbGl0cC5qb2lu
+KCIvIik7DQoJfQ0KCWlmIChkYXRhLmxlbmd0aD4wKXsNCgkJdmFyIGZvdW5kPWZh
+bHNlOw0KCQlpZiAoZGF0YS5sZW5ndGg+Y3VybGV2ZWwpew0KCQkJZm9yICh2YXIg
+aT0wO2k8ZGF0YVtjdXJsZXZlbF1bMF0ubGVuZ3RoO2krKyl7DQoJCQkJaWYgKGRh
+dGFbY3VybGV2ZWxdWzBdW2ldPT1jdXJwYXRoKXsNCgkJCQkJZm91bmQ9dHJ1ZTsN
+CgkJCQkJYnJlYWs7DQoJCQkJfQ0KCQkJfQ0KCQkJaWYgKCFmb3VuZCl7DQoJCQkJ
+ZGF0YVtjdXJsZXZlbF1bMF1bZGF0YVtjdXJsZXZlbF1bMF0ubGVuZ3RoXT1jdXJw
+YXRoOw0KCQkJCWRhdGFbY3VybGV2ZWxdWzFdPXRydWU7DQoJCQkJbmV3dj10cnVl
+Ow0KCQkJfQ0KCQl9DQoJCWVsc2V7DQoJCQlmb3IgKHZhciBpPTA7aTwoY3VybGV2
+ZWwrMSk7aSsrKXsNCgkJCQlpZiAodHlwZW9mKGRhdGFbaV0pIT0ib2JqZWN0Iil7
+DQoJCQkJCWRhdGFbaV09bmV3IEFycmF5KFsoaT09MCk/Ii8iOnNwbGl0cC5zbGlj
+ZSgwLGkpLmpvaW4oIi8iKV0sdHJ1ZSk7DQoJCQkJfQ0KCQkJfQ0KCQkJbmV3dj10
+cnVlOw0KCQl9DQoJfQ0KCWVsc2V7DQoJCWZvciAodmFyIGk9MDtpPChjdXJsZXZl
+bCsxKTtpKyspew0KCQkJZGF0YVtpXT1uZXcgQXJyYXkoWyhpPT0wKT8iLyI6c3Bs
+aXRwLnNsaWNlKDAsaSkuam9pbigiLyIpXSx0cnVlKTsNCgkJfQ0KCQluZXd2PXRy
+dWU7DQoJfQ0KCXJldHVybiBuZXd2Ow0KfQ0KDQpmdW5jdGlvbiBkY3NOdnJDb21w
+b3NlKGRhdGEsZmllbGRzKXsNCgl2YXIgY29va2llcz1uZXcgQXJyYXkoKTsNCgl2
+YXIgcGF0aHM9bmV3IEFycmF5KCk7DQoJdmFyIG51bT0wOw0KCXZhciBtYXhudW09
+MTA7DQoJdmFyIG1heHZhbD00MDAwOw0KCXZhciBtYXhlZD1mYWxzZTsNCglmb3Ig
+KHZhciBpPTA7KGk8ZGF0YS5sZW5ndGgpJiYhbWF4ZWQ7aSsrKXsNCgkJcGF0aHM9
+ZGF0YVtpXVswXTsNCgkJdmFyIG5ld3BhdGg9aSsiPSI7DQoJCWZvciAodmFyIGo9
+MDsoajxwYXRocy5sZW5ndGgpJiYhbWF4ZWQ7aisrKXsNCgkJCW5ld3BhdGgrPSgo
+aj09MCk/IiI6InwiKStwYXRoc1tqXTsNCgkJCWlmICgoKGZpZWxkcy5uYW1lK251
+bSkubGVuZ3RoK2ZpZWxkcy52YWx1ZS5sZW5ndGgrbmV3cGF0aC5sZW5ndGgrMSk8
+PW1heHZhbCl7DQoJCQkJaWYgKChmaWVsZHMudmFsdWUubGVuZ3RoPjApJiYoaj09
+MCkpew0KCQkJCQlmaWVsZHMudmFsdWUrPSI6IjsNCgkJCQl9DQoJCQkJZmllbGRz
+LnZhbHVlKz1uZXdwYXRoOw0KCQkJfQ0KCQkJZWxzZSBpZiAoZmllbGRzLnZhbHVl
+Lmxlbmd0aD4wKXsNCgkJCQljb29raWVzW251bV09ZmllbGRzLm5hbWUrKG51bXx8
+IiIpKyI9IitmaWVsZHMudmFsdWUrZmllbGRzLmV4cGlyeStmaWVsZHMucGF0aCtm
+aWVsZHMuZG9tYWluOw0KCQkJCWZpZWxkcy52YWx1ZT1pKyI9IitwYXRoc1tqXTsN
+CgkJCQlpZiAoKCsrbnVtKT4obWF4bnVtLTEpKXsNCgkJCQkJbWF4ZWQ9dHJ1ZTsN
+CgkJCQl9DQoJCQl9DQoJCQluZXdwYXRoPSIiOw0KCQl9DQoJfQ0KCWlmICghbWF4
+ZWQpew0KCQljb29raWVzW251bV09ZmllbGRzLm5hbWUrKG51bXx8IiIpKyI9Iitm
+aWVsZHMudmFsdWUrZmllbGRzLmV4cGlyeStmaWVsZHMucGF0aCtmaWVsZHMuZG9t
+YWluOw0KCX0NCglyZXR1cm4gY29va2llczsNCn0NCmZ1bmN0aW9uIGRjc0Fkdigp
+ew0KCWlmICgodHlwZW9mKGdUcmFja0V2ZW50cykhPSJ1bmRlZmluZWQiKSYmZ1Ry
+YWNrRXZlbnRzKXsNCgkJV1Qud3Rzdj0xOw0KCQlpZih0eXBlb2YoV1Quc3ApIT0i
+dW5kZWZpbmVkIil7V1Quc3Zfc3A9V1Quc3A7fQ0KCQlkY3NGdW5jKCJkY3NFVCIp
+Ow0KCX0NCglkY3NGdW5jKCJkY3NDb29raWUiKTsNCglkY3NGdW5jKCJkY3NBZFNl
+YXJjaCIpOw0KCWRjc0Z1bmMoImRjc052ciIpOw0KCURDU2V4dC53dEV2dFNyYz1E
+Q1MuZGNzc2lwK0RDUy5kY3N1cmk7DQp9DQoNCnZhciBnSW1hZ2VzPW5ldyBBcnJh
+eTsNCnZhciBnSW5kZXg9MDsNCnZhciBEQ1M9bmV3IE9iamVjdCgpOw0KdmFyIFdU
+PW5ldyBPYmplY3QoKTsNCnZhciBEQ1NleHQ9bmV3IE9iamVjdCgpOw0KdmFyIGdR
+UD1uZXcgQXJyYXkoKTsNCnZhciBnSTE4bj10cnVlOw0KaWYgKHdpbmRvdy5SZWdF
+eHApew0KCXZhciBSRT17IiUwOSI6L1x0L2csIiUyMCI6LyAvZywiJTIzIjovXCMv
+ZywiJTI2IjovXCYvZywiJTJCIjovXCsvZywiJTNGIjovXD8vZywiJTVDIjovXFwv
+Z307DQoJdmFyIEkxOE5SRT17IiUyNSI6L1wlL2d9Ow0KfQ0KDQpmdW5jdGlvbiBk
+Y3NWYXIoKXsNCgl2YXIgZEN1cnJlbnQ9bmV3IERhdGUoKTsNCglXVC50ej1kQ3Vy
+cmVudC5nZXRUaW1lem9uZU9mZnNldCgpLzYwKi0xOw0KCWlmIChXVC50ej09MCl7
+DQoJCVdULnR6PSIwIjsNCgl9DQoJV1QuYmg9ZEN1cnJlbnQuZ2V0SG91cnMoKTsN
+CglXVC51bD1uYXZpZ2F0b3IuYXBwTmFtZT09Ik5ldHNjYXBlIj9uYXZpZ2F0b3Iu
+bGFuZ3VhZ2U6bmF2aWdhdG9yLnVzZXJMYW5ndWFnZTsNCglpZiAodHlwZW9mKHNj
+cmVlbik9PSJvYmplY3QiKXsNCgkJV1QuY2Q9bmF2aWdhdG9yLmFwcE5hbWU9PSJO
+ZXRzY2FwZSI/c2NyZWVuLnBpeGVsRGVwdGg6c2NyZWVuLmNvbG9yRGVwdGg7DQoJ
+CVdULnNyPXNjcmVlbi53aWR0aCsieCIrc2NyZWVuLmhlaWdodDsNCgl9DQoJaWYg
+KHR5cGVvZihuYXZpZ2F0b3IuamF2YUVuYWJsZWQoKSk9PSJib29sZWFuIil7DQoJ
+CVdULmpvPW5hdmlnYXRvci5qYXZhRW5hYmxlZCgpPyJZZXMiOiJObyI7DQoJfQ0K
+CWlmIChkb2N1bWVudC50aXRsZSl7DQoJCVdULnRpPWdJMThuP2Rjc0VzY2FwZShk
+Y3NFbmNvZGUoZG9jdW1lbnQudGl0bGUpLEkxOE5SRSk6ZG9jdW1lbnQudGl0bGU7
+DQoJfQ0KCVdULmpzPSJZZXMiOw0KCVdULmp2PWRjc0pWKCk7DQoJaWYgKGRvY3Vt
+ZW50LmJvZHkmJmRvY3VtZW50LmJvZHkuYWRkQmVoYXZpb3Ipew0KCQlkb2N1bWVu
+dC5ib2R5LmFkZEJlaGF2aW9yKCIjZGVmYXVsdCNjbGllbnRDYXBzIik7DQoJCWlm
+IChkb2N1bWVudC5ib2R5LmNvbm5lY3Rpb25UeXBlKXsNCgkJCVdULmN0PWRvY3Vt
+ZW50LmJvZHkuY29ubmVjdGlvblR5cGU7DQoJCX0NCgkJZG9jdW1lbnQuYm9keS5h
+ZGRCZWhhdmlvcigiI2RlZmF1bHQjaG9tZVBhZ2UiKTsNCgkJV1QuaHA9ZG9jdW1l
+bnQuYm9keS5pc0hvbWVQYWdlKGxvY2F0aW9uLmhyZWYpPyIxIjoiMCI7DQoJfQ0K
+CWlmIChwYXJzZUludChuYXZpZ2F0b3IuYXBwVmVyc2lvbik+Myl7DQoJCWlmICgo
+bmF2aWdhdG9yLmFwcE5hbWU9PSJNaWNyb3NvZnQgSW50ZXJuZXQgRXhwbG9yZXIi
+KSYmZG9jdW1lbnQuYm9keSl7DQoJCQlXVC5icz1kb2N1bWVudC5ib2R5Lm9mZnNl
+dFdpZHRoKyJ4Iitkb2N1bWVudC5ib2R5Lm9mZnNldEhlaWdodDsNCgkJfQ0KCQll
+bHNlIGlmIChuYXZpZ2F0b3IuYXBwTmFtZT09Ik5ldHNjYXBlIil7DQoJCQlXVC5i
+cz13aW5kb3cuaW5uZXJXaWR0aCsieCIrd2luZG93LmlubmVySGVpZ2h0Ow0KCQl9
+DQoJfQ0KCVdULmZpPSJObyI7DQoJV1QuZnY9KGZ1bmN0aW9uKCl7DQoJCXZhciBp
+LGZsYXNoOw0KCQlpZiAod2luZG93LkFjdGl2ZVhPYmplY3Qpew0KCQkJZm9yKGk9
+MTA7aT4wO2ktLSl7DQoJCQkJdHJ5ew0KCQkJCQlmbGFzaD1uZXcgQWN0aXZlWE9i
+amVjdCgiU2hvY2t3YXZlRmxhc2guU2hvY2t3YXZlRmxhc2guIitpKTsNCgkJCQkJ
+V1QuZmk9IlllcyI7DQoJCQkJCXJldHVybiBpKyIuMCI7DQoJCQkJfQ0KCQkJCWNh
+dGNoKGUpew0KCQkJCX0NCgkJCX0NCgkJfQ0KCQllbHNlIGlmIChuYXZpZ2F0b3Iu
+cGx1Z2lucyYmbmF2aWdhdG9yLnBsdWdpbnMubGVuZ3RoKXsNCgkJCWZvciAoaT0w
+O2k8bmF2aWdhdG9yLnBsdWdpbnMubGVuZ3RoO2krKyl7DQoJCQkJaWYgKG5hdmln
+YXRvci5wbHVnaW5zW2ldLm5hbWUuaW5kZXhPZignU2hvY2t3YXZlIEZsYXNoJykh
+PS0xKXsNCgkJCQkJV1QuZmk9IlllcyI7DQoJCQkJCXJldHVybiBuYXZpZ2F0b3Iu
+cGx1Z2luc1tpXS5kZXNjcmlwdGlvbi5zcGxpdCgiICIpWzJdOw0KCQkJCX0NCgkJ
+CX0NCgkJfQ0KCQlyZXR1cm4gIiI7DQoJfSkoKTsNCglXVC5zbGk9KGZ1bmN0aW9u
+KCl7DQogICAgdHJ5ew0KICAgIAlpZihuYXZpZ2F0b3IudXNlckFnZW50LmluZGV4
+T2YoJ01TSUUnKSE9LTEpew0KICAgIAkJdmFyIHd0c2xpID0gbmV3IEFjdGl2ZVhP
+YmplY3QoJ0FnQ29udHJvbC5BZ0NvbnRyb2wnKTsNCiAgICAgIAlpZih3dHNsaSl7
+cmV0dXJuICJJbnN0YWxsZWQiO30NCiAgICAgIH0NCiAgICAgIGVsc2V7DQoJCQkJ
+aWYgKG5hdmlnYXRvci5wbHVnaW5zWyJTaWx2ZXJsaWdodCBQbHVnLUluIl0pew0K
+ICAgICAgICAJcmV0dXJuICJJbnN0YWxsZWQiOw0KICAgICAgICB9DQogICAgICB9
+DQogCQl9DQogICAgY2F0Y2goZSl7fQ0KICAgIHJldHVybiAiTm90IEluc3RhbGxl
+ZCI7DQoJfSkoKTsNCglXVC5zbHY9KGZ1bmN0aW9uKCl7DQoJCXZhciBpLGosc2x2
+Ow0KICAgIGlmICgodHlwZW9mKFNpbHZlcmxpZ2h0KT09Im9iamVjdCIpJiYodHlw
+ZW9mKFNpbHZlcmxpZ2h0LmlzSW5zdGFsbGVkKT09ImZ1bmN0aW9uIikpew0KCQkJ
+Zm9yKGo9OTtqPj0wO2otLSl7DQoJCQkJZm9yKGk9MztpPjA7aS0tKXsNCgkJCQkJ
+c2x2PWkrIi4iK2o7DQoJCQkJCWlmIChTaWx2ZXJsaWdodC5pc0luc3RhbGxlZChz
+bHYpKXsNCgkJCQkJCXJldHVybiBzbHY7DQoJCQkJCX0NCgkJCQl9DQoJCQl9DQoJ
+CX0NCgkJcmV0dXJuICJWZXJzaW9uIFVuYXZhaWxhYmxlIjsNCgl9KSgpOw0KCWlm
+IChnSTE4bil7DQoJCVdULmVtPSh0eXBlb2YoZW5jb2RlVVJJQ29tcG9uZW50KT09
+ImZ1bmN0aW9uIik/InVyaSI6ImVzYyI7DQoJCWlmICh0eXBlb2YoZG9jdW1lbnQu
+ZGVmYXVsdENoYXJzZXQpPT0ic3RyaW5nIil7DQoJCQlXVC5sZT1kb2N1bWVudC5k
+ZWZhdWx0Q2hhcnNldDsNCgkJfQ0KCQllbHNlIGlmICh0eXBlb2YoZG9jdW1lbnQu
+Y2hhcmFjdGVyU2V0KT09InN0cmluZyIpew0KCQkJV1QubGU9ZG9jdW1lbnQuY2hh
+cmFjdGVyU2V0Ow0KCQl9DQoJfQ0KCVdULmRsPSIwIjsNCglXVC5kY3N2aWQ9ZGNz
+R2V0Q29va2llKCJNQzEiKTsNCglEQ1MuZGNzZGF0PWRDdXJyZW50LmdldFRpbWUo
+KTsNCglEQ1MuZGNzc2lwPXdpbmRvdy5sb2NhdGlvbi5ob3N0bmFtZTsNCglEQ1Mu
+ZGNzdXJpPXdpbmRvdy5sb2NhdGlvbi5wYXRobmFtZTsNCgl2YXIgZ0RpckxldmVs
+cyA9IDU7DQoJdmFyIGdGcGF0aCA9IHdpbmRvdy5sb2NhdGlvbi5wYXRobmFtZS5z
+dWJzdHJpbmcod2luZG93LmxvY2F0aW9uLnBhdGhuYW1lLmluZGV4T2YoJy8nKSsx
+LHdpbmRvdy5sb2NhdGlvbi5wYXRobmFtZS5sYXN0SW5kZXhPZignLycpKzEpLnRv
+TG93ZXJDYXNlKCk7DQoJaWYoZ0ZwYXRoPT0nJyl7Z0ZwYXRoPSIvIjt9DQoJZWxz
+ZXsNCgkJdmFyIGdTcGxpdD1nRnBhdGguc3BsaXQoIi8iKTsNCgkJZ0ZwYXRoPSIi
+Ow0KCQlmb3IodmFyIGk9MTtpPGdTcGxpdC5sZW5ndGgmJmk8PWdEaXJMZXZlbHM7
+aSsrKXsNCgkJCWdGcGF0aCs9Ii8iOw0KCQkJZm9yKHZhciBiPTA7YjxpO2IrKyl7
+DQoJCQkJCWdGcGF0aCs9Z1NwbGl0W2JdKyIvIjsNCgkJCX0NCgkJCWlmKGkhPWdE
+aXJMZXZlbHMmJmkhPWdTcGxpdC5sZW5ndGgtMSl7DQoJCQkJZ0ZwYXRoKz0iOyI7
+DQoJCQl9DQoJCX0NCgl9DQoJRENTZXh0Lnd0RHJpbGxEaXI9Z0ZwYXRoOw0KCWlm
+ICh3aW5kb3cubG9jYXRpb24uc2VhcmNoKXsNCgkJRENTLmRjc3FyeT13aW5kb3cu
+bG9jYXRpb24uc2VhcmNoOw0KCQlpZiAoZ1FQLmxlbmd0aD4wKXsNCgkJCWZvciAo
+dmFyIGk9MDtpPGdRUC5sZW5ndGg7aSsrKXsNCgkJCQl2YXIgcG9zPURDUy5kY3Nx
+cnkuaW5kZXhPZihnUVBbaV0pOw0KCQkJCWlmIChwb3MhPS0xKXsNCgkJCQkJdmFy
+IGZyb250PURDUy5kY3Nxcnkuc3Vic3RyaW5nKDAscG9zKTsNCgkJCQkJdmFyIGVu
+ZD1EQ1MuZGNzcXJ5LnN1YnN0cmluZyhwb3MrZ1FQW2ldLmxlbmd0aCxEQ1MuZGNz
+cXJ5Lmxlbmd0aCk7DQoJCQkJCURDUy5kY3Nxcnk9ZnJvbnQrZW5kOw0KCQkJCX0N
+CgkJCX0NCgkJfQ0KCX0NCglpZiAoKHdpbmRvdy5kb2N1bWVudC5yZWZlcnJlciE9
+IiIpJiYod2luZG93LmRvY3VtZW50LnJlZmVycmVyIT0iLSIpKXsNCgkJaWYgKCEo
+bmF2aWdhdG9yLmFwcE5hbWU9PSJNaWNyb3NvZnQgSW50ZXJuZXQgRXhwbG9yZXIi
+JiZwYXJzZUludChuYXZpZ2F0b3IuYXBwVmVyc2lvbik8NCkpew0KCQkJRENTLmRj
+c3JlZj1nSTE4bj9kY3NFc2NhcGUod2luZG93LmRvY3VtZW50LnJlZmVycmVyLCBJ
+MThOUkUpOndpbmRvdy5kb2N1bWVudC5yZWZlcnJlcjsNCgkJfQ0KCX0NCn0NCmZ1
+bmN0aW9uIGRjc0EoTixWKXsNCglyZXR1cm4gIiYiK04rIj0iK2Rjc0VzY2FwZShW
+LCBSRSk7DQp9DQpmdW5jdGlvbiBkY3NFc2NhcGUoUywgUkVMKXsNCglpZiAodHlw
+ZW9mKFJFTCkhPSJ1bmRlZmluZWQiKXsNCgkJdmFyIHJldFN0ciA9IG5ldyBTdHJp
+bmcoUyk7DQoJCWZvciAoUiBpbiBSRUwpew0KCQkJcmV0U3RyID0gcmV0U3RyLnJl
+cGxhY2UoUkVMW1JdLFIpOw0KCQl9DQoJCXJldHVybiByZXRTdHI7DQoJfQ0KCWVs
+c2V7DQoJCXJldHVybiBlc2NhcGUoUyk7DQoJfQ0KfQ0KZnVuY3Rpb24gZGNzRW5j
+b2RlKFMpew0KCXJldHVybiAodHlwZW9mKGVuY29kZVVSSUNvbXBvbmVudCk9PSJm
+dW5jdGlvbiIpP2VuY29kZVVSSUNvbXBvbmVudChTKTplc2NhcGUoUyk7DQp9DQpm
+dW5jdGlvbiBkY3NDcmVhdGVJbWFnZShkY3NTcmMpew0KCWlmIChkb2N1bWVudC5p
+bWFnZXMpew0KCQlnSW1hZ2VzW2dJbmRleF09bmV3IEltYWdlOw0KCQlnSW1hZ2Vz
+W2dJbmRleF0uc3JjPWRjc1NyYzsNCgkJZ0luZGV4Kys7DQoJfQ0KCWVsc2V7DQoJ
+CWRvY3VtZW50LndyaXRlKCc8SU1HIEFMVD0iIiBCT1JERVI9IjAiIE5BTUU9IkRD
+U0lNRyIgV0lEVEg9IjEiIEhFSUdIVD0iMSIgU1JDPSInK2Rjc1NyYysnIj4nKTsN
+Cgl9DQp9DQpmdW5jdGlvbiBkY3NNZXRhKCl7DQoJdmFyIGVsZW1zOw0KCWlmIChk
+b2N1bWVudC5hbGwpew0KCQllbGVtcz1kb2N1bWVudC5hbGwudGFncygibWV0YSIp
+Ow0KCX0NCgllbHNlIGlmIChkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQpew0KCQll
+bGVtcz1kb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgibWV0YSIpOw0KCX0N
+CglpZiAodHlwZW9mKGVsZW1zKSE9InVuZGVmaW5lZCIpew0KCQlmb3IgKHZhciBp
+PTE7aTw9ZWxlbXMubGVuZ3RoO2krKyl7DQoJCQl2YXIgbWV0YT1lbGVtcy5pdGVt
+KGktMSk7DQoJCQlpZiAobWV0YS5uYW1lKXsNCgkJCQlpZiAobWV0YS5uYW1lLmlu
+ZGV4T2YoJ1dULicpPT0wKXsNCgkJCQkJV1RbbWV0YS5uYW1lLnN1YnN0cmluZygz
+KV09KGdJMThuJiYobWV0YS5uYW1lLmluZGV4T2YoJ1dULnRpJyk9PTApKT9kY3NF
+c2NhcGUoZGNzRW5jb2RlKG1ldGEuY29udGVudCksSTE4TlJFKTptZXRhLmNvbnRl
+bnQ7DQoJCQkJfQ0KCQkJCWVsc2UgaWYgKG1ldGEubmFtZS5pbmRleE9mKCdEQ1Nl
+eHQuJyk9PTApew0KCQkJCQlEQ1NleHRbbWV0YS5uYW1lLnN1YnN0cmluZyg3KV09
+bWV0YS5jb250ZW50Ow0KCQkJCX0NCgkJCQllbHNlIGlmIChtZXRhLm5hbWUuaW5k
+ZXhPZignRENTLicpPT0wKXsNCgkJCQkJRENTW21ldGEubmFtZS5zdWJzdHJpbmco
+NCldPShnSTE4biYmKG1ldGEubmFtZS5pbmRleE9mKCdEQ1MuZGNzcmVmJyk9PTAp
+KT9kY3NFc2NhcGUobWV0YS5jb250ZW50LEkxOE5SRSk6bWV0YS5jb250ZW50Ow0K
+CQkJCX0NCgkJCX0NCgkJfQ0KCX0NCn0NCmZ1bmN0aW9uIGRjc1RhZygpew0KCWlm
+IChkb2N1bWVudC5jb29raWUuaW5kZXhPZigiV1RMT1BUT1VUPSIpIT0tMSl7DQoJ
+CXJldHVybjsNCgl9DQoJdmFyIFA9Imh0dHAiKyh3aW5kb3cubG9jYXRpb24ucHJv
+dG9jb2wuaW5kZXhPZignaHR0cHM6Jyk9PTA/J3MnOicnKSsiOi8vIitnRG9tYWlu
+KyhnRGNzSWQ9PSIiPycnOicvJytnRGNzSWQpKyIvZGNzLmdpZj8iOw0KCWZvciAo
+TiBpbiBEQ1Mpew0KCQlpZiAoRENTW05dKSB7DQoJCQlQKz1kY3NBKE4sRENTW05d
+KTsNCgkJfQ0KCX0NCglmb3IgKE4gaW4gV1Qpew0KCQlpZiAoV1RbTl0pIHsNCgkJ
+CVArPWRjc0EoIldULiIrTixXVFtOXSk7DQoJCX0NCgl9DQoJZm9yIChOIGluIERD
+U2V4dCl7DQoJCWlmIChEQ1NleHRbTl0pIHsNCgkJCVArPWRjc0EoTixEQ1NleHRb
+Tl0pOw0KCQl9DQoJfQ0KCWlmIChQLmxlbmd0aD4yMDQ4JiZuYXZpZ2F0b3IudXNl
+ckFnZW50LmluZGV4T2YoJ01TSUUnKT49MCl7DQoJCVA9UC5zdWJzdHJpbmcoMCwy
+MDQwKSsiJldULnR1PTEiOw0KCX0NCglkY3NDcmVhdGVJbWFnZShQKTsNCn0NCmZ1
+bmN0aW9uIGRjc0pWKCl7DQoJdmFyIGFndD1uYXZpZ2F0b3IudXNlckFnZW50LnRv
+TG93ZXJDYXNlKCk7DQoJdmFyIG1ham9yPXBhcnNlSW50KG5hdmlnYXRvci5hcHBW
+ZXJzaW9uKTsNCgl2YXIgbWFjPShhZ3QuaW5kZXhPZigibWFjIikhPS0xKTsNCgl2
+YXIgbm49KChhZ3QuaW5kZXhPZigibW96aWxsYSIpIT0tMSkmJihhZ3QuaW5kZXhP
+ZigiY29tcGF0aWJsZSIpPT0tMSkpOw0KCXZhciBubjQ9KG5uJiYobWFqb3I9PTQp
+KTsNCgl2YXIgbm42dXA9KG5uJiYobWFqb3I+PTUpKTsNCgl2YXIgaWU9KChhZ3Qu
+aW5kZXhPZigibXNpZSIpIT0tMSkmJihhZ3QuaW5kZXhPZigib3BlcmEiKT09LTEp
+KTsNCgl2YXIgaWU0PShpZSYmKG1ham9yPT00KSYmKGFndC5pbmRleE9mKCJtc2ll
+IDQiKSE9LTEpKTsNCgl2YXIgaWU1dXA9KGllJiYhaWU0KTsNCgl2YXIgb3A9KGFn
+dC5pbmRleE9mKCJvcGVyYSIpIT0tMSk7DQoJdmFyIG9wNT0oYWd0LmluZGV4T2Yo
+Im9wZXJhIDUiKSE9LTF8fGFndC5pbmRleE9mKCJvcGVyYS81IikhPS0xKTsNCgl2
+YXIgb3A2PShhZ3QuaW5kZXhPZigib3BlcmEgNiIpIT0tMXx8YWd0LmluZGV4T2Yo
+Im9wZXJhLzYiKSE9LTEpOw0KCXZhciBvcDd1cD0ob3AmJiFvcDUmJiFvcDYpOw0K
+CXZhciBqdj0iMS4xIjsNCglpZiAobm42dXB8fG9wN3VwKXsNCgkJanY9IjEuNSI7
+DQoJfQ0KCWVsc2UgaWYgKChtYWMmJmllNXVwKXx8b3A2KXsNCgkJanY9IjEuNCI7
+DQoJfQ0KCWVsc2UgaWYgKGllNXVwfHxubjR8fG9wNSl7DQoJCWp2PSIxLjMiOw0K
+CX0NCgllbHNlIGlmIChpZTQpew0KCQlqdj0iMS4yIjsNCgl9DQoJcmV0dXJuIGp2
+Ow0KfQ0KZnVuY3Rpb24gZGNzRnVuYyhmdW5jKXsNCglpZiAodHlwZW9mKHdpbmRv
+d1tmdW5jXSk9PSJmdW5jdGlvbiIpew0KCQl3aW5kb3dbZnVuY10oKTsNCgl9DQp9
+DQpmdW5jdGlvbiBkY3NEZWJ1ZygpDQp7DQoJdmFyIHd0VmFycz0iXG5UYWcgVmVy
+c2lvbiA9ICIrZ1RhZ1ZlcisiXG5Eb21haW4gPSAiK2dEb21haW4rIlxuRENTSWQg
+PSAiK2dEY3NJZDsNCglmb3IoTiBpbiBEQ1Mpe3d0VmFycys9IlxuRENTLiIrTisi
+ID0gIitEQ1NbTl07fQ0KCWZvcihOIGluIFdUKXt3dFZhcnMrPSJcbldULiIrTisi
+ID0gIitXVFtOXTt9DQoJZm9yKE4gaW4gRENTZXh0KXt3dFZhcnMrPSJcbkRDU2V4
+dC4iK04rIiA9ICIrRENTZXh0W05dO30NCglhbGVydCh3dFZhcnMpOw0KfQ0KaWYo
+dHlwZW9mKHd0TW5wRGlzYWJsZWQpPT0idW5kZWZpbmVkInx8IXd0TW5wRGlzYWJs
+ZWQpew0KICAgZGNzVmFyKCk7DQogICBkY3NNZXRhKCk7DQogICBkY3NGdW5jKCJk
+Y3NBZHYiKTsNCiAgIGRjc1RhZygpOw0KfQ==
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=trans_pixel.gif
+Content-Type: image/gif; name=trans_pixel.gif
+Content-Location: http://c.microsoft.com/trans_pixel.aspx?TYPE=PV
+Content-Transfer-Encoding: Base64
+
+R0lGODlhAQABAIAAAP8zzAAAACH5BAEAAAAALAAAAAABAAEAQAIChFEAOwA=
+
+------------YM8HPJI5PansvXc7u0JRcI
+Content-Disposition: inline; filename=print.htm
+Content-Type: text/html; name=print.htm
+Content-Location: http://blogs.msdn.com/Themes/Blogs/luxinterior/style/print.css
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>The page cannot be found</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<STYLE type="text/css">
+  BODY { font: 8pt/12pt verdana }
+  H1 { font: 13pt/15pt verdana }
+  H2 { font: 8pt/12pt verdana }
+  A:link { color: red }
+  A:visited { color: maroon }
+</STYLE>
+</HEAD><BODY><TABLE width=500 border=0 cellspacing=10><TR><TD>
+
+<h1>The page cannot be found</h1>
+The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+<hr>
+<p>Please try the following:</p>
+<ul>
+<li>Make sure that the Web site address displayed in the address bar of your browser is spelled and formatted correctly.</li>
+<li>If you reached this page by clicking a link, contact
+ the Web site administrator to alert them that the link is incorrectly formatted.
+</li>
+<li>Click the <a href="javascript:history.back(1)">Back</a> button to try another link.</li>
+</ul>
+<h2>HTTP Error 404 - File or directory not found.<br>Internet Information Services (IIS)</h2>
+<hr>
+<p>Technical Information (for support personnel)</p>
+<ul>
+<li>Go to <a href="http://go.microsoft.com/fwlink/?linkid=8180">Microsoft Product Support Services</a> and perform a title search for the words <b>HTTP</b> and <b>404</b>.</li>
+<li>Open <b>IIS Help</b>, which is accessible in IIS Manager (inetmgr),
+ and search for topics titled <b>Web Site Setup</b>, <b>Common Administrative Tasks</b>, and <b>About Custom Error Messages</b>.</li>
+</ul>
+
+</TD></TR></TABLE></BODY></HTML>
+
+------------YM8HPJI5PansvXc7u0JRcI--

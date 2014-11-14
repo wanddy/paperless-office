@@ -1,0 +1,14 @@
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.DataAccess\bin\Debug\OCA.DataAccess.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.DataAccess\bin\Debug\OCA.DataAccess.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.DataAccess\obj\Debug\OCA.DataAccess.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.DataAccess\obj\Debug\OCA.DataAccess.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.DataAccess\bin\Debug\OCA.Common.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.DataAccess\bin\Debug\OCA.Common.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.DataAccess.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.DataAccess.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.Common.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.Common.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\obj\Debug\OCA.DataAccess.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\obj\Debug\OCA.DataAccess.pdb

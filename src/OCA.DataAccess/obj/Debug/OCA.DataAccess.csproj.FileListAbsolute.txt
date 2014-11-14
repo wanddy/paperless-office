@@ -1,0 +1,14 @@
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.DataAccess.dll
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.DataAccess.pdb
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.Common.dll
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.Common.pdb
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\obj\Debug\OCA.DataAccess.dll
+D:\0_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\obj\Debug\OCA.DataAccess.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.DataAccess.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.DataAccess.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.Common.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\bin\Debug\OCA.Common.pdb
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\obj\Debug\OCA.DataAccess.dll
+D:\1_Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.DataAccess\obj\Debug\OCA.DataAccess.pdb

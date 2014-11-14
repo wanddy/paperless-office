@@ -1,0 +1,170 @@
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\bin\Debug\OCA.WinUI.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\bin\Debug\OCA.WinUI.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseForms.BaseChildForm.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.csproj.GenerateResource.Cache
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.dll.licenses
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Properties.Resource1.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseForms.BaseMessageBox.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\bin\Debug\OCA.Business.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\bin\Debug\OCA.Business.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\bin\Debug\OCA.Common.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\bin\Debug\OCA.DataAccess.dll
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\bin\Debug\OCA.Common.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\bin\Debug\OCA.DataAccess.pdb
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.MainPage.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.DefineChart.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.ViewChart.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Properties.Resources.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewSemat.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewExOffice.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.ClerkGroup.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditAddress.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditClerk.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditExOffice.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditSemat.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewAddress.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewClerk.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.SematGroup.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.UserAccount.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Calendar.NewReminder.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Calendar.EditReminder.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.EditNews.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.NewNews.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.CompanyInfo.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.ArchiveMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.CreateMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.Draft.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.EditMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MailHistory.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MailInbox.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MailOutbox.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.ReferMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.InsertParvandeh.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MsgInbox.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MsgOutbox.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.SearchMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.SendMessage.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.ViewParvandeh.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.DeletedMessage.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.InsertExportMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.InsertImportMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.VeiwExportMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.ViewImportMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.ViewInternalMail.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailNumber.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailCondition.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailPriority.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailSecurity.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailTopic.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.ReferenceDescription.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.TextComm.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.VideoComm.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.VoiceComm.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.ColorSetting.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.EmailSetting.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.FaxSetting.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.PrinterSetting.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.ScanerSetting.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutBaseInformation.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutCalendar.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutCommunication.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutDabirkhaneh.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutKartabl.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutSBA.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutSetting.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.BackUp.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditAccess.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewAccess.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseForms.BaseReportForm.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseForms.BasePicViewerForm.resources
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.Report.MailReport.rpt
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.Report.ExportMailReport.rpt
+C:\Documents and Settings\Saeed\Desktop\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditAccess2.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\bin\Debug\OCA.WinUI.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\bin\Debug\OCA.WinUI.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\bin\Debug\OCA.Business.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\bin\Debug\OCA.Common.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\bin\Debug\OCA.DataAccess.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\bin\Debug\OCA.Business.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\bin\Debug\OCA.DataAccess.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\bin\Debug\OCA.Common.pdb
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\ResolveAssemblyReference.cache
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.Report.ExportMailReport.rpt
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.Report.MailReport.rpt
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseForms.BaseChildForm.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseForms.BaseMessageBox.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseForms.BasePicViewerForm.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseForms.BaseReportForm.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.ClerkGroup.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.CompanyInfo.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditAccess2.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.DefineChart.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditAccess.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditAddress.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditClerk.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditExOffice.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.EditSemat.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailCondition.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailNumber.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailPriority.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailSecurity.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.MailTopic.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewAccess.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewAddress.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewClerk.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewExOffice.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.NewSemat.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.ReferenceDescription.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.SematGroup.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.BaseInformation.ViewChart.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Calendar.EditReminder.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Calendar.NewReminder.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.EditNews.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.NewNews.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.TextComm.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.VideoComm.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Communication.VoiceComm.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.CreateMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.InsertExportMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.InsertImportMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.VeiwExportMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.ViewImportMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Dabirkhaneh.ViewInternalMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutBaseInformation.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutCalendar.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutCommunication.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutDabirkhaneh.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutKartabl.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutSBA.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Help.AboutSetting.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.ArchiveMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.DeletedMessage.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.Draft.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.EditMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.InsertParvandeh.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MailHistory.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MailInbox.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MailOutbox.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MsgInbox.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.MsgOutbox.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.ReferMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.SearchMail.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.SendMessage.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Kartabl.ViewParvandeh.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.MainPage.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Properties.Resource1.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Properties.Resources.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.BackUp.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.ColorSetting.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.EmailSetting.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.FaxSetting.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.PrinterSetting.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.Setting.ScanerSetting.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.UserAccount.resources
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.csproj.GenerateResource.Cache
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.dll.licenses
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.dll
+F:\Programmings\1_Windows Application\C\C_sharp\Programs\OCA ( Bachelor of Science Project )\OCA\OCA.WinUI\obj\Debug\OCA.WinUI.pdb

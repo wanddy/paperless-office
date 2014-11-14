@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4B66F3F7-1B1A-459F-AC6F-6280C19287B7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OCA</RootNamespace>
+    <AssemblyName>OCA</AssemblyName>
+    <ApplicationIcon>imageres.19.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SignManifests>false</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.3.2.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ComponentFactory.Krypton.Toolkit.DLL</HintPath>
+    </Reference>
+    <Reference Include="Divelements.SandRibbon, Version=1.6.4.1, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3, processorArchitecture=MSIL" />
+    <Reference Include="DriveInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="GetSystemDirectory, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Persia, Version=2.0.2230.35390, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="SbaSecurity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="SetFileAttributes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoForm.Designer.cs">
+      <DependentUpon>LogoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LoginForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KEYS.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blocks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageres.19.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imageres.19.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\add_user3.png" />
+    <None Include="Resources\remove_user3.png" />
+    <None Include="Resources\edit_user3.png" />
+    <None Include="Resources\news_subscribe2.png" />
+    <None Include="Resources\mailreminder2.png" />
+    <None Include="Resources\0588.png" />
+    <None Include="Resources\1542.png" />
+    <None Include="Resources\email_server.png" />
+    <None Include="Resources\download_server.png" />
+    <None Include="Resources\add_server.png" />
+    <None Include="Resources\0477.png" />
+    <None Include="Resources\0458.png" />
+    <None Include="Resources\WOA_CandyBar Toolbar - Info.png" />
+    <None Include="Resources\upload_server.png" />
+    <None Include="Resources\Search442.png" />
+    <None Include="Resources\SYSTEM ULTRAMIX DOWNLOADS2.png" />
+    <None Include="Resources\kmail2.png" />
+    <None Include="Resources\03852.png" />
+    <None Include="Resources\MAILBOX ICONS MAILBOX2.png" />
+    <None Include="Resources\MAILBOX ICONS AQUA MAILBOX2.png" />
+    <None Include="Resources\SYSTEM ULTRAMIX DOWNLOADS.png" />
+    <None Include="Resources\Search44.png" />
+    <None Include="Resources\MAILBOX ICONS MAILBOX.png" />
+    <None Include="Resources\MAILBOX ICONS AQUA MAILBOX.png" />
+    <None Include="Resources\kmail.png" />
+    <None Include="Resources\1100.png" />
+    <None Include="Resources\0385.png" />
+    <None Include="Resources\00012.png" />
+    <None Include="Resources\11002.png" />
+    <None Include="Resources\0398.png" />
+    <None Include="Resources\WOA_CandyBar Toolbar - Apps_1.png" />
+    <None Include="Resources\notepad9.png" />
+    <None Include="Resources\kpackage.png" />
+    <None Include="Resources\CRISTAL APPLICATIONS.png" />
+    <None Include="Resources\restart.png" />
+    <None Include="Resources\Lock.png" />
+    <None Include="Resources\1052.png" />
+    <None Include="Resources\0180.png" />
+    <None Include="Resources\Gloss PNGRecycle_Bin.png" />
+    <None Include="Resources\CRISTAL TRASH.png" />
+    <None Include="Resources\Bin%28empty%29.png" />
+    <None Include="Resources\WOA_CandyBar Dock - Trash_Full.png" />
+    <None Include="Resources\SYSTEM PRINTERS.png" />
+    <None Include="Resources\scanner.png" />
+    <None Include="Resources\PRINTvcER.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\iCandy_Junior 024.png" />
+    <None Include="Resources\iCandy_Junior 023.png" />
+    <None Include="Resources\Gloss PNGStandby.png" />
+    <None Include="Resources\BRIGHTS PRINTER_II.png" />
+    <None Include="Resources\XBUTTONS %40 ICON AQUA.png" />
+    <None Include="Resources\video_chat.png" />
+    <None Include="Resources\edit_user.png" />
+    <None Include="Resources\chat.png" />
+    <None Include="Resources\voice_chat.png" />
+    <None Include="Resources\reminders.png" />
+    <None Include="Resources\news.png" />
+    <None Include="Resources\mailreminder.png" />
+    <None Include="Resources\knewsletter.png" />
+    <None Include="Resources\TiSystem Location-News.png" />
+    <None Include="Resources\news_subscribe.png" />
+    <None Include="Resources\WOA_CandyBar Location - NEWS.png" />
+    <None Include="Resources\STANDBY.png" />
+    <None Include="Resources\userghghhh.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\user_group.png" />
+    <None Include="Resources\LoginMassnager.png" />
+    <None Include="Resources\kudddser.png" />
+    <None Include="Resources\15dd23.png" />
+    <None Include="Resources\on_the_phone2.png" />
+    <None Include="Resources\on_the_phone.png" />
+    <None Include="Resources\MSN Messenger 42.png" />
+    <None Include="Resources\MSN Messenger 4.png" />
+    <None Include="Resources\Login Manager2.png" />
+    <None Include="Resources\kuser2.png" />
+    <None Include="Resources\kdmconfig2.png" />
+    <None Include="Resources\kdmconfig.png" />
+    <None Include="Resources\home2.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\folder_home2.png" />
+    <None Include="Resources\folder_home.png" />
+    <None Include="Resources\Community Help2.png" />
+    <None Include="Resources\Community Help.png" />
+    <None Include="Resources\81202.png" />
+    <None Include="Resources\79302.png" />
+    <None Include="Resources\13892.png" />
+    <None Include="Resources\12112.png" />
+    <None Include="Resources\11522.png" />
+    <None Include="Resources\8120.png" />
+    <None Include="Resources\7930.png" />
+    <None Include="Resources\06912.png" />
+    <None Include="Resources\06902.png" />
+    <None Include="Resources\05552.png" />
+    <None Include="Resources\1389.png" />
+    <None Include="Resources\1211.png" />
+    <None Include="Resources\1152.png" />
+    <None Include="Resources\0691.png" />
+    <None Include="Resources\0690.png" />
+    <None Include="Resources\0555.png" />
+    <None Include="Resources\mail22.png" />
+    <None Include="Resources\Folder 1.png" />
+    <None Include="Resources\0471.png" />
+    <None Include="Resources\01_06.png" />
+    <None Include="Resources\browser.png" />
+    <None Include="Resources\adva.png" />
+    <None Include="Resources\find2.png" />
+    <None Include="Resources\find.png" />
+    <None Include="Resources\1523.png" />
+    <None Include="Resources\7055.png" />
+    <None Include="Resources\kuser.png" />
+    <None Include="Resources\kmaicc copy.png" />
+    <None Include="Resources\CRISTAL BLOCK.png" />
+    <None Include="Resources\Untitled4.png" />
+    <None Include="Resources\0469.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\advancedsettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OCA.Business\OCA.Business.csproj">
+      <Project>{0AFEF286-6B79-4A37-8843-4AE39632BBCD}</Project>
+      <Name>OCA.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCA.Common\OCA.Common.csproj">
+      <Project>{516298F8-0B46-4533-AF21-6D3891251DFF}</Project>
+      <Name>OCA.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCA.WinUI\OCA.WinUI.csproj">
+      <Project>{2FA515E9-4C76-4304-BA11-2E08EA771689}</Project>
+      <Name>OCA.WinUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
